@@ -1,0 +1,1778 @@
+<html>
+	<head>
+		<title>Character Sheet:  Star Trek: Odyssey</title>
+		<script type="text/javascript">
+		
+			function toggleMe(a){
+				var e=document.getElementById(a);
+				
+				if(!e)return true;
+				
+				if(e.style.display=="none"){
+					e.style.display="block"
+				} else {
+					e.style.display="none"
+				}
+				
+				return false;
+			}
+			
+			function openAll(){
+				var f=document.getElementsByTagName("DIV");
+				
+				for (i=0;i<f.length;i++) {
+					f[i].style.display="block"
+				}
+			
+				return false;
+			}
+			
+			function closeAll(){
+				var f=document.getElementsByTagName("DIV");
+				
+				for (i=0;i<f.length;i++) {
+					f[i].style.display="none"
+				}
+			
+				return false;
+			}
+			
+			function teaPartySpecial(){
+				document.getElementById("other_cast").style.display="block"
+				document.getElementById("uss_brunel").style.display="block"
+				
+				var g=document.getElementById("uss_brunel").getElementsByTagName("DIV");
+				
+				for (i=0;i<g.length;i++) {
+					g[i].style.display="block"
+				}
+			
+				return false;
+			}
+		</script>
+		<style>
+			body {
+				font-family: Arial;
+			}
+			
+			h1 { 
+				padding: 0; 
+				margin: 20px 0 0; 
+			}
+			
+			h2, h3 {
+				position:relative;
+				clear:left;
+				background-color:#eeeeff;
+				margin-top:6px;
+				margin-left:0px;
+				margin-bottom:6px;
+				padding:4px;
+				border-radius:8px;
+				-moz-border-radius:8px;
+				-webkit-border-radius:8px;
+				font-size:large;
+				cursor: pointer;
+			}
+			
+			h3 {
+				width: 50%;
+				font-size: 15px;
+			}
+			
+			h4 {
+				background-color: #EEF;
+				padding: 3px;
+				margin-bottom: 8px;
+				border: 1px solid #BBBBC3;
+				border-radius: 8px;
+				font-variant: small-caps;
+				font-weight:normal;
+				width: 33%;
+				text-align: center;
+				cursor: pointer;
+			}
+			
+			.toggleall{
+				width: auto;
+				display: inline;
+			}
+			
+			.note {
+				font-size: 12px;
+			}
+			
+			.voicedby {
+				font-size: 12px;
+			}
+			
+			li {
+				list-style-position: outside;
+				padding-bottom: 2px;
+				margin-top: 6px;
+				border-bottom: 1px dotted #C0C0C0;
+				border-right: 1px dotted #C0C0C0;
+			}
+
+			ul ul li {
+				border: medium none;
+			}
+
+			.indent {
+				display: block;
+				margin-left: 24px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				font-size: small;
+			}
+			
+			.scebrunel{
+				color: #0000ff;
+			}
+			
+			.spoiler{
+				background-color: #000000;
+			}
+			
+			.demo{
+				position: static; 
+				clear: none; 
+				cursor: default; 
+				display: inline-block;
+				width: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Character Sheet:  Star Trek: Odyssey</h1>
+		<p style="padding: 0; margin: 0; margin-bottom: 40px;">The unofficial TV Tropes wiki edition</p>
+		
+		<p>This document outlines the main and recurring characters from the unofficial <em>Star Trek: Odyssey</em> series, based on the <em>Star Trek Online</em> MMO and prior canon prime-universe <em>Star Trek</em> shows from <em>The Next Generation</em> onwards.</p>
+		<p>Its main purpose is to serve as a Writer's Guide to defining their personalities, backstories, relationships/interactions between and potential storylines revolving around them - tropes, characterizations and other narrative devices are styled in <strong>bold</strong> for clarity, and definitions can be found on the official <a target="_blank" href="http://www.tvtropes.org">Television Tropes & Idioms website</a>.</p>
+		<p style="padding: 0; margin: 0; margin-bottom: 40px;">Understandably, a large number of characters are Tuckerizations of their real-life inspirations, but given the setting of the series and the vastly different backstories, we shouldn't get into any trouble or complaints about "demeaning" fictional portrayals.</p><hr>
+		<br>
+		<strong>How To Use This Page</strong>
+		
+		<ul>
+			<li>The lilac boxes like <h2 class="demo">This</h2>, <h3 class="demo">This</h3> and also <h4 class="demo">This</h4> are <strong>buttons that show/hide long blocks of text</strong> - click once to open, and click again to collapse.</li>
+			<li><strong>Spoilers</strong> can be revealed by <strong>highlighting</strong> lines of text with black backgrounds - <span class="spoiler">Like so, see?</span></li>
+		</ul>
+		<br>
+		<hr>
+		<br>
+		<h4 class="toggleall" onclick="return openAll()">Open All</h4>
+		<h4 class="toggleall" onclick="return closeAll()">Close All</h4>
+		&emsp;
+		<h4 class="toggleall" onclick="return teaPartySpecial()">Tea Party Crew Peeps? Click Me!</h4>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 onclick="return toggleMe('main_cast')">Main Cast (in order of billing)</h2>
+		<div id="main_cast" style="display:none;">
+			<h4 onclick="return toggleMe('character_01')">Captain Robin L. Zhang</h4>
+			<div id="character_01" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The Commanding Officer (CO) of the titular Federation starship USS <em>Odyssey</em>, a relatively young Oriental male human in his late twenties to early thirties with years of experience as a Starfleet officer, yet new to his role as <strong>The Captain</strong>. </p>
+				<p>Whilst neither the dashing adventurer like Kirk, nor the astute diplomat like Picard, Zhang's greatest assets are his idealism, strong sense of morals and his ability to capitalize on the individual talents of his crew, although occasionally plagued by moments of doubt.</p>
+				<hr>
+				<ul>
+					<li><strong>Authority Equals Asskicking:</strong> Regularly leads away team missions, and can hold his own against some of the larger threats.
+						<ul>
+							<li>Justified due to his past experience as a Security Officer aboard the <em>Lakota</em>; it is mentioned in dialogue that he fought in the Second Battle of Ajilon Prime during the early years of Federation-Klingon war, among other engagements.</li>
+						</ul>
+					</li>
+					<li><strong>The Anti-Nihilist:</strong> His motivation for serving in Starfleet.</li>
+					<li><strong>Berserk Button:</strong> Woe befall anyone who threatens his ship, his crew, whoever he is protecting, his trusted allies or the Federation as a whole. Throw in a bit of <strong>Determinator</strong> for good measure, and there will be hell to pay.</li>
+					<li><strong>Bold Explorer:</strong> Deep down inside, although somewhat subdued given the current reality that the Federation can't spare nearly as much resources for peaceful exploration as they can for defending their territory.</li>
+					<li><strong>The Captain:</strong> Part of the series is about him learning the ropes, as this is his first command.</li>
+					<li><strong>The Chains of Commanding:</strong> Gradually feels the weight of these over time, as he is forced to make more and more decisions would elicit from his friends-turned-subordinates anything from concern to outright protests. Made all the worse by the fact that Starfleet Captains are supposed to appear invincible for the sake of crew morale.</li>
+					<li><strong>Chronic Hero Syndrome:</strong> The smallest injustice can really rub him the wrong way.</li>
+					<li><strong>Designated Victim:</strong> How do you show that the bad guys mean business? Punch Zhang!
+						<ul>
+							<li>No thanks to his <strong>Chronic Hero Syndrome</strong>, of course.</li>
+							<li>Downplayed in that most of the cast are more-or-less equally susceptible to being <strong>Victim of the Week</strong>; it's just that shit happens to Zhang a little more often than to other characters.</li>
+						</ul>
+					</li>
+					<li><strong>Drink Order:</strong> Exceptionally fond of loose-leaf teas.
+						<span class="indent"><strong>Zhang:</strong> Herbal/Peppermint/Green Tea, Hot.</span></li>
+					<li><strong>Fantastic Racism:</strong> Has a deep-seated and irrational hatred of Pakleds, a race universally known for their slovenly attitudes and mooching off passing ships.
+						<ul>
+							<li>Revealed to have stemmed from bad childhood experiences in "Death In Paradise" - Zhang's father worked at a Starfleet shipyard, and had a Pakled colleague who regularly took credit for the former's work; consequently, Zhang's father had to work overtime to make up for it, and so often missed out on his son's birthdays.</li>
+							<li>As much as Zhang doesn't want to admit it, <span class="spoiler">it was ironically the testimony of another Pakled at a Court-Martial that saved the former from murder charges in said episode.</span></li>
+						</ul>
+					</li>
+					<li><strong>A Father to His Men:</strong> Cares very deeply about the physical and emotional well-being of his crew, as well as friends serving aboard other Starfleet ships.
+						<ul>
+							<li>Stemmed from <strong>Must Make Amends</strong> for his more callous, selfish and attention-seeking days from the Academy.</li>
+						</ul>
+					</li>
+					<li><strong>Man Child:</strong> When off-duty, to Barber's annoyance.</li>
+					<li><strong>Military Brat:</strong> Backstory peppered throughout the series suggests that generations of his family have served in Starfleet, as far back as a nameless crewman aboard the NX-01 <em>Enterprise</em>.</li>
+					<li><strong>The Movie Buff:</strong> One of his personal Holodeck programs is a recreation of a turn-of-the-millennium cinema, which he sometimes retreats when faced with a dilemma, or at the end of an episode where he just happens to be watching a film depicting a scenario similar to the <strong>Problem of the Week</strong> the crew has just faced to deliver <strong>An Aesop</strong>.</li>
+					<li><strong>My Greatest Failure:</strong> Two.
+						<ul>
+							<li>His attempts at <strong>Dogged Nice Guy</strong> and subsequent <strong>Not Good with Rejection</strong> <span class="spoiler">destroyed his early friendship with Barber at the Academy, and estranged him briefly from their mutual classmates, all off-screen before the series. It took a major <strong>Relationship-Salvaging Disaster</strong> involving one doomed ship for them to even <em>start</em> reconciling.</span></li>
+							<li>Unquestionably obeying orders from Admiral Zelle to <span class="spoiler">eliminate a group of Romulan scientists, who were suspected of developing banned subspace weapons. Turns out they were civilian medical researchers develop methods to detect Undine/Species 8472 infiltrators... like Zelle herself. Basically, being an <strong>Unwitting Pawn</strong>.</span></li>
+						</ul>
+					</li>
+					<li><strong>Screw The Rules, I'm Doing What's Right!:</strong> Disobeyed Admiral T'nae's direct orders and official policy against interfering in the affairs of non-aligned states, to assist the Reman uprising against their Romulan Star Empire remnant oppressors. </li>
+					<li><strong>The Fettered</strong></li>
+					<li><strong>What the Hell, Hero?:</strong> Usually delivered by Barber, but most of the senior staff have done so at least once.</li>
+					<li><strong>You Are In Command Now:</strong> Flashbacks from Season Two episode "Currahee" reveal that some time after escaping the destruction of the <em>Bellerophon</em>, Zhang served as Tactical Officer aboard the <em>USS Currahee</em>, which was involved in the disasterous First Contact incident with the nomadic Endari. With the original Captain incapacitated and the First Officer killed, Zhang assumed command and was able to guide the ship and its surviving crew to safety; consequently, Starfleet Command would award him command of the <em>Odyssey</em>.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_02')">Commander Thomas Richardson</h4>
+			<div id="character_02" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s level-headed Caucasian male human First Officer, and Zhang's best friend from the Academy. Despite a well-placed father, he dodged every attempt at nepotism and insisted on climbing through the ranks through his own merits.</p>
+				<p>Confident, steadfast and reliable, he is the voice of reason amongst the senior staff, serving as Zhang's confidant, conscience and sounding board.</p>
+				<hr>
+				<ul>
+					<li><strong>Action Hero:</strong> More so than Zhang. Heck, the guy even has <em>zero-G EVA combat training</em>.</li>
+					<li><strong>Beta Couple:</strong> Richardson/Tash is this to Zhang/Barber.</li>
+					<li><strong>Commanding Coolness:</strong> Whenever he's left in charge of the <em>Odyssey</em> whilst Zhang is away.</li>
+					<li><strong>The Creon:</strong> Despite being alluded as a better choice for commanding the <em>Odyssey</em> (or any other ship, for that matter), he chooses to remain as First Officer out of loyalty.</li>
+					<li><strong>The Confidant</strong></li>
+					<li><strong>Expy:</strong> Started out as a toned-down version of Commander Riker from The Next Generation.</li>
+					<li><strong>First Name Basis:</strong> Zhang prefers to call him "Tom" rather than the customary "Number One" used for First Officers, even in an official setting, much to the consternation of other Starfleet captains.</li>
+					<li><strong>Happily Married:</strong> To Tash, from Season Two onwards.</li>
+					<li><strong>The Heart:</strong> Has to constantly remind everyone else what is really at stake whenever somebody's personal vendetta / angst gets in the way of things.</li>
+					<li><strong>The Kirk:</strong> In his advisory role to Zhang, he has to balance out Barber's straightforward and somewhat impulsive tactical attitudes, with Remara's more calculated and reserved pacifism.</li>
+					<li><strong>The Lancer:</strong> To Zhang's introspective brooding tendencies.</li>
+					<li><strong>Lovable Jock:</strong> Backstory reveals he was captain of the Academy's Velocity team (handball with Phaser pistols and Frisbees), but gets on quite well with the geekier members of the cast.</li>
+					<li><strong>Military Brat:</strong> <em>Admiral</em> Richardson is the head of Starfleet's Paymaster Corps.</li>
+					<li><strong>Nice Guy</strong></li>
+					<li><strong>Nice to the Waiter:</strong> Goes out of his way to thank the waiter after a meal at the small Bajoran eatery during "Of Bajor".
+						<ul>
+							<li>Might have had something to do with seeing how the staff were treated by Klingon patrons beforehand.</li>
+						</ul>
+					</li>
+					<li><strong>Number Two</strong></li>
+					<li><strong>Perma Stubble</strong></li>
+					<li><strong>Sensitive Guy and Manly Man:</strong> Zhang as the former and Richardson as the latter.</li>
+					<li><strong>Take a Third Option:</strong> Often reminds Zhang whenever a dilemma is actually a <strong>False Dichotomy</strong>.</li>
+					<li><strong>Trademark Favourite Food:</strong> Pies. There's a reason "Pieday Fridays" are named as such, you know.</li>
+					<li><strong>True Companions:</strong> He and Ong are this to Zhang.</li>
+					<li><strong>The Watson:</strong> Despite carrying an air of confidence, he isn't afraid to invite <strong>Exposition</strong> from Remara, Barber or whichever senior office the <strong>Problem of the Week</strong> is most applicable to, in order to clarify the finer details of the situation at hand.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_03')">Lieutenant Commander Christine Barber</h4>
+			<div id="character_03" style="display:none;">
+				<p class="voicedby">Voiced by: Caitlin Glass</p>
+				<p>The Tactical Officer aboard the <em>Odyssey</em> and Zhang's <strong>Love Interest</strong>, a no-nonsense, highly assertive and competent brunette who'd much rather shoot first and ask questions later. Also holds additional duties as Second and Helm Officer, due to the Federation's more militaristic stance in the series.</p>
+				<hr>
+				<ul>
+					<li><strong>Ace Pilot / The Navigator:</strong> Hence her additional duties as the <em>Odyssey</em>'s main helm officer. One episode provides the backstory that she once served as a test pilot for Starfleet's experimental <em>Yellowstone</em>-class Runabouts.</li>
+					<li><strong>Action Girl:</strong> Although her role officially limits her to operating the <em>Odyssey</em>'s shields and weapons, she beams down to away missions involving ground combat almost as often as Shran (who as Security Chief is <em>supposed</em> to fill said role).
+						<ul><li>In "Bringing Down the House", she substitutes for an injured Klingon in a Bat'leth tournament, <span class="spoiler">and actually <em>wins</em> the finals by defeating seasoned opponents much stronger than her.</span></li></ul>
+					</li>
+					<li><strong>Aloof Dark-Haired Girl:</strong> Downplayed. Aloof yes, but technically, it's a shade of chestnut brown.</li>
+					<li><strong>Berserk Button:</strong>
+						<ul>
+							<li>Anything remotely bad that happens to Tigan will set off Barber's <strong>Big Sister Instincts</strong>.</li>
+							<li>Anything that she thinks demeans women in general, real and perceived, even if unintentional.</li>
+                                                        <li>Civilian freighters in danger. <span class="spoiler">A <b>Troubled Backstory Flashback</b> in "Exitus Acta Probat" reveals that when she was a child, a Klingon pirate attacked her parents' freighter, and seriously injured her family.</span></li>
+						</ul>
+					</li>
+					<li><strong>Brutal Honesty:</strong> Ouch.
+						<span class="indent"><strong>Barber:</strong> I don't sugar-coat things.</span>
+					</li>
+					<li><strong>Combat Pragmatist:</strong> Once encountered a Klingon warrior who threw aside his disruptor rifle and taunted her with an impressive display of swordsmanship with his Mek'leth. She simply threw a photon grenade.</li>
+					<li><strong>Cool Alien Pet:</strong> Mr. Snuggles the Tribble.</li>
+					<li><strong>Cool Big Sis:</strong> To Shran and Tigan, despite being only marginally older and unrelated race-wise. Both admire her for her professionalism and tough-as-nails attitude (not that they actually learn anything from her). On the flipside, this makes Barber somewhat more protective of them.
+						<ul>
+							<li>Also Helna, to a lesser extent.</li>
+						</ul>
+					</li>
+					<li><strong>Deadpan Snarker:</strong> Apparently so ingrained that one episode pokes fun at this - Barber is unexpectedly missing for most of one episode, and awkward pauses in dialogue between other characters highlight points where she would have cut in.</li>
+					<li><strong>Defrosting Ice Queen AND Relationship Upgrade:</strong> Happened off-screen with Zhang in the pilot episode, sometime before the present day. Judging by their interactions, however, it is still very much a work in progress.</li>
+					<li><strong>Disapproving Look:</strong> When she can't find the words to call out on others.</li>
+					<li><strong>Embarrassing Nickname:</strong> <span class="spoiler">"Squirt" - an <strong>Affectionate Nickname</strong> given by her brother Stephen due to the significant age difference between them (When Christine was five, Stephen was already in his mid-teens and helping out on their parents' freighter).</span>
+                                        </li>
+					<li><strong>Honest Advisor / No Badass to His Valet:</strong> Not afraid to tell Zhang exactly what she thinks of him / his decisions, in situations that would reduce even the level-headed Richardson to borderline Yes-man.</li>
+					<li><strong>Letting Her Hair Down:</strong> Usually worn up in a professional French twist / high bun, Barber loosens it down to mid-back length once off-duty. Her personality also softens noticeably when this occurs.</li>
+					<li><strong>Noodle Incident:</strong> It's never elaborated just what exactly Zhang did that resulted in his early estrangement from Barber.</li>
+					<li><strong>Token Wholesome:</strong> While Shran and Tigan fool around in skimpy swimsuits in the obligatory <strong>Beach Episode</strong> "Death in Paradise", Barber is shown lounging on a deck chair with a more modest sleeveless top, knee-length shorts and sunhat.</li>
+					<li><strong>Tsundere (Type 1):</strong> Normally straightforward and professional to the rest of the crew, and very rarely shows her softer side.
+						<ul>
+							<li><strong>Being Personal Isn't Professional</strong> is possibly her justification.</li>
+						</ul>
+					</li>
+					<li><strong>Obstructive Love Interest:</strong> Downplayed. While she doesn't berate Zhang openly, she sometimes still interprets his actions and behaviour in the worst possible way.</li>
+					<li><strong>Red Oni, Blue Oni:</strong> In many situations she prefers a direct (and often tactical) strategy, in contrast to Science Officer Remara's ostensibly more pacifistic and diplomatic (as well as occasionally underhanded) approach. This causes them to butt heads almost every other episode when engaged in <strong>Teeth-Clenched Teamwork</strong>.
+						<ul>
+							<li>Lampshaded in that the departmental colours on their uniforms <em>are</em> Red <em>and</em> Blue, respectively.</li>
+						</ul>
+					</li>
+					<li><strong>Running Gag:</strong> Whenever Barber needs an excuse to get out of an unwanted social gathering, to look busy or justify why she's often already in the Ready Room with Zhang when someone else comes in, she always mentions that she "needs to do / is working on / was just handing in her Tactical Report". Thing is, nobody really knows what a Tactical Report is.</li>
+					<li><strong>Space People:</strong> Was born on and spent most of her childhood aboard the civilian merchant ship her parents owned.</li>
+					<li><strong>When She Smiles:</strong> How the rest of the senior staff, especially Zhang, feel about her.</li>
+
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_04')">Lieutenant Commander Geoff Ong</h4>
+			<div id="character_04" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s Operations Officer, a relaxed, sociable Oriental male with the side-swept mop-top responsible for shipboard power/personnel/resource allocation, as well as handling subspace communications. Well-liked and trusted by just about the entire main cast, he is essentially, as one character describes it, "the structural integrity forcefield that keeps this family from flying apart at the seams".</p>
+				<hr>
+				<ul>
+					<li><strong>Bash Brothers:</strong> With Richardson. If they happen to be beamed down in the same Away Team, chances are there'll be a scene of them backing each other up in a fight at least once in said episode.</li>
+					<li><strong>Best Friend Manual:</strong> Knows the intricacies of the entire senior staff's personalities and how to help them mesh together properly.</li>
+					<li><strong>Communications Officer</strong></li>
+					<li><strong>A Day in the Limelight:</strong> The subplot from one Season Three episode depicts a typical day of his job as Operations Officer, and while the issues he deals with are relatively mundane compared to the adventures the entire cast collectively go on over the course of the series, it's clear that without him chaos would reign ship-wide.</li>
+					<li><strong>Extracurricular Enthusiast:</strong> Amongst the numerous clubs he was involved in back in his cadet days were the Academy Band and Glee Club (yes, it's a legitimate name with historical precedent and not just a TV show). Such interests carry over readily to the Odyssey, as he performs regularly on Jazz Nights in the Officer's Mess.</li>
+					<li><strong>Fan of the Past:</strong> Besides being extremely well-versed in late-20th / early-21st Century popular culture references, turns of phrase and cultural conventions, he owns and dotes over a genuine Fender Stratocaster. He even offers advice for the type of seating and food to be used in Zhang's personal cinema Holodeck program.</li>
+					<li><strong>For Happiness:</strong> Always has a trick or two to cheer everyone up. The crew even unofficially dubbed him as their "Chief Morale Officer".</li>
+					<li><strong>Nice Guy</strong></li>
+					<li><strong>The Power of Friendship:</strong> Very good at invoking this, especially with <strong>Rubber-Forehead Aliens</strong> of the Week. Of course, he's perceptive enough to know whether someone is a lost cause or untrustworthy in the first place.</li>
+					<li><strong>Revolving Door Band:</strong> Leads a Jazz Band lineup whose other members are composed of various random enlisted crew members who we seldom see or hear from again.
+						<ul>
+							<li>Results in the <strong>Running Gag</strong> of <strong>I am The Band</strong>, when crew members in the audience would gush over Ong's musical talents, but have no idea who the other musicians are.</li>
+							<li>Subverted from Season Three onwards, when K'vov joins in with the flabbjellah (traditional Andorian weapon/instrument combo) and Remara starts dabbling on the piano.</li>
+						</ul>
+					</li>
+					<li><strong>Ship Tease:</strong> With Tigan, given that they're both straightforward fun-loving people.
+						<ul>
+							<li>And very briefly, with Lieutenant Mitsune "Kitsune" Konno, his professional counterpart from the USS <em>Hinata</em>.</li>
+						</ul>
+					</li>
+					<li><strong>The Social Expert:</strong> An extension of <strong>Best Friend Manual</strong> to non-colleagues.</li>
+					<li><strong>True Companions:</strong> He and Richardson are this to Zhang.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_05')">Lieutenant Commander Mirra Shran</h4>
+			<div id="character_05" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s Security Chief, a passionate and alluring female Andorian who was Tactical Officer Barber's Academy roommate. In addition to coordinating shipboard security, accompanying dignitaries and escorting Away Teams, Shran is usually stationed on the bridge providing detailed tactical and weapons readiness information. </p>
+				<hr>
+				<ul>
+					<li><strong>Action Girl</strong></li>
+					<li><strong>Berserk Button:</strong>
+						<ul>
+							<li>Touching her head antennae without consent.</li>
+							<li>Making her bleed in a fight unlocks her <strong>Determinator</strong> tendencies.</li>
+						</ul>
+					</li>
+					<li><strong>Bridge Bunny:</strong> Downplayed. When not on an Away Mission, her role is effectively to call out tactical sensor data ("Multiple Klingon warbirds, bearing two six five mark one nine!") or weapons/shields status ("Aft shields at seventy-three percent!").</li>
+					<li><strong>Green-Skinned Space Babe:</strong> Except that Andorians are blue with white hair.</li>
+					<li><strong>Famous Ancestor / Continuity Nod:</strong> Andorian Imperial Guard Commander Thy'lek Shran from <em>Star Trek: Enterprise</em>.</li>
+					<li><strong>Fantastic Slur:</strong> Subverted in that her use of the Andorian slur for humans ("pinkskins") is a form of endearment towards Barber, her <strong>Cool Big Sis</strong> - who actually <em>likes</em> it.
+						<ul>
+							<li>The prologue of pilot episode "Azura" has then-Ensign Shran also refer to then-Ensign Zhang as a "cute pinkskin", while the latter is having a spat with then-Ensign Barber.</li>
+							<li>Then-Ensign Zhang's response in the heat of the moment? "Can it, smurfette!"</li>
+						</ul>
+					</li>
+					<li><strong>Far-Out Foreigner's Favourite Food:</strong> Inverted. Chocolate is <em>poisonous</em> to Andorians.</li>
+					<li><strong>Fire-Forged Friends:</strong> In the prologue, then-Ensign Zhang thought of Ensign Shran as Barber's silly Andorian friend, and is visibly annoyed when she tries to play matchmaker while he and Barber were having a spat. He has to put these feelings aside when Barber is trapped under fallen debris and they have to work together to get her out before the <em>Bellerophon</em> blows up with them still on board. It is later indicated that in the off-screen events between the prologue and the maiden voyage of the <em>Odyssey</em>, Shran and Zhang got on much better terms with each other, even being assigned to the same Security Team together while serving aboard another Starfleet ship - this eventually leads Zhang to pick her as his Security Chief.</li>
+					<li><strong>Hard Drinking Party Girl:</strong> When off-duty.</li>
+					<li><strong>Hidden Depths:</strong> <span class="spoiler">Underneath Shran's wild, outgoing and flirtatious veneer turns out to be a significant amount of insecurity and angst, as she consistently struggles to fit in with fellow Andorians due to their culture favouring reservedness and strict obedience. The discovery of this facet comes as a complete shock to Barber, who has supposedly been very close friends with Shran for many years.</span>
+<ul>
+<li>After "Mind Games" established that <span class="spoiler">she was very mildly telepathic due to having an Aenar as an distant ancestor</span>, "Whispers in the Dark" <span class="spoiler">revealed that as a child, she hated and feared being alone because the silence would heighten her sensitivity to the passionate thoughts and emotions of other Andorians, and so she developed an extroverted personality preferring the company of others in order to drown out these stray "voices".</span></li>
+</ul></li>
+					<li><strong>Manic Pixie Dream Girl:</strong> Likes to think of herself as this to K'vov.</li>
+					<li><strong>Ms. Fanservice:</strong> The sultry type, especially in the obligatory <strong>Beach Episode</strong> "Death in Paradise".</li>
+					<li><strong>Mythology Gag:</strong> Like her ancestors in "The Aenar" from <em>Star Trek: Enterprise</em>, she mentions having struggled in the theoretical science courses at the Academy.</li>
+					<li><strong>Rubber-Forehead Alien:</strong> Those two knobbed head antennae all Andorians have.</li>
+					<li><strong>Security Officer</strong></li>
+					<li><strong>Shipper on Deck:</strong> Especially likes playing matchmaker for junior officers.</li>
+					<li><strong>Ship Tease:</strong> In one of the later season episodes, Shran appears to be impressed by Remara's polite suaveness; by the end of said episode, however, they decide they were <strong>Better As Friends</strong> and she goes back to pining after K'vov.</li>
+					<li><strong>Show Some Leg:</strong> Shran isn't above invoking this to help accomplish vital objectives.
+						<ul>
+							<li>In "Treasure Trading Station", she poses as a dabo girl (Ferengi roulette wheel operator) on Drozana Station to distract the uncooperative bar proprietor, whilst some junior security officers from the <em>Odyssey</em> override the security lockout to the station's seedier lower levels.</li>
+							<li>Repeated in "The Lost City of Paradise", where she masquerades as a prostitute and sweet-talks a small-time criminal into divulging details about a secret Thalaron weapons deal.</li>
+						</ul>
+					</li>
+					<li><strong>Tomboyish Ponytail:</strong> Always swept over her right shoulder to the front.
+						<ul>
+							<li>Playing with the very tip of it constitutes her <strong>Thinking Tic</strong>.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_06')">Lieutenant Commander Corat Remara</h4>
+			<div id="character_06" style="display:none;">
+				<p class="voicedby">Voiced by: Vic Mignogna</p>
+				<p>The <em>Odyssey</em>'s Chief Science Officer, a mild-mannered and polite Cardassian male whose main role is to basically explain the <strong>Technobabble</strong> principles behind exotic alien tech and highlight the dangers of the <strong>Negative Space Wedgie</strong> of the Week. His reserved but friendly demeanour and <strong>Cheshire Cat Grin</strong> hides a troubled past and loneliness.</p>
+				<p>Remara's assignment to the <em>Odyssey</em> was an interesting one; ostensibly he was there to monitor the use of an improved Deflector system he designed for the ship's experimental Quantum Slipstream Drive, but in reality the rest Admiralty was annoyed that the newly-commissioned Zhang had pulled connections to hand-pick most of his crew, and sought to take him down a notch. Despite initial apprehension, the other officers would gradually warm to Remara (in varying degrees) over the course of the series.</p>
+				<hr>
+				<ul>
+					<li><strong>Bunny-Ears Lawyer:</strong> For all his idiosyncrasies, Remara demonstrates an unparalleled brilliance and adaptability at his job, especially when dealing with <strong>Imported Alien Phlebotinum</strong>. Not to mention that he's the sole designer (and by extension the only one capable of maintaining) the <strong>Black Box</strong> that allows the <em>Odyssey</em>'s <strong>Faster-Than-Light Travel</strong> engine to go <strong>Up to Eleven</strong>, so they kind of need him around.</li>
+					<li><strong>Bold Explorer:</strong> The Classic type. Often makes it known to others that Starfleet should also remember its roots as this.</li>
+					<li><strong>Character Filibuster:</strong> Especially when sprouting <strong>Exposition</strong> - he's also very proud of his <strong>Technobabble</strong>.</li>
+					<li><strong>Crazy Cultural Comparison:</strong> For most of the series, Barber is continually repulsed at Remara's overtly gentlemanly front that she believes is insincere mockery, whilst he in turn is clearly uncomfortable with her consistently snide remarks. <span class="spoiler">She later finds out late in Season Three (to her horror) that traditional Cardassian courtship involves couples bitterly snapping at each other, and that Remara was actually very diplomatically trying to rebuff what he perceived as inappropriate advances.</span>
+						<ul>
+							<li>Played for laughs as <span class="spoiler">most of the crew already knew this all along, but just wanted to see her reaction.<span></li>
+						</ul>		
+					</li>
+					<li><strong>Dark and Troubled Past:</strong> <span class="spoiler">After the falling out with his family over his choice of profession, he struck out on his own, barely managing to find a small seedy apartment to live in while studying at the University of Culat on Cardassia Prime. His Science Ministry assignments after graduation were almost always solitary due to his inability to relate well with his (predominantly female) colleagues. To top it off, after being invited by his older brother (who always cared for him deeply and often visited him) to a major family reunion, he arrived at the venue just in time to watch his entire immediate and extended family, along with many other civilians, get wiped out in a in a True Way terrorist bombing attack. Having nowhere else to go served as the impetus to him pursuing a career in Starfleet.</span></li>
+					<li><strong>Eating Lunch Alone:</strong> For the first two seasons he is often seen sitting by himself in the Officer's Mess, punctuated by rare dialogues of major insight with Zhang or off-duty verbal sparring with Barber. <After "The Ties That Bind" halfway into Season Three, he is seen more frequently having small talk with one or two other characters at mealtimes.</li>
+					<li><strong>Good with Numbers:</strong> Even while under fire in Season Five episode "Spheres of Influence", he manages to compute in his head the complex settings needed to keep the Iconian Gateway stable long enough for everyone to evacuate through.</li>
+					<li><strong>Insufferable Genius:</strong> Most people's first - and Barber's persistent - impression of him. 
+						<ul>
+							<li>Toned down after Season Three episode "The Ties That Bind", <span class="spoiler">when a supposed reunion with his older brother missing since the bomb blast turned out to be a case of <strong>Dead Person Impersonation</strong> he failed to see through.</span></li>
+						</ul>
+					</li>
+					<li><strong>Intelligence Equals Isolation:</strong> Played straight for the first three seasons, somewhat toned down afterwards.</li>
+					<li><strong>Last Name Basis:</strong> Practically everyone addresses him as "Remara", with rank or job title added during official functions.</li>
+					<li><strong>Martial Pacifist:</strong> Greatly prefers and strives towards peaceful solutions.</li>
+					<li><strong>The McCoy:</strong> Despite being mild-mannered, he appeals strongly to emotion and humanistic traits, if a touch bit melancholic.</li>
+					<li><strong>Metaphorgotten:</strong> When explaining alien concepts to others, Remara often tries comparing it to something more familiar...before promptly realising quite vocally said comparison is inaccurate.
+						<span class="indent"><strong>Remara:</strong> <em>[Explaining how the Iconian space gates work]</em> Now, let's imagine the space-time continuum as this napkin, and the glass tumbler as the tachyoharmonic subspace distortion upon which the napkin is draped over so that you have bits hanging equally on both sides. <em>[beat]</em> Actually, let's not.</span>
+					</li>
+					<li><strong>Omnidisciplinary Scientist:</strong> Occasionally subverted when he has to call on a junior officer within his department with the specialist knowledge appropriate to the situation at hand to back him up.</li>
+					<li><strong>Ship Tease:</strong> With Kellat - he gets invited to dinner with her family in one episode, although it turned out Kellat's parents were simply glad to have the company of another Cardassian in Starfleet. The matter is never bought up again afterwards.</li>
+					<li><strong>Stepford Smiler:</strong> Barber is understandably creeped out by this.</li>
+					<li><strong>Uncoffee:</strong> Cardassian Fish Juice, drank hot during breakfast and repugnant to most humanoids. He refuses to start work or talk to anyone until he has finished his daily serving.</li>
+					<li><strong>The Unfavourite:</strong> Due to pursuing the sciences rather than joining the Cardassian Defense Force like his older brother.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_07')">Lieutenant Commander V'rin K'vov</h4>
+			<div id="character_07" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s Chief Engineer, a soft-spoken and very much reserved giant of a male Andorian, who more closely fits the norm of his species. His primary responsibility is to keep the <em>Odyssey</em>'s <strong>Faster-Than-Light Travel</strong> Warp Core working and leading maintenance / damage control teams, as well as being the can-do counterpart to Science Officer Remara's know-how when it comes to <strong>Imported Alien Phlebotinum</strong>.</p>
+				<hr>
+				<ul>
+					<li><strong>The Comically Serious:</strong> Considering his Andorian upbringing and antics the rest of the cast inadvertently get involved in, you have to wonder why the guy hasn't lost his mind yet.
+						<ul>
+							<li>During one <strong>Groundhog Day Loop</strong> episode, each of K'vov's iterations starts with him walking down a corridor and constantly getting being bumped by Ensign Akorem stumbling out a set of doors. One of the later iterations has K'vov deciding to shove Akorem back through said door.</li>
+						</ul>
+					</li>
+					<li><strong>Commonality Connection:</strong> Gradually becomes friends with Ong and Remara for their mutual interest in music.
+						<ul>
+							<li>Interestingly, they hold said interest for different reasons - Ong enjoys making music for what it is, while Remara is merely fascinated with the scientific principles involved. K'vov's just content that he has a chance to polish up on the flabbjellah that all Andorians are supposed to be proficient at as a matter of principle.</li>
+						</ul>
+					</li>
+					<li><strong>Genius Bruiser:</strong> Equally adept at repairing combadges and unfamiliar alien devices as he is with lifting and carrying heavy equipment.</li>
+					<li><strong>Gentle Giant</strong></li>
+					<li><strong>The Engineer</strong></li>
+					<li><strong>Married to the Job:</strong> K'vov's dedication to his responsibilities as Chief Engineer leaves him with practically no time to explore any non-professional relationship.</li>
+					<li><strong>Mr. Fixit:</strong> The go-to guy for the <em>Odyssey</em>'s <strong>Phlebotinum Breakdown</strong>.</li>
+					<li><strong>Not Distracted by the Sexy:</strong> Trapped with Shran aboard a damaged shuttlecraft in a rapidly-decaying orbit around a star, K'vov immediately gets to work repairing subsystems. Towards the end, the internal temperature becomes unbearable for Shran, who starts taking off layers of her uniform. K'vov's response:
+						<span class="indent"><strong>K'vov:</strong> Environmental control should be back online soon - you might need this. <em>[Offers own uniform jacket to Shran]</em></span>
+					</li>
+					<li><strong>Oblivious to Love:</strong> Completely unaware of Shran's amorous hints.
+						<span class="indent"><strong>Shran:</strong> You know, maybe after you finish your shift-
+						<br><strong>K'vov:</strong> <em>[To engineering crewman]</em> -Make sure you realign those relays properly this time! <em>[beat]</em> Sorry, Miss Shran, you were saying?
+						<br><strong>Shran:</strong> ...would you like to have some Raktajino [coffee] sometime?
+						<br><strong>K'vov:</strong> With two ice cubes, please. Leave it on my desk.
+						<br><em>[K'vov leaves while consulting his PADD. Shran sighs, dejected.]</em></span>
+					</li>
+					<li><strong>Rubber-Forehead Alien:</strong> Those two knobbed head antennae all Andorians have.</li>
+					<li><strong>Techno Wizard</strong></li>
+					<li><strong>The Stoic</strong></li>
+					<li><strong>Verbal Tic:</strong> Does not use contractions.</li>
+					<li><strong>Walking Techfix:</strong> Especially with non-Federation alien tech. Downplayed in that it still takes him a reasonably realistic amount of time, though.</li>
+					<li><strong>Workaholic:</strong> Remained behind on the <em>Odyssey</em> to run subsystem diagnostics in "Death in Paradise", whilst everyone else took shore leave. <span class="spoiler">Ultimately coaxed into beaming down to the resort by being asked to fix a restaurant's "faulty" food replicator.</span></li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_08')">Doctor (Lieutenant Commander) Lelania Tigan</h4>
+			<div id="character_08" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s Chief Medical Officer, a kind-hearted unjoined (i.e. lacking the Symbiont slug thing in her abdomen) female Trill with an impeccable bedside manner. Although experienced as a physician, she has spent the majority of her career working at Starfleet Medical on Earth, and thus is quite unfamiliar to the fast-paced and harsher realities of serving aboard a starship on long-term exploration missions. Nevertheless, over the course of the series she retains her idealism and innocence more than any other characters in the cast.</p>
+				<hr>
+				<ul>
+					<li><strong>Break the Cutie:</strong> <span class="spoiler">While held hostage in "First Do No Harm" by militants who reject Federation medical aid in favour of folk remedies, their increasingly-deranged leader resorts to psychological, and ultimately physical, torture in an attempt to convert her to their way of thinking, eventually forcing her to kill one of her captors with a laser scalpel. Although she has for the most part recovered by the following episode and returned to her usual self, the harrowing experience certainly has had some effect on her.</span></li>
+					<li><strong>Combat Medic:</strong> Subverted. Despite having sparring sessions with Barber after "First Do No Harm", Tigan remains quite reluctant to inflict harm on others, unless in self-defense and only when absolutely necessary.</li>
+					<li><strong>Continuity Nod:</strong> Her surname suggests she is a distant relative of Ezri Tigan, the second host of the Dax symbiont from <em>Deep Space Nine</em>.</li>
+					<li><strong>Ms. Fanservice:</strong> The cute type, especially in the obligatory <strong>Beach Episode</strong> "Death in Paradise".</li>
+					<li><strong>Genki Girl:</strong> One of the more bubbly characters in the main cast.</li>
+					<li><strong>Green-Skinned Space Babe:</strong> Partially subverted in that her skin tone and hair color are more or less "normal" by human standards. But boy, do those spots go all the way down.</li>
+					<li><strong>Hospital Hottie</strong></li>
+					<li><strong>I Owe You My Life:</strong> Barber's close friendship with Tigan is initially based on this; then-Ensign Barber was gravely injured during her escape with Ensign Zhang from the doomed <em>Bellerophon</em> in the pilot episode teaser, and was bought aboard a Starfleet medical ship. Then-Nurse Tigan was perceptive enough to discover from Barber's medical records that she was dangerously allergic to the commonly-used Metorapan anaesthetic, and intervened just before a clueless fellow Nurse could administer the (potentially fatal) hypospray injection.</li>
+					<li><strong>Jumped At The Call:</strong> Barber had persuaded Zhang to sign her on as the ship's doctor as a personal favour; Tigan was all too eager to accept.</li>
+					<li><strong>Na&iuml;ve Newcomer:</strong> To serving on an exploration ship and her role as Chief Medical Officer. Prior to that, she was content with taking orders from a superior and working in the relatively comfortable confines of hospitals on Federation core worlds.</li>
+					<li><strong>Nice Girl</strong></li>
+                                        <li><strong>Sunny Sunflower Disposition:</strong> As evidenced by the Sunflowers she keeps in her office in Sickbay.</li>
+					<li><strong>Tomboy and Girly Girl:</strong> Shran being the former and Tigan the latter.</li>
+					<li><strong>Wide-Eyed Idealist:</strong> While no stranger to the horrors of war due to having treated many of its casualties, Tigan finds it difficult to accept the increasingly <strong>Grey and Gray Morality</strong> of the ongoing Federation-Klingon war, as well as the dangers inherent in exploring the final frontier.
+						<span class="indent"><strong>Tigan:</strong> Why is it that just about everything out here wants to <em>kill</em> us?</span>
+					</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_09')">Counselor (Lieutenant Commander) Natasha "Tash" McGill</h4>
+			<div id="character_09" style="display:none;">
+			<p class="voicedby">Voiced by: TBD</p>
+			<p>The <em>Odyssey</em>'s Counselor and Richardson fianc&eacute;e-turned-wife. Initially, the series creators weren't exactly sure what to do with the character, other than serving as a foil for Zhang and Barber's sometimes-tumultuous relationship; Tash's role was later expanded to that of Chief Diplomatic Officer and First Contact specialist, opening up more possibilities to include her more prominently in episodes.</p>
+			<hr>
+			<ul>
+				<li><strong>Ambadassador:</strong> Off-screen during her previous posting on Deep Space Nine, she played an instrumental role in the Federation's First Contact with over 50 new races, many of whom were in the relatively hostile Gamma Quadrant beyond the Bajoran Wormhole - at one stage she even talked down a towering Jem'Hadar First. Needless to say, Zhang's recruitment of her wasn't just a favour to his First Officer.</li>
+				<li><strong>Beta Couple:</strong> Richardson/Tash is this to Zhang/Barber.</li>
+				<li><strong>Beware the Nice Ones:</strong> Feeds into <strong>Ambadassador</strong> and <strong>Minored in Ass-Kicking</strong>.</li>
+				<li><strong>Bridge Bunny:</strong> Early episodes have her simply stand near the Master Systems Display at the back of <strong>The Bridge</strong>, reporting hull breaches and crew casualties.
+					<ul>
+						<li>Subverted in later stories, as she begins participating in (and in two cases, leading) Away Team missions as a First Contact / Diplomatic specialist.</li>
+					</ul>
+				</li>
+				<li><strong>A Day in the Limelight:</strong> The weird <em>Pulp Fiction</em>-like episode "Ziggurat" documents Tash's efforts to communicate with a group of unfamiliar aliens when neither sides' Universal Translators work properly. In an inversion of the typical First Contact format, we have the aliens speaking English and the Starfleet cast versed in gibberish, with dialogue from the latter gradually clearing up into English once she has established rapport with said aliens.</li>
+				<li><strong>Everywoman:</strong> Her personality is a careful balance and selection of the best traits of the assertive Barber, the flirtatious Shran and the cute Tigan.</li>
+				<li><strong>Happily Married:</strong> To Richardson, from Season Two onwards.</li>
+				<li><strong>Informed Ability:</strong> Her medical training is mentioned off-handed once or twice in the series, but whenever another character is actually injured, Tigan or Kellat is soon present to administer aid.</li>
+				<li><strong>The McCoy:</strong> Albeit a much nicer one.</li>
+				<li><strong>Minored in Ass-Kicking:</strong> Her first Away Mission as part of the Odyssey's crew in "Diplomatic Orders" shows her competence with a hand Phaser.</li>
+				<li><strong>Nice Girl</strong></li>
+				<li><strong>Team Mom</strong></li>
+				<li><strong>The Shrink:</strong> Her job as the ship's counselor is to look after the crew's emotional and mental health. Especially important as the crew is often subjected to all sorts of dangers and confrontations with hostile races / factions.</li>
+				<li><strong>The Watson:</strong> In Richardson's absence she fills this role.</li>
+			</ul>
+		</div>
+		</div>
+		<p></p>
+		<h2 onclick="return toggleMe('recurring_cast')">Recurring Crew (in alphabetical order)</h2>	
+		<div id="recurring_cast" style="display:none;">
+			<h4 onclick="return toggleMe('character_10')">Ensign Akorem Rolan</h4>
+			<div id="character_10" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A shy, clumsy but well-meaning Bajoran male Junior Science Officer, a Botanist who occasionally dabbles in other disciplines. </p>
+				<hr>
+				<ul>
+					<li><strong>Expy:</strong> Clearly based on Lieutenant Reginald Barclay from <em>The Next Generation</em>, apart from his Science uniform and Bajoran nose ridges, and the lack of a holodeck addiction.</li>
+					<li><strong>The Klutz:</strong> Makes you wonder if his <strong>Benevolent Boss</strong> Remara's tolerance and unwavering mentoring is out of some sort of guilt for what his people (the Cardassians) did to Bajorans like Akorem decades before.</li>
+					<li><strong>Let's Get Dangerous:</strong> Helps Shran regain control of the ship from a hostile boarding party in "Mind Games", <span class="spoiler">by single-handedly putting together a device that interferes with the boarder's telepathic abilities. And stunning one of them with a phaser despite having never passed the required training.</span></li>
+<li><strong>Loving a Shadow:</strong> In "Hollow Memories", it is revealed that during Akorem's time at the Academy, he created a holographic simulation of his ex-girlfriend Krim Nala as a <strong>Replacement Goldfish</strong>, albeit with an idealized personality. By the time he joined the crew of the <em>Odyssey</em>, however, he had already moved on.</span></li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Name Order Confusion:</strong> Averted. Most of the cast know that Bajoran surnames come first.</li>
+					<li><strong>Odd Friendship:</strong> With Kellat. She's a Cardassian whose people have historically subjugated Bajorans; however, by the setting of <em>Odyssey</em>, most of her generation have outgrown such notions, and she is genuinely friendly with him. Akorem's clumsiness, subtexts of <strong>Chaste Hero</strong> and this complicated history between their peoples still has many people scratching their heads, however.</li>
+					<li><strong>Plucky Comic Relief:</strong> His primary role throughout the series.</li>
+					<li><strong>Shrinking Violet:</strong> Particularly in early episodes, where his primary goal is just to avoid getting in anyone's way.</li>
+					<li><strong>Stuttering Into Eloquence</strong></li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_11')">Transporter Chief (Lieutenant) Michael Andrews</h4>
+			<div id="character_11" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>The <em>Odyssey</em>'s Transporter Chief, responsible for operating the ship's Transporters for beaming down / up Away Teams. Mid-twenties with a wealth of experience gained from serving as a transporter operator on many Federation starships and starbases.</p>
+				<hr>
+				<ul>
+					<li><em>TODO: Develop character and add more tropes</em></li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Old Friend:</strong> To Zhang and Richardson.
+						<ul>
+							<li>Flashbacks from Season Two episode "Currahee" reveal that the three of them served on the USS <em>Curahee</em> during the disastrous First Contact incident with the Endari, with Andrews serving as a junior Transporter Officer, Zhang as Tactical Officer (and later, Acting Captain) and Richardson as Assistant Tactical Officer.</li>
+							<li>While Barber also served on the <em>Currahee</em> around the same time as , she had virtually no interaction with Andrews until both came aboard the <em>Odyssey</em>.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_12')">Lieutenant Chavek</h4>
+			<div id="character_12" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>An idealistic Romulan male serving as a Junior Security Officer, Chavek's family survived the destruction of their homeworld but were forced into a nomadic existence, along with tens of thousands of other Romulan refugees - his father seeking whatever menial work available and his sickly mother struggling to care for his much younger siblings.</p>
+				<p>Many years before the start of the series, the crew of a Federation starship provided relief after a major mining accident trapped and injured many labourers on the planet his family was living on at the time. Inspired by the selflessness of the Starfleet officers, he decided to enlist.</p>
+				<hr>
+				<ul>
+					<li><strong>Ascended Extra:</strong> Starts out as just another Security Officer, but becomes more important especially in the Romulan and Reman story arcs.</li>
+					<li><strong>Doomed Hometown:</strong> As a young boy, he and his family narrowly escaped the destruction of the Romulan Homeworld as a result of the Hobus Supernova.</li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Number Two:</strong> To Shran - we often see Chavek leading security or Away Teams if his superior is occupied on <strong>The Bridge</strong> or otherwise unavailable.</li>
+					<li><strong>Odd Friendship:</strong> <span class="spoiler">With V'ruk - traditionally, Romulans consider Remans like V'ruk to be nothing more than slaves or cannon fodder. Chavek was raised, however, during a time when the Romulan people (especially ordinary civilians) experienced a major <strong>Break the Haughty</strong> ordeal as a result of the loss of their Homeworld, the collapse of any cohesive form of government, and being reduced to menial labour on ramshackle colonies to survive. Consequently, Chavek is much more sympathetic to the plight of the Remans than most Romulans.</span></li>
+					<li><strong>The Reliable One</strong></li>
+					<li><strong>Security Officer</strong></li>
+					<li><strong>Those Two Guys:</strong> In any scenes set in the Officer's Mess with F'ris. Occasionally involved in a <strong>Funny Background Event</strong>.
+						<ul>
+							<li>Increases to three with the addition of <span class="spoiler">V'ruk</span>, and four when Akorem's <strong>Shrinking Violet</strong> tendencies get toned down.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_13')">Ensign F'ris</h4>
+			<div id="character_13" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A somewhat timid Caitian male serving as a Junior Security Officer, F'ris is most often seen working alongside Chavek, although sometimes leading another team of <strong>Redshirts</strong> if required.</p>
+				<hr>
+				<ul>
+					<li><strong>Cat Folk</strong></li>
+					<li><strong>Chekov's Skill:</strong> Earlier seasons has Barber tutoring F'ris in the Holodeck as a Conn Officer - this allows F'ris in later seasons to pilot shuttles on Away Missions or substitute for Barber at the Conn.</li>
+					<li><strong>Cowardly Lion:</strong> Downplayed as F'ris simply has trepidation and uncertainty before each Away Mission rather than fear.
+						<ul>
+							<li>Justified as Security Officers (aka <strong>Redshirts</strong>) have the highest fatality rate compared to those in other Starfleet career paths.</li>
+						</ul>
+					</li>
+					<li><strong>Far-Out Foreigner's Favorite Food:</strong> Cheeseburgers, a <strong>Shout-Out</strong> to the LOLCat "I Can Haz Cheezeburger?" meme.</li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Military Brat / Follow In My Footsteps:</strong> Not only has generations of F'ris's family served in Starfleet, they were all Security Officers just like him <span class="spoiler">- quite a few of them have also been killed in the line of duty.</li></li>
+<li><strong>Prehensile Tail:</strong> F'ris can use his tail to pick up (if not necessarily use) objects, as well as hang from it when serving as a lookout for an Away Team.
+</li>
+					<li><strong>Security Officer</strong></li>
+					<li><strong>The So-Called Coward:</strong> Once he gets past the aforementioned trepidation, he proves to be fairly competent.</li>
+					<li><strong>Those Two Guys:</strong> With Chavek, in the manner described under the latter's character section.</li>
+					<li><strong>Verbal Tic:</strong> Occasionally substitutes syllables in worlds with feline-like purrs and growls.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_14')">Lieutenant (Junior Grade) Jil Kellat</h4>
+			<div id="character_14" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A Cardassian female serving as a Nurse, effectively Chief Medical Officer Tigan's assistant whenever a complicated medical procedure is involved.</p>
+				<hr>
+				<ul>
+					<li><strong>Friend to All Living Things:</strong> Much of the wildlife on New Romulus quickly takes to Kellat, including a few of the usually more hostile species such as Vivver Cats and Armored Hathams.</li>
+					<li><strong>Informed Ability:</strong> Her personnel record stated she specialized as a biochemist, but all we ever see is her nursing skills. </li>
+					<li><strong>The Intern:</strong> It's hinted that Kellat is eager to prove herself as a competent medical professional, in the hopes of one day being someday promoted to a similar position as any one of the other senior doctors aboard the ship.</li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Those Two Girls</strong></li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_15')">Doctor (Lieutenant) Javier Mendez</h4>
+			<div id="character_15" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A physician assigned to the <em>Odyssey</em>'s Medical Department.</p>
+				<hr>
+				<ul>
+					<li><strong>Number Two:</strong> To Tigan.</li>
+					<li><strong>Satellite Character / Living Prop:</strong> His main purpose is to fill in for Tigan if she's not in sickbay, so that there is always a senior doctor available for the rest of the ship's crew while she goes off on Away Missions.</li>
+					<li><strong>Token Minority:</strong> Latino.</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_16')">Ensign Helnayana "Helna" Uwhoduhi</h4>
+			<div id="character_16" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A highly-spiritual Rigelian specialising as Stellar Cartographer, occasionally dabbling in Xenobiology.</p>
+				<hr>
+				<ul>
+					<li><strong>Ambiguously Bi / Bizarre Alien Sexes:</strong> Justified as Rigelians have five distinct genders, each gender having both male and female characteristics. Helna tends towards the feminine side, and so her pronouns are "she" and "her".</li>
+					<li><strong>Ascended Fanon:</strong> Helna started out as a "Foundry" character for the <em>Star Trek Online</em> MMO (i.e. featured in user-made missions) created by Havraha, and was officially acknowledged by game publisher Cryptic for her popularity by having a Duty Officer in her likeness (i.e. as a in-game trading card). <em>Odyssey</em> depicts her as a member of the junior officer cadre.</li>
+					<li><strong>Ditzy Genius:</strong> Highly skilled as a Stellar Cartographer, but also prone to overlooking the obvious when distracted.</li>
+					<li><strong>First Name Basis:</strong> Justified in that her surname is practically unpronounceable.</li>
+					<li><strong>Genki Girl</strong></li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Na&iuml;ve Newcomer</strong></li>
+					<li><strong>Those Two Girls</strong></li>
+					<li><strong>Weirdness Magnet:</strong> Tends to be the centre of unusual situations that drive episode plots along e.g. <strong>Holodeck Malfunction</strong> creating multiple holographic duplicates of her, being possessed by demigod during a dispute being alien entities posing as Zeus and Hera (in a bizarre case of <strong>No Such Thing as Space Jesus</strong>).</li>
+				</ul>
+			</div>
+			<h4 onclick="return toggleMe('character_17')">(Honorary, later Full) Ensign V'ruk</h4>
+			<div id="character_17" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>A Reman male who once fought in the Resistance movement against Romulan Tal Shiar remanants under renegade Colonel Obisek, V'ruk joined the crew of the <em>Odyssey</em> at the end of Season Two as a Systems Engineer under Chief Engineer K'vov, capitalizing heavily on his ability to quickly jury-rig working devices to solve problems.</p>
+				<hr>
+				<ul>
+					<li><strong>Ascended Extra:</strong> Starts out as the nameless Reman resistance fighter that <span class="spoiler">Chavek</span> befriends halfway into the Reman Resistance/Tal Shiar arc, joins the crew at its conclusion and officially becomes a member of Starfleet by Season Three.</li>
+					<li><strong>Cynicism Catalyst:</strong> V'ruk started out as a civilian miner who couldn't care less about his Romulan Star Empire / Tal Shiar overseers as long as he and his wife were fed and had a place to sleep; one day the increasingly oppressive Tal Shiar, paranoid that their holdings were infiltrated by Resistance members, had troops search the labourer's communes; the death of V'ruk's wife during a struggle with a Tal Shiar Uhlan galvanised him into joining the Resistance.</li>
+					<li><strong>Day Hurts Dark-Adjusted Eyes:</strong> Remans generally prefer darkness typical of tidally-locked planets like their (destroyed) homeworld Remus and replacement colony at Crateris. When V'ruk initially joins the <em>Odyssey</em> after Harkeev's defeat, he has trouble adjusting to the relatively brighter environs aboard.
+						<ul>
+							<li><strong>Played For Laughs</strong> when other crew members sometimes find him lurking in dark places e.g. inside a Jefferies tube (maintenance crawlspace), a closet or under a table.</li>
+						</ul>
+					</li>
+					<li><strong>Hyper Competent Sidekick:</strong> His boss K'vov is quite impressive in his own right, but V'ruk is somehow always at the right console / station / EPS junction / ODN panel at the right time ready to take orders.</li>
+					<li><strong>Looks Like Orlok:</strong> Remans have a bald, mottled complexion with pointy ears and fangs.
+						<ul>
+							<li>Partially justified in that living on their tidally-locked former homeworld caused them to evolve that way.</li>
+						</ul>
+					</li>
+					<li><strong>MacGyvering:</strong> His solutions to technical <strong>Problems of the Week</strong> may involve a hodgepodge of seemingly unrelated bits and pieces, but they almost always work the first time around.
+						<ul>
+							<li>Justified in that his time in the Reman Resistance meant he often had limited resources to work with when making repairs or erecting traps / defences.</li>
+						</ul>
+					</li>
+					<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Sempai / Kouhai:</strong> For practical reasons V'ruk could not attend Starfleet Academy and be officially qualified to serve on the <em>Odyssey</em>, so as per official Starfleet policy he undertook what was essentially distance education courses, with the recently-graduated <span class="spoiler">Chavek</span> mentoring him.</li>
+					<li><strong>The Quiet One:</strong> When he does speak, however, it's usually short, to the point and quite important.</li>
+				</ul>
+			</div>
+
+<h4 onclick="return toggleMe('character_17a')">Ensign Krim Nala</h4>
+			<div id="character_17a" style="display:none;">
+				<p class="voicedby">Voiced by: TBD</p>
+				<p>Bajoran female ex-girlfriend of Akorem Rolan first introduced in "Hollow Memories". In Season Six, she transfers from the Bajoran Militia to Starfleet and officially joins <em>Odyssey</em>'s crew as a junior engineer.</p>
+				<hr>
+				<ul>
+
+<li><strong>All of the Other Reindeer:</strong> Somewhat downplayed; due to <span class="spoiler">her holographic duplicate nearly getting the entire crew killed in "Hollow Memories", when she shows up for real</span>, she is initially distrusted by some of of the <em>Odyssey</em>'s, especially the junior officers.</li>
+<li><strong>Clingy Jealous Girl:</strong> Becomes rather agitated whenever she suspects another woman is showing interest in "her Rolan", almost to the point of being a <strong>Yandere</strong>.</li>
+<li><strong>Kiss Me, I'm Virtual:</strong> Her debut appearance in "Hollow Memories" <span class="spoiler">is actually that of a sophisticated holographic simulation created by Akorem to help him cope with their initial breakup.</span>
+<ul>
+<li><strong>Tomato in the Mirror:</strong><span class="spoiler"> The hologram was unaware of her true nature until later in the episode.</span></li>
+<li>Leads to <span class="spoiler"><strong>A.I. is a Crapshoot</strong> when the revelations causes the hologram to snap and go full <strong>Yandere</strong>, threatening the safety of the <em>Odyssey</em> by disrupting life support and other shipboard systems in an effort to reclaim "her Rolan".</span></li>
+</ul>
+</li>
+<li><strong>Mauve Shirt</strong></li>
+					<li><strong>Unknown Rival:</strong> Considers the Cardassian Jil Kellat as a rival to her affections for Akorem Rolan, a fact that Kellat is oblivious to - furthermore, Akorem and Kellat are perfectly happy remaining platonic friends. 
+<ul>
+<li><strong>Teeth-Clenched Teamwork:</strong> Deliberately invoked by Ong in order to force them to sort out their differences.</li>
+</ul>
+</li>
+<li><strong>Name Order Confusion:</strong> Averted. Most of the cast know that Bajoran surnames come first.</li>
+					<li><strong>Unrequited Love Switcheroo:</strong> Krim and Akorem dated briefly before the start of the series, but at the time she was a <strong>Tsundere</strong> who wouldn't give the <strong>Dogged Nice Guy</strong> the time of day. By the time they meet again in Season Six, Akorem has become more self-assured, and it is Krim instead who is pining after him after an off-screen <strong>Love Epiphany</strong>.</li>
+<li><strong>Wrench Wench</strong></li>
+					 
+				</ul>
+			</div>
+
+		</div>
+		<p></p>
+		<h2 onclick="return toggleMe('other_cast')">Other Recurring Characters</h2>
+		<div id="other_cast" style="display:none;">
+			<h3 onclick="return toggleMe('starfleet_command')">Starfleet Command</h3>
+			<div id="starfleet_command" style="display:none;">
+				<h4 onclick="return toggleMe('character_18')">Admiral Jorel Quinn</h4>
+				<div id="character_18" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The crew's <strong>Reasonable Authority Figure</strong> based back at Starfleet Command (specifically, the big metal mushroom-shaped Earth Spacedock); a strict but well-meaning Trill male.</p>
+					<hr>
+					<ul>
+						<li><strong>Badass Beard:</strong> Handlebar moustache with mutton chops, too.</li>
+						<li><strong>Benevolent Boss</strong></li>
+						<li><strong>Cool Old Guy</strong></li>
+						<li><strong>Four-Star Badass:</strong> Led a task force of ship to the <em>Odyssey</em>'s aid when the latter fought against a Planet Killer doomsday machine co-opted by renegade Klingon Dahar Master B'vat for nefarious ends.</li>
+						<li><strong>Mission Control:</strong> Pops up periodically via subspace communications to issue new orders and debrief the crew afterwards.</li>
+						<li><strong>Reasonable Authority Figure:</strong> In contrast to the <strong>Obstructive Bureaucrats</strong> prevalent throughout the Admiralty.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_19')">Admiral T'nae</h4>
+				<div id="character_19" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Vulcan female CO of Starbase 39-Sierra, and the <em>Odyssey</em>'s contact during their temporary reassignment to Romulan space.</p>
+					<hr>
+					<ul>
+						<li><strong>Benevolent Boss</strong></li>
+						<li><strong>Older than They Look:</strong> Vulcans are long-lived compared to humans, and so unsurprisingly she looks rather young for a Starfleet Admiral.</li>
+						<li><strong>Mission Control:</strong> For the Reman Resistance/Tal Shiar arc; once the <em>Odyssey</em> completes its assignment in Romulan space, they get passed back to Quinn.</li>
+						<li><strong>Out-of-Character Is Serious Business:</strong> The usually calm and logical T'nae betrayed hints of rage when she initially adamantly opposed the peace treaty that would help create the Romulan Republic. Earlier, she also insisted Zhang arrange for Chavek to be transferred off the <em>Odyssey</em> due to the latter's Romulan heritage.
+							<ul>
+								<li>Her <strong>Blood Knight / General Ripper</strong> hatred for Romulans is revealed to have stemmed from a major event in the premise of the series: After the destruction of the Romulan Homeworld by the Hobus supernova, Romulan miner Nero (the <strong>Big Bad</strong> from the 2009 <em>Star Trek</em> reboot) goes nuts and slaughters shiploads of Starfleet officers that arrived to offer aid. <span class="spoiler">A younger T'nae was one of the few survivors.<span></li>
+							</ul>
+						</li>
+						<li><strong>Reasonable Authority Figure:</strong> To a certain extent - she initially expressly forbade the <em>Odyssey</em> intervene in Reman Resistance/Tal Shiar conflict. It takes gaining the trust of Obisek's Reman Resistance, defeating Hakeev and the discovery of Iconian involvement in Tal Shiar affairs before she retroactively approves of the crew's actions.</li>
+					</ul>
+				</div>
+
+<h4 onclick="return toggleMe('character_19a')">Rear Admiral Tuvok</h4>
+				<div id="character_19a" style="display:none;">
+					<p class="voicedby">Voiced by: Tim Russ</p>
+					<p>Vulcan male and former Security Chief of the USS <em>Voyager</em> during its renowned seven-year journey back to Federation space  (<em>Star Trek: Voyager</em>), Tuvok now spearheads exploration efforts in the Solanae Dyson Sphere and the Delta Quadrant, with <em>Voyager</em> as his own flagship. </p>
+					<hr>
+					<ul>
+<li><strong>Battle in the Center of the Mind:</strong> Zhang participates in a mind-meld with Tuvok to help the latter fend off continued psychic attacks by <span class="spoiler">the "Dr. Eric Cooper" Undine infiltrator.</span></li>					
+<li><strong>Big Good:</strong> Perhaps the most <strong>Reasonable Authority Figure</strong> and <strong>Dangerously Genre Savvy</strong> within the Admiralty, possibly even more so than Quinn and T'nae.</li>
+<li><strong>Bothering by the Book:</strong> During "A Step Between Stars, Remara informs Zhang that the only way to disable the Dyson Sphere's jump capabilities would be to open up <em>another</em> Iconian Gateway, which Zhang naturally refuses to due given the implications. Tuvok calmly informs Zhang that his orders to disable the Dyson Sphere by any means necessary were issued by the Joint Command (Starfleet, the KDF and Romulan Republic Military Council), and that if Zhang's away team does not comply, he'll simply stun them with a phaser and do it himself.
+<ul><li><strong>Nice Job Breaking It, Hero:</strong> In doing so, he inaverdently lets <span class="spoiler">the "Dr. Eric Cooper" Undine infiltrator</span> co-opt his orders, allowing the Undine to obtain complete access to the entire Alpha and Beta Quadrants, causing the tenuous alliance of convenience between the Federation, Klingons and the Romulan Republic to almost disintegrate due to squabbling over who gets to control a second newly-discovered Dyson Sphere. He later makes up for it by mediating a conference between all parties.</li></ul>
+</li>
+<li><strong>Deadpan Snarker:</strong> Boasts a <em>very</em> dry sense of humor.</li>
+						<li><strong>One Bullet Left:</strong> When the Undine attacking the Klingon homeworld of Q'onos deploy their Planet Killer, Tuvok reveals that the <em>Voyager</em> still has one Nanite Torpedo dating back to their first engagement with the Undine in 2374. Whilst not destroying the Planet Killer outright, the torpedo disables it shields long enough for Shon to pull off an <strong>Airstrike Impossible</strong> using the <em>Enterprise</em>-F's detachable mini-escort <em>Aquarius</em>.</li>
+<li><strong>Role Reprisal: </strong> Russ returns to portray his character from <em>Star Trek: Voyager</em>.</li>
+<li><strong>The Stoic:</strong> Par for the course for Vulcans.</li>
+					</ul>
+				</div>
+
+
+			</div>
+			<h3 onclick="return toggleMe('uss_brunel')">USS <em>Brunel</em> - Starfleet Corps of Engineers (SCE) support ship</h3>
+			<div id="uss_brunel" style="display:none;">
+				<p>With the exception of Captain Bhatia and selected senior officers, most of the <em>Brunel</em>'s personnel are either background characters making minor appearances or merely mentioned in dialogue/computer displays in <em>Star Trek: Odyssey</em>; however, they are greatly expanded on in the spin-off series <em>SCE: Brunel</em>.</p>
+				<p class="scebrunel">(Characters and tropes exclusive to the <em>SCE: Brunel</em> spin-off are highlighted in blue)</p>
+				<h4 onclick="return toggleMe('character_20')">Captain Rachit "Rick" Bhatia</h4>
+				<div id="character_20" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Indian male human CO of the Saber-class USS <em>Brunel</em>, assigned to the Starfleet Corps of Engineers (SCE). The ship's role is to build / maintain space stations and outposts, as well as follow up on discoveries made by other Starfleet ships to determine if they are of any practical use to the Federation.</p>
+					<p>Rick and the crew of the <em>Brunel</em> make their first appearance in "Arena", after they are kidnapped and used as battle thralls in gladiatorial combat by a pre-warp alien species. Their ship then makes minor recurring appearances in The 2800 arc, before members of the crew play more significant supporting roles by Season Five.</p>
+					<hr>
+					<ul>
+						<li><strong>Authority Equals Asskicking: </strong> Most notably in "Arena".</li>
+						<li><strong>Ascended Extra:</strong> Bhatia and his crew, by Season Five's Solanae Dyson Sphere arc. Justified in that their engineering expertise is needed for Starfleet to set up a base camp inside one of the sphere's spires.</li>
+						<li><strong>The Captain</strong></li>
+						<li><strong>First Name Basis:</strong> Zhang calls him "Rick"; Bhatia in turn gets to address him as "Robin".</li>
+						<li class="scebrunel"><strong>Bold Explorer:</strong> The classic type. Sometimes, the crew of the previous Starfleet ship that makes a major discovery has merely scratched the surface before they are recalled on another mission; naturally, it's Bhatia's (and his crew's) responsibility to fill in the gaps.</li>
+						<li><strong>Happily Married:</strong> To Aish from the Operations Department.</li>
+						<li><strong>Hero of Another Story</strong></li>
+						<li><strong>The Kirk</strong></li>
+						<li><strong>Mauve Shirt:</strong> Essentially giving one of the background ships present in any <em>Star Trek</em> series some characterisation and making its crew minor recurring characters.</li>
+						<li><strong>Old Friend:</strong> To Captain Zhang.</li>
+						<li><strong>Sempai / Kouhai:</strong> Zhang and Bhatia actually graduated from the Academy in the same year group, but Bhatia got his own command a couple of years sooner, and so is in a position to offer Zhang the occasional take-home advice.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_21')">Commander T'Lora</h4>
+				<div id="character_21" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The <em>Brunel</em>'s Vulcan female First Officer, also doubling as Chief Science Officer.</p>
+					<hr>
+					<ul>
+						<li><strong>Commander Contrarian:</strong> Implied in dialogue between Zhang and Bhatia that T'Lora opposes pretty much any idea that her captain has.
+							<ul>
+								<li>Contrast this with the Zhang/Richardson dynamic; Richardson will certainly play the role of <strong>The Kirk</strong> and have his own opinions on a <strong>Problem of the Week</strong>, but once they've talked it over he'll support whatever decision Zhang ultimately makes.</li>
+							</ul>
+						</li>
+						<li class="scebrunel"><strong>Commanding Coolness:</strong> Despite her constantly contrarian and obstructive nature, T'Lora is (admittedly) very competent at taking charge of the situation whenever Bhatia's not currently on the <em>Brunel</em>.</li>
+						<li class="scebrunel"><strong>Cultural Posturing:</strong> At the start of <em>SCE: Brunel</em>, she frequently makes remarks about how Vulcans are more refined, rational etc, despite the fact that her "logic" in this matter is clearly outdated as Vulcans are already heavily integrated into the very fabric of the Federation by the 25th Century.</li>
+						<li class="scebrunel"><strong>Emotionless Girl</strong></li>
+						<li class="scebrunel"><strong>Expy:</strong> Loosely inspired by Subcommander T'Pol from <em>Star Trek: Enterprise</em>.</li>
+						<li><strong>The Ghost:</strong> T'Lora is only referred to in dialogue, and is neither heard nor seen onscreen in <em>Odyssey</em>.</li>
+						<li class="scebrunel"><strong>Hot Scientist</strong></li>
+						<li><strong>Number Two:</strong> To Bhatia, obviously.</li>
+						<li class="scebrunel"><strong>Omnidisciplinary Scientist:</strong> Her prior posting was at the Vulcan Science Academy.
+							<ul>
+								<li>Justified in that the <em>Brunel</em> is primarily an engineering support vessel, and so many of the non-SCE crew have to pull double-duty.</li>
+								<li>As her knowledge and skillset is limited to the <em>theoretical</em> sciences, she has to rely on Chief Engineer Ngui and the rest of the SCE contingent's can-do. Unfortunately, her constant <strong>Cultural Posturing</strong> leads her to constantly criticize their efforts.</li>
+							</ul>
+						</li>
+						<li class="scebrunel"><strong>The Spock</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_22')">Lieutenant Commander Lochana Wijesundra</h4>
+				<div id="character_22" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Sri Lankan male human and Operations Officer aboard the <em>Brunel</em>.</p>
+					<hr>
+					<ul>
+						<li><strong>Communications Officer</strong></li>
+						<li><strong>Black Best Friend:</strong> To Ong, if the <em>Odyssey</em> and the <em>Brunel</em> are currently involved in a mission together.
+							<ul>
+								<li><strong>Commonality Connection:</strong> Both are <strong>Extracurricular Enthusiasts</strong> in music.</li>
+							</ul>
+						</li>
+						<li class="scebrunel"><strong>The Heart</strong></li>
+						<li class="scebrunel"><strong>Life Of The Party:</strong> Social gatherings will inexplicably revolve around him.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Old Friend:</strong> To Zhang, Barber, Ong and Bhatia.</li>
+							<ul>
+								<li>Zhang implied that he, Bhatia and Wijesundra went to high school together.</li>
+								<li>Barber and Wijesundra were close friends at the Academy, and it was in fact Wijesundra who initially introduced Zhang and Barber to each other.</li>
+							</ul>
+						<li><strong>Running Gag:</strong> If Wijesundra is not on <strong>The Bridge</strong> of the <em>Brunel</em> and not the first to speak in a scene, he will always be seen eating something.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_23')">Lieutenant Commander Jason Sexton</h4>
+				<div id="character_23" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian male human and the <em>Brunel</em>'s Tactical / Security Chief.</p>
+					<hr>
+						<ul>
+							<li><strong>Action Hero:</strong> Very competent in both marksmanship and close-quarters combat.
+								<ul>
+									<li><strong>Worf Had The Flu:</strong> The <em>Brunel</em>'s first onscreen appearance in "Arena" has the aforementioned ship trashed rather thoroughly by various alien ships whose crew where under the influence of a <strong>Mind-Control Device</strong>, making one wonder where its supposedly competent Tactical Officer was. Turns out he quite literally had the flu and was barred from duty days before.</li>
+								</ul>
+							</li>
+							<li><strong>Bash Brothers:</strong> With Zhang in "Arena".</li>
+							<li><strong>Good Old Fisticuffs:</strong> Doesn't need any fancy martial arts moves to give an enemy combatant a run for their money.</li>
+							<li><strong>Informed Ability:</strong> We see much more of Sexton as a Security Chief than as Chief Tactical Officer.
+								<ul>
+									<li class="scebrunel">Even in the <em>SCE: Brunel</em> spinoff.</li>
+									<li>Possibly justified in that the <em>Brunel</em>'s primary mission, small size and relative lack of armament means it tries to avoid <strong>Standard Starship Scruffles</strong> as much as possible; Sexton is undoubtedly more useful on the ground as escorting / protecting the SCE contingent while they collect, examine and reverse-engineer stuff to turn into <strong>Imported Alien Phlebotinum</strong>.</li>
+								</ul>
+							</li>
+							<li><strong>Mauve Shirt</strong></li>
+							<li><strong>Old Friend:</strong> To Captain Zhang
+								<ul>
+									<li>It is revealed in Season Two episode "Currahee" that Sexton and Zhang both served on the USS <em>Curahee</em> during the disastrous First Contact incident with the Endari, as the Security Chief and Tactical Officer respectively. Sexton was the only survivor of the Away Team that encountered the insectoid Endari, and Zhang's actions as Acting Captain at the time ensured his rescue.</li>
+									<li class="scebrunel"><em>SCE: Brunel</em> reveals that he's also old buddies with Bhatia and Wijesundra.</li>
+								</ul>
+							</li>
+							<li><strong>Security Officer</strong></li>
+							<li><strong>Unfazed Everyman:</strong> Despite all the strange adventures the <em>Brunel</em> gets involved in and being surrounded by rather <em>interesting</em> colleagues.</li>
+						</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_24')">Lieutenant Commander Paul Ngui</h4>
+				<div id="character_24" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Oriental male human and the <em>Brunel</em>'s Chief Engineer, as well as leader of the SCE contingent attached to the ship.</p>
+					<hr>
+					<ul>
+						<li><strong>Bash Brothers:</strong> Ngui often tags along with Richardson and Ong on Away Missions during the Solanae Dyson Sphere arc.</li>
+						<li><strong>The Engineer / Mr. Fixit:</strong> Essentially <em>Odyssey</em> Chief Engineer K'vov's counterpart on the <em>Brunel</em>.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li class="scebrunel"><strong>Official Couple:</strong> With Potgieter. While there are plenty of canon pairings aboard the <em>Brunel</em>, Ngui/Potgieter tends to be at the forefront.
+						</li>
+						<li><strong>Old Friend:</strong> To Richardson and Ong.
+							<ul>
+								<li>Zhang is apparently more along the lines of <strong>The Friends Who Never Hang</strong>.</li>
+							</ul>
+						</li>
+						<li class="scebrunel"><strong>Scotty Time:</strong> All Starfleet senior engineers will have experienced such demands at some point in their career, but given the nature of the SCE's mission, this happens to Ngui frequently.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_25')" class="scebrunel">Lieutenant Ashein Abeysekara</h4>
+				<div id="character_25" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Sri Lankan male human member of the ship's SCE contingent, and a Fabrication Engineer specialising in superstructures for space stations or ground outposts.</p>
+					<hr>
+					<ul>
+						<li><strong>Angst? What Angst?</strong></li>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Old Friend:</strong> To Barber and Ong.</li>
+						<li><strong>One Head Taller:</strong> To on-again, off-again partner Darshika.</li>
+						<li><strong>Open Mouth, Insert Foot:</strong> Occasionally prone to this.</li>
+						<li><strong>Perpetual Smiler:</strong> Considering his consistently positive attitude.</li>
+						<li><strong>Silly Rabbit, Cynicism Is for Losers!</strong></li>
+						<li><strong>Work Hard, Play Hard:</strong> Whenever Abeysekara returns for every new season / arc in <em>SCE: Brunel</em>, he always has stories to share about a new vacation planet he's visited or fun experiences he's had.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_26')">Lieutenant Ola Al-Hassani</h4>
+				<div id="character_26" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Jordanian female human and a Warp Core Engineer serving under Chief Engineer Ngui.</p>
+					<hr>
+					<ul>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Old Friend:</strong> To Barber.
+							<ul>
+								<li><strong>The Glomp:</strong> Often does this to Barber whenever they meet outside of their duties, although without actually knocking the latter over. Barber obviously reciprocates.</li>
+								<li><strong>Those Two Girls:</strong> Becomes this when seen together in a scene where they're not critical to the plot at the time.</li>
+								<li><strong>Tomboy and Girly Girl:</strong> Barber is somewhat more assertive compared with the decidedly feminine Al-Hassani.</li>
+							</ul>
+						</li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>			
+				<h4 onclick="return toggleMe('character_27')" class="scebrunel">Lieutenant Martin Barrientos</h4>
+				<div id="character_27" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Latin American (?) male human member of the ship's SCE contingent, and a Fabrication Engineer specialising in defensive bunkers for ground outposts.</p>
+					<hr>
+					<ul>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_28')" class="scebrunel">Lieutenant Aish Gupta</h4>
+				<div id="character_28" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Indian female human working in the Operations Department under Operations Chief Wijesundra, as well as Captain Bhatia's wife.</p>
+					<hr>
+					<ul>
+						<li><strong>Bridge Bunny / Communications Officer</strong></li>
+						<li><strong>Happily Married: </strong>To Captain Bhatia.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>The Watson: </strong>Almost always the one to invite exposition from other characters, especially the SCE contingent.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_29')">Lieutenant Marcel Jekel</h4>
+				<div id="character_29" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian male human member of the ship's SCE contingent, and a Matter-Antimatter Specialist with expertise in reactors for powering starbases and outposts.</p>
+					<hr>
+					<ul>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_30')">Lieutenant Katarina Lawrie</h4>
+				<div id="character_30" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian female human member of the ship's SCE contingent, and a Matter-Antimatter Specialist with expertise in auxiliary power systems.</p>
+					<hr>
+					<ul>
+						<li><strong>Like an Old Married Couple:</strong> With Wu, and <strong>Played For Laughs</strong>.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Team Mom:</strong> At least, for the SCE contingent.
+							<ul>
+								<li>Lampshaded via her <strong>Motherly Side Plait</strong>.</li>
+							</ul>
+						</li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_31')" class="scebrunel">Lieutenant Sarah Neill</h4>
+				<div id="character_31" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian female human member of the ship's SCE contingent, and a Fabrication Engineer specialising starship spaceframe components.</p>
+					<hr>
+					<ul>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_32')">Lieutenant Hugh Ozumba</h4>
+				<div id="character_32" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Nigerian male human member of the ship's SCE contingent, and a Systems Engineer specialising in Bioneural Gel Pack computing modules.</p>
+					<hr>
+					<ul>
+						<li><strong>Badass Baritone</strong></li>
+						<li><strong>The Big Guy</strong></li>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Genius Bruiser</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Scary Black Man:</strong> Even <span class="spoiler">the normally unflappable and equally-tall K'vov</span> admits to be somewhat intimidated by Ozumba.</li>
+						<li><strong>Salt and Pepper:</strong> His unseen wife is mentioned to be Caucasian, but we know very little else about her other than that she's a member of the <em>Brunel</em>'s crew.</li>
+						<li><strong>Soul Brotha</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_33')">Lieutenant Willow Patterson-Kane</h4>
+				<div id="character_33" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Female human member of the ship's SCE contingent, and a Fabrication Engineer specialising in examining and assessing structures of non-Federation origin.</p>
+					<hr>
+					<ul>
+						<li><strong>Aside Glance:</strong> Her own version of Barber's <strong>Disapproving Look</strong>.</li>
+						<li><strong>Being Personal Isn't Professional</strong></li>
+						<li><strong>Deadpan Snarker:</strong> She operates in <strong>Sarcasm Mode</strong> by default.
+							<ul>
+								<li><strong>Establishing Character Moment:</strong> When Away Teams from both the <em>Odyssey</em> and the <em>Brunel</em> go down into the caves on New Romulus, they come across the first of many ancient Dewan devices. <em>Odyssey</em> Chief Science Officer Remara ends up working with Patterson-Kane, V'ruk and Lawrie in setting up a compatible power supply to reactivate said device. We get the following exchange.
+									<span class="indent"><strong>Remara:</strong> <em>[Typical gentleman-like demeanor]</em> May I borrow a hyperspanner?
+									<br><strong>Patterson-Kane:</strong> <em>[Thinks he's hitting on her]</em> I have <em>three</em>.</span>
+								</li>
+								<li>It's suggested that Barber took after her in this aspect.</li>
+							</ul>
+						</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Old Friend:</strong> To Barber.</li>
+						<li><strong>Sugar and Ice Personality: </strong> Only those she considers her closest friends get to see her nicer side.
+							<ul>
+								<li>Zhang, unfortunately, gets the ice end, thanks to yet another <strong>Noodle Incident</strong></li>
+							</ul>
+						</li>
+						<li><strong>Tomboyish Ponytail</strong></li>
+						<li><strong>What Does She See In Him?:</strong> It's hinted that she thinks Barber could do with someone better than Zhang.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_34')" class="scebrunel">Lieutenant Darshika Premakumar</h4>
+				<div id="character_34" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Sri Lankan female human member of the ship's SCE contingent, a Fabrication Engineer specialising in superstructures for space stations or ground outposts.</p>
+					<hr>
+					<ul>
+						<li><strong>Berserk Button:</strong> Whatever you do, don't comment on her less-than-average height.</li>
+						<li><strong>First Name Basis</strong>
+							<ul>
+								<li>In one scene where some of the <em>Brunel's</em> senior staff are reviewing personnel profiles, Darshika's name shows up on a PADD tablet, but with her surname conveniently obscured by a lighting glare. All we know is that it starts with a P.</li>
+								<li>Her surname is finally revealed in a later episode.<li>
+							</ul>
+						</li>
+						<li><strong>Genki Girl:</strong> More outgoing than her female colleagues.</li>
+						<li><strong>Relationship Revolving Door:</strong> With Abeysekara. Their on-again, off-again relationship may be due to the demands of working in the SCE, as well as sometimes being posted on different ships.
+							<ul>
+								<li>Even more confusing with subtexts of <strong>Like Brother and Sister</strong></li>
+							</ul>
+						</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_35')">Lieutenant Jahne Potgieter</h4>
+				<div id="character_35" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian female human and a Junior Security Officer under Security Chief Sexton.</p>
+					<hr>
+					<ul>
+						<li><strong>Cat Smile</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li class="scebrunel"><strong>Official Couple:</strong> With Ngui, in the manner described under the latter's character section.</li>
+						<li><strong>The Pirates Who Don't Do Anything:</strong> Most of the time in <em>Odyssey</em>, she ends up helping Ngui with the Technical <strong>Problem of the Week</strong> more than actually performing her duties as <strong>Security Officer</strong>.
+							<ul class="scebrunel">
+								<li>Downplayed in <em>SCE:Brunel</em>, as the titular ship is usually off on its own adventure far away from whatever support the <em>Odyssey</em> would otherwise have provided; Often Potgieter ends up having to lead a team of <strong>Redshirts</strong> to rescue whichever group of SCE engineers is currently in possession of the <strong>Distress Ball</strong>.</li>
+							</ul>
+						</li>
+						<li><strong>Tsurime Eyes</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_36')" class="scebrunel">Lieutenant Josheel Pran Lal</h4>
+				<div id="character_36" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Indian male human member of the ship's SCE contingent, and a Systems Engineer specialising in Transporters.</p>
+					<hr>
+					<ul>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_37')" class="scebrunel">Lieutenant Harriet Priddley</h4>
+				<div id="character_37" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian female human member of the ship's SCE contingent, and a Matter-Antimatter Specialist with expertise in Warp Propulsion Systems and Plasma Injectors.</p>
+					<hr>
+					<ul>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Statuesque Stunner</strong></li>
+						<li><strong>The Quiet One:</strong> Somewhat more reserved compared to other members of the SCE contingent.</li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_38')">Lieutenant Kimberly Rodgers</h4>
+				<div id="character_38" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Female human member of the ship's SCE contingent, and a Fabrication Engineer specialising in examining and assessing structures of non-Federation origin.</p>
+					<hr>
+					<ul>
+						<li><strong>The Chick: </strong>One of the more openly emotional (in the sensitive and empathetic vein) and friendlier crew members from the <em>Brunel</em>.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Mixed Ancestry:</strong> Half-Filipino.</li>
+						<li><strong>Nice Girl</strong></li>
+						<li><strong>Old Friend:</strong> To Barber.</li>
+						<li><strong>Tareme Eyes</strong></li>
+						<li><strong>Unkempt Beauty</strong>
+							<ul>
+								<li class="scebrunel">Lampshaded by her female colleagues in the <em>SCE: Brunel</em> spin-off series, who often note how good she looks even without makeup.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_39')">Lieutenant James Seggie</h4>
+				<div id="character_39" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian male human and Assistant Chief Engineer.</p>
+					<hr>
+					<ul>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Hyper Competent Sidekick:</strong> To Ngui. Bear in mind, though, that the Chief Engineer is no slouch.</li>
+						<li><strong>Mauve Shirt</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_40')">Lieutenant Shrikkanth "Shrek" Sreedharan</h4>
+				<div id="character_40" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Sri Lankan male human member of the ship's SCE contingent, and a Systems Engineer specialising in Isolinear computing modules.</p>
+					<hr>
+					<ul>
+						
+						<li><strong>Mauve Shirt</strong></li>
+						<li class="scebrunel"><strong>Team Chef:</strong> Apparently his cooking is legendary amongst the crew of the <em>Brunel</em>.
+							<ul>
+								<li><strong>Through His Stomach:</strong> Non-romantic version. Sitting down to a home-cooked meal he has made isn't just about maintaining friendships, but also an opportunity to talk about one's problems in a non-confrontational setting.</li>
+							</ul>
+						</li>
+						<li><strong>Techno Wizard</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_41')" class="scebrunel">Lieutenant Htut Win</h4>
+				<div id="character_41" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Burmese male human member of the ship's SCE contingent, and a Fabrication Engineer specialising in colonial facilities.</p>
+					<hr>
+					<ul>
+						<li><strong>The Engineer</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Nice Guy</strong></li>
+						<li><strong>Old Friend:</strong> Mainly to Captain Zhang, but also several others.</li>
+						<li><strong>Tall, Dark and Handsome</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_42')">Lieutenant Herson Wu</h4>
+				<div id="character_42" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Oriental male human member of the ship's SCE contingent, and a Fabrication Engineer specialising in Damage Control.</p>
+					<hr>
+					<ul>
+						<li><strong>Innocently Insensitive:</strong> Darshika's height and Rodger's figure are just two of the many examples.
+							<ul>
+								<li>He's definitely not lacking in social skills, just occasionally a bit cavalier.</li>
+								<li><strong>Dope Slap:</strong> Gets a brief tap to the back of his head from Lawrie whenever he makes a faux pas.</li>
+							</ul>
+						</li>
+						<li><strong>Mr. Fixit</strong></li>
+						<li><strong>Man Child:</strong> Somewhat downplayed and in a good way, although this is still to Lawrie's (minor) consternation.
+						<ul>
+							<li><strong>Commonality Connection:</strong> With Zhang.</li>
+						</ul>
+						</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Nice Guy:</strong> By default.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_43')" class="scebrunel">Lieutenant Keri Yukich</h4>
+				<div id="character_43" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Caucasian female human member of the ship's SCE contingent, and a Fabrication Engineer specialising in Industrial Replicators.</p>
+					<hr>
+					<ul>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Wrench Wench</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_44')">Lieutenant Omer Zamirly</h4>
+				<div id="character_44" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Israeli male human member of the ship's SCE contingent, and a Diagnostic Engineer specialising in LCARS Computer Networks and Photonics.</p>
+					<hr>
+					<ul>
+						<li><strong>Amicable Exes:</strong> <span class="spoiler">One of Barber's ex-boyfriends.</span>
+							<ul>
+								<li><strong>The Friends Who Never Hang:</strong> Justified in that they've been assigned to different ships for over six years since they graduated from the Academy, and it is only recently that the ships they are currently on just happen to run into each other frequently.</li>
+							</ul>
+						</li>
+						<li class="scebrunel"><strong>Informed Judaism:</strong> Other than an off-handed remark between characters reviewing his personnel file, his religion doesn't have much of an impact on the general plot of <em>SCE: Brunel</em>.</li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li class="scebrunel"><strong>Mr. Fixit: </strong>Especially for <strong>Holodeck Malfunctions</strong>.</li>
+						<li><strong>Techno Wizard</strong></li>
+					</ul>
+				</div>
+				
+				<h4 onclick="return toggleMe('character_44a')" class="scebrunel">Lieutenant Commander Jonathan Wieland</h4>
+				<div id="character_44a" style="display:none;" class="scebrunel">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>British male human lecturer at Starfleet Academy, who often visits his former classmates on the <em>Brunel</em> whenever they return to Earth Spacedock for resupply.</p>
+					<hr>
+					<ul>
+						<li><strong>Old Friend:</strong> To Bhatia, Wijesundra and Win, as well as Captain Zhang of the <em>Odyssey</em>.
+							<ul>
+								<li><strong>The Friends Who Never Hang:</strong> With Zhang, given that the <em>Odyssey</em> is on a five-year exploration mission, and thus rarely shows up at Earth Spacedock compared to the <em>Brunel</em>.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<h3 onclick="return toggleMe('starfleet_other')">Other Starfleet / Federation Characters</h3>
+			<div id="starfleet_other" style="display:none;">
+				<h4 onclick="return toggleMe('character_45')">Captain Va'Kel Shon</h4>
+				<div id="character_45" style="display:none;">
+					<p class="voicedby">Voiced by: Dave Rivas</p>
+					<p>Andorian male Starfleet officer first introduced as the captain of the <em>Defiant</em>-class USS <em>Belfast</em> in The 2800 arc, who assists the <em>Odyssey</em> in a number of missions. Although the <em>Belfast</em> eventually gets destroyed halfway through, Shon is soon given command of <span class="spoiler">the new Federation flagship USS <em>Enterprise</em>-F</span> and continues to appear in later seasons to back the <em>Odyssey</em> up.</p>
+					<hr>
+					<ul>
+						<li><strong>Ace Pilot / Attack Pattern Alpha:</strong> His "Evasive Pattern Shon Alpha Four" basically makes whatever ship he's on fly and turn four times as fast as usual.</li>
+						<li><strong>Big Damn Heroes:</strong>
+							<ul>
+								<li>"Second Wave": After the <em>Odyssey</em> manages to free itself from DS9's docking pylons, Ong and K'vov need time to get ship systems back online. Shon and the <em>Belfast</em> arrive to cover the <em>Odyssey</em> until the latter is back to fighting strength.</li>
+								<li>"Facility 4028": The <em>Odyssey</em> is escorting the female Founder (the Dominion's Changeling leader responsible for the devastating Dominion War and related war crimes depicted in <em>Deep Space Nine</em>) out from the titular supermax prison after her official release, when the ship is caught in a battle between rival groups of Jem'Hadar (those who honor the Dominion-Federation peace treaty and the renegades currently occupying DS9). Once again, the <em>Belfast</em> comes to the rescue<span class="spoiler">, eventually going out in a blaze of glory to allow the <em>Odyssey</em> to flee to safety. Zhang makes sure that Shon and other survivors from the <em>Belfast</em> are promptly picked up.</span></li>
+								<li>"Boldly They Rode": After the crew of the <em>Odyssey</em> retake DS9, the remaining rogue Jem'Hadar disobey the Founder's order to make peace with the Federation, and start attacking both the station and the joint Federation-Klingon-Romulan-Cardassian fleet defending it. Things look very bleak for the heavily-damaged <em>Odyssey</em>, with Zhang and his crew preparing a suicidal run to ram the Jem'Hadar flagship. Cue a warp jump as a MASSIVE <em>Odyssey</em>-class starship (nope, not related) flies to the rescue - with the following <strong>Crowning Moment of Awesome / Call Back</strong> to the <em>Star Trek: First Contact</em> movie:
+									<span class="indent"><em>[The bridge of the </em>Odyssey<em>, like most of the ship, has been heavily damaged - sparks flying everywhere, consoles exploding all over the place and random debris hanging from the ceiling. Another hit, and the room shakes.]</em>
+									<br><strong>Zhang:</strong> All Hands, this is the Captain. It has been an honor serving alongside each and every one of you.
+									<br><em>[Bridge crew all give him a look of understanding]</em>
+									<br>Divert all power to engines and forward shields! Helm, bring us about and prepare for ramming speed!
+									<br><em>[Console beeps]</em>
+									<br><strong>Ong:</strong> Captain, there's another starship coming in! <em>[beat]</em> It's the <span class="spoiler"><em>ENTERPRISE</em></span>!
+									<br><em>[The </em><span class="spoiler">Enterprise<em>-F, Starfleet's newest flagship,</span> jumps out of warp and interposes itself between the Odyssey and the Jem'Hadar, picking off incoming Jem'Hadar torpedoes furiously with its point defense phasers]</em></span>
+								Moments later:
+									<span class="indent"><strong>Ong:</strong> We're being hailed, sir!
+									<br><strong>Zhang:</strong> Onscreen.
+									<br><em>[Shon appears on the viewscreen]</em>
+									<br><strong>Shon:</strong> Zhang, it's Shon. I believe I have a debt to repay.</span>
+								</li>
+							</ul>
+						</li>
+						<li><strong>Berserk Button:</strong> Anything to do with the Borg.</li>
+						<li><strong>The Captain</strong></li>
+						<li><strong>Cool Starship:</strong> The aging <em>Defiant</em>-class <em>Belfast</em>, and later, <span class="spoiler">the super-advanced <em>Enterprise</em>-F, flagship and pride of Starfleet.</span></li>
+						<li><strong>Crusading Widower:</strong> His family was killed in a Borg attack on a Federation colony.</li>
+						<li><strong>Hero of Another Story</strong></li>
+						<li><strong>Knight in Sour Armor:</strong> Evident in the peace conference on DS9 at the start of "Second Wave".</li>
+						<li><strong>Military Maverick</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_46')">Captain Keitaro Urashima</h4>
+				<div id="character_46" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Japanese male human CO of the <em>Rhode Island</em>-class USS <em>Hinata</em>, a short-range planetary exploration vessel specializing in archaeology, anthropology of pre-warp cultures and exobiology. He and his crew make their first appearance in "Mind Games", where the <em>Hinata</em> comes to investigate the apparently-derelict <em>Odyssey</em> and gets pummeled by the telepathic aliens that have commandeered the latter ship. Afterwards, they show up sporadically in a number of later season episodes.</p>
+					<p>Urashima and his crew were directly based on characters from Ken Akamatsu's <em>Love Hina</em>, a romantic comedy manga series about a <strong>Loser Protagonist</strong> put in charge of an all-girls dormitory while struggling to pass university entrance examinations.</p>
+					<hr>
+					<ul>
+						<li><strong>Adaptional Attractiveness:</strong> Mostly averted - he's still pretty much the same dorky Keitaro from the source material, but put into a Starfleet uniform and without glasses.
+							<ul>
+								<li>The latter is justified in that a permanent cure for myopia (nearsightedness) exists in the 25th Century.</li>
+							</ul>
+						</li>
+						<li><strong>Adorkable:</strong> Somewhat bumbling for someone who's supposed to be a Starfleet Captain, but his kind heart and continued good spirits makes him endearing to audiences.</li>
+						<li><strong>Ascended Extra:</strong>
+							<ul>
+								<li>Season Four's New Romulus arc has Urashima's crew assist the <em>Odyssey</em>'s Science Department in exploring the new Romulan Homeworld in a number of episodes.</li>
+								<li>Also in Season Five, this time in the Solanae Dyson Sphere.</li>
+							</ul>
+						</li>
+						<li><strong>The Captain</strong></li>
+						<li><strong>Informed Ability:</strong> While Urashima's interest in archaeology is often mentioned, we only see his crew actually doing anything remotely related.</li>
+						<li><strong>Intercontinuity Crossover:</strong> <em>Star Trek</em> meets <em>Love Hina</em>.</li>
+						<li><strong>Mauve Shirt:</strong> Essentially giving one of the background ships present in any <em>Star Trek</em> series some characterisation and making its crew minor recurring characters.</li>
+						<li><strong>Nice Guy</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_47')">Captain Ro Laren</h4>
+				<div id="character_47" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Bajoran female and former USS <em>Enterprise</em>-D Helm Officer-turned-Marquis-rebel (<em>Star Trek: The Next Generation</em>), Ro is now CO of Deep Space Nine, a Federation-controlled Cardassian space station near the Bajoran Wormhole leading to the Gamma Quadrant. She is also Operations Officer Ong and Counselor McGill's former superior officer, during their stint serving on the station prior to the start of the series.</p>
+					<hr>
+					<ul>
+						<li><strong>Ascended Fanon:</strong> Ro becoming DS9's CO was adopted from the non-canon <em>Star Trek: Deep Space Nine Relaunch</em> novels.</li>
+						<li><strong>Benevolent (former) Boss:</strong> To Ong and McGill, showing <strong>Character Development</strong> from Ro's younger, hot-headed days.</li>
+						<li><strong>Dark and Troubled Past:</strong> Suffered greatly as a child during the Cardassian Occupation.</li>
+						<li><strong>Heel-Face Revolving Door:</strong> <em>The Next Generation</em>'s backstory described Ro as a Starfleet officer imprisoned for an incident that caused the death of several of her comrades; after being effectively paroled and her commission reactivated, she served for some time on the <em>Enterprise</em>-D, before joining the Marquis rebels fighting against the Cardassians (and violating the Federation-Cardassian treaty of the time); <em>Deep Space Nine</em> states that the Marquis were practically wiped out by the Cardassians and their Dominion overseers; this series then goes on to reveal that Ro survived, was taken into Federation custody, spent a number of years at a corrections facility before finally reforming (for good) and eventually having a distinguished Starfleet career cumulating in her position as DS9's CO.</li>
+						<li><strong>Heroic Sacrifice / Defiant to the End:</strong> <span class="spoiler">When the lost Dominion fleet emerges from the wormhole and attacks DS9, she stays behind in Ops (the control room) to ensure the station's inhabitants and delegates from major Alpha and Beta Quadrant powers can evacuate safely. Due to extensive damage to the station, the <em>Odyssey</em> is the only ship that cannot undock and even the emergency jettison protocols have failed, leading Ong, Barber and K'vov to attempt a risky plan to free the ship from the station (something about blowing up the entire docking pylon with remotely-triggered torpedoes used as demolition charges and reinforcing the ship's port shields to hopefully keep the hull intact - for the record, it was Barber's idea). Meanwhile, the station gets boarded by the Jem'Hadar, with Ro being tortured for the station's command codes; after the Jem'Hadar discover she was stalling for time, they run her through with a pole-arm. With her dying breath, Ro manages to disengage the pylon and free the <em>Odyssey</em> to fight another day.</span>
+							<ul>
+								<li>Leads to <span class="spoiler">a major <strong>Tear Jerker</strong></span> in the story arc conclusion "Boldly They Rode" - Ong and Tash are part of the Away Team that have managed to sneak back on board DS9 in EVA suits to retake the station; <span class="spoiler">they find their former boss's body lying next to the very console where she had saved their ship.</span></li>
+							</ul>
+						</li>
+						<li><strong>Mission Control:</strong> For a couple of missions in Cardassian space.</li>
+						<li><strong>Name Order Confusion:</strong> Averted. Most of the cast know that Bajoran surnames come first.</li>
+						<li><strong>Role Reprisal:</strong> Ro was previously a recurring character from <em>The Next Generation</em>.</li>
+					</ul>
+				</div>
+
+
+<h4 onclick="return toggleMe('character_hess')">Captain Claude Hess</h4>
+				<div id="character_hess" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>German male human CO of the <em>Prometheus</em>-class USS <em>Icarus</em>, a tactical escort vessel fighting at the forefront of the Federation-Klingon war and other conflicts throughout the series. The character was adapted from the <em>Whaling</em> fanfiction series by Theo "Zispinhoff" Esser.</p>
+<p>Hess is first introduced in "War Games", where his ship is part of renowned Starfleet Captain T'Vala's simulated "aggressor" squadron participating in a tactical exercise; his ship suffers significant damage after T'Vala unexpectedly turns on other vessels in her own force, and is rescued by the crew of the <em>Odyssey</em>. In later seasons, Hess and his crew make occasional appearances, providing a unique perspective from the frontlines.</p>
+					<hr>
+					<ul>
+						<li><strong>Ace Custom / Cool Starship:</strong> The <em>Icarus</em> is armed with experimental Antiproton beam arrays rather than the standard-issue Phaser emitters found on most Starfleet vessels, and has numerous improvements the otherwise-troublesome Multi-Vector Assault Mode subsystem.</li>
+                                                <li><strong>Badass Beard:</strong> A goatee.</li>
+                                                <li><strong>The Captain</strong></li>
+                                                <li><strong>Crossover / Canon Foreigner:</strong> From <em>Whaling</em>.
+    <li><strong>Expy:</strong> Heavily inspired by Gawain Oakley from <i>Gundam Build Fighters</i>, albeit Hess is a more heroic character than Oakley.</li>
+    <ul>
+            <li><strong>Pragmatic Adaptation:</strong> A few minor deviations from the source material include:
+                <ul>
+                    <li>Hess is depicted as a Captain rather than an Admiral, and has both eyes intact instead of wearing an patch over one eye.</li>
+                    <li>Background material for the original story describes Hess and his crew being of the generation born at the end or after the Dominion War; in <i>Odyssey</i>, Hess and Co. are instead from same graduating class as Va'Kel Shon, making them younger than their original counterparts but still being upperclassmen to Zhang.</li>
+                    <li>His ship is the <em>Prometheus</em>-class USS <em>Icarus</em> rather than the <em>Hestia</em>-subclass USS <em>Rosenrot</em>, due to the series' preference for (mostly) canon ship classes and naming schemes.</li>                   
+                </ul>
+            </li>
+
+    </ul>
+</li> 
+                                                <li><strong>Elites Are More Glamorous: </strong> Due to Hess having passed Starfleet's Advanced Tactical Training with flying colors, Barber is noticeably nicer towards him than she is with Zhang, to the point of <strong>The Knights Who Say "Squee!"</strong>.</li>
+                                                <li><strong>Hero of Another Story</strong></li>
+                                                <li><strong>Military Maverick:</strong> Practically a <em>required</em> trait in order to join T'Vala's prestigious squadron.</li>
+                                                <li><strong>Old Friend:</strong> To Barber, although technically they were acquaintances who met while both undertook Starfleet's Advanced Tactical Training course under T'Vala prior to the series.</li>
+                                                <li><strong>Worf Had the Flu:</strong> To be fair, Hess wasn't expecting his own mentor to turn on him with live weapons fire during the eponymous training exercise in "War Games".</li>
+					</ul>
+				</div>
+
+
+
+
+
+				<h4 onclick="return toggleMe('character_48')">Lieutenant <span class="spoiler">Commander</span> Miral Paris</h4>
+				<div id="character_48" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Security Chief aboard the USS <em>Kirk</em>, and the adult daughter of Tom Paris and B'Elanna Torres from <em>Star Trek: Voyager</em>. Paris was born shortly after the titular ship returned to the Alpha Quadrant after a perilous seven-year journey from being lost in space, and is believed by a small sect of Klingons to be the <em>Kuvah'magh</em> - essentially some sort of messiah.</p>
+					<hr>
+					<ul>
+						<li><strong>Distressed Damsel / Faux Action Girl:</strong> In almost all of her appearances, she is always in need of rescue from Klingons - ironic given her role as the <em>Kirk</em>'s Security Chief.
+<ul><li>Finally averted in the in the Season Six episode "Delta Flight".</li></ul></li>
+						<li><strong>Half-Human Hybrid:</strong> Technically, it is her mother B'Elanna that is half Klingon; Miral is a quarter.</li>
+						<li><strong>I Just Want To Be Normal:</strong> Conversed.
+							<span class="indent"><strong>Paris:</strong> All I want is to be a good Starfleet officer. For every Klingon who wants to worship me, there is another who wants to kill me. It makes it hard to have anything resembling a normal life.</span>
+						</li>
+						<li><strong>The Messiah / Prophecy Twist:</strong> To a small sect of Klingons, it was said that they "would follow in her footsteps before she had made them." <span class="spoiler">This is explained at the end of Season One, when she was abducted from her ship by B'vat and taken back in time, and it so happens that her DNA is the key to curing the <em>The Original Series</em>-era Klingons of their Augment Virus-induced smooth foreheads (that they got in the first place in Season Four of <em>Star Trek: Enterprise</em>).</span></li>
+						<li><strong>Military Brat:</strong> Both parents served in Starfleet, on the <em>Voyager</em>.</li>
+						<li><strong>Put on a Bus:</strong> Once she is rescued by the crew of the <em>Odyssey</em> and returned to the present day, she gets picked up by the <em>Kirk</em> and is never heard from again.
+							<ul>
+								<li><strong>The Bus Came Back:</strong> <span class="spoiler">Returns in "Delta Flight", as a member of the eponymous task force headed by her father and former <em>Voyager</em> helmsman Captain Tom Paris.</span></li>
+							</ul>
+						</li>
+						<li><strong>Security Officer:</strong> Not that it helps her predicaments very much.</li>
+					</ul>
+				</div>
+
+<h4 onclick="return toggleMe('character_49')">Lieutenant <span class="spoiler">Commander</span> Celeste Daniels</h4>
+				<div id="character_49" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>A Starfleet officer who attended the same high school as the <em>Odyssey</em>'s Captain Zhang, and whom he was once infatuated with. First introduced as a nurse working at a Starfleet medical clinic on Risa, she later becomes a Starfleet Intelligence operative, and eventually, the First Officer of the USS <em>Voyager</em> under Rear Admiral Tuvok.</p>
+					<hr>
+					<ul>
+                                                <li><strong>Action Girl:</strong> Has no problems participating in fieldwork, as per "Contraband", "The Dragon's Deceit" and "Uneasy Allies".
+                                                <li><strong>Damsel out of Distress:</strong> While undercover in "Contraband", she not only turns the tables on the other smugglers, but also frees from confinement Zhang and Barber, who were the ones tasked with extracting her in the first place.</li>
+                                                <li><strong>Hair of Gold, Heart of Gold</strong></li>
+                                                <li><strong>Nice Girl:</strong> For the most part.</li>
+						<li><strong>Out-of-Character Is Serious Business:</strong> In "Uneasy Allies", Daniels begins to make amorous passes to Zhang, a la <strong>Unrequited Love Switcheroo</strong>. <span class="spoiler">It turns out she was infested with a Bluegill parasite by the Iconians during her time in the Delta Quadrant, and in her <strong>Brainwashed and Crazy</strong> state, she almost sabotages the mission at hand.</span></li>
+                                                <li><strong>Proud Beauty</strong></li>
+                                                <li><strong>Put on a Bus / The Bus Came Back:</strong> Disappears from the storyline <em>twice</em> after "Death in Paradise" in Season One and "Contraband" in Season Two, but returns for a number of Season Six episodes from "Mindscape" onwards.</li>
+						<li><strong>Rank Up:</strong> Had an off-screen promotion to Lieutenant Commander between "Contraband" and "Mindscape".</li>
+						<li><strong>Really Gets Around:</strong> Has had countless boyfriends since high school and Starfleet Academy.</li>
+						<li><strong>Screw the Rules, I Have Connections!:</strong> In "Death in Paradise", it was implied that after Daniels graduated from the Academy, one of her <strong>Amicable Exes</strong> helped her get the cushy assignment on Risa safely within Federation space, as opposed to serving on the frontier like most of her peers.</li>
+						<li><strong>The Pollyanna:</strong> As evidenced by her <strong>Catch Phrase</strong>:
+<span class="indent"><strong>Daniels:</strong> Just remember, always keep smiling.</span>
+<ul><li>Subverted in "Contraband", where she maintains a dour attitude while undercover as a disgrunted and dishonorably-dischanged ex-Starfleet officer. Made (genuinely) worse when Zhang rubs it in her face in an <strong>Ironic Echo</strong>.</li>
+<li>Later downplayed when she develops into a <strong>Plucky Girl</strong> instead</li></ul></li>
+                                                <li><strong>Trading Bars for Stripes:</strong> At the end of "Death in Paradise", it is stated that Daniels will get court-martialed for letting her now-deceased boyfriend use her passcodes to (illegally) access the medical stores of the Starfleet clinic on Risa. By "Contraband", she has apparently been dishonorably discharged from Starfleet, but is later revealed to have been recruited into Starfleet Intelligence in exchange for having her sentence commuted.</li>
+					</ul>
+				</div>
+
+<h4 onclick="return toggleMe('character_49a')">Franklin Drake</h4>
+				<div id="character_49a" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Introduced as an agent of Starfleet Intelligence, Drake is soon revealed to be working for Section 31, a Black Ops unit the Federation steadfastly denies any knowledge of or involvement in, and periodically strong-arms the crew of the <em>Odyssey</em> into participating in S31 operations. He is perhaps the most cynical character throughout the series.</p>
+					<hr>
+					<ul>
+						<li><strong>0% Approval Rating:</strong> Is fully aware that no-one likes S31, given their deservedly poor reputation.</li>
+						<li><strong>Blond Guys Are Evil:</strong> Subverted in that his sinister appearance is mostly a front.</li>
+						<li><strong>Dirty Business / I Did What I Had To Do:</strong> Drake (and S31 as a whole) are willing to do whatever it takes to protect the Federation at all costs, even if it involves crossing ethical and moral boundaries.</li>
+						<li><strong>Grumpy Bear:</strong> <span class="spoiler">Even the no-nonsense and occasionally dour Barber finds this a bit much.</span></li>
+						<li><strong>Guile Hero:</strong> For all his underhanded shadiness, Drake is firmly on the side of the heroes.</li>
+						<li><strong>Jerk with a Heart of Gold:</strong> Despite S31's overall reputation, he takes care of his operatives and keeps his hands relatively clean of the evil his organisation is commonly associated with.</li>
+						<li><strong>Knight in Sour Armour</strong></li>
+						<li><strong>Overt Operative:</strong> He is surprisingly open about working for the otherwise highly-clandestine organisation. Somewhat justified in that S31 has the means to completely erase any evidence of their involvement in any operations, leaving anyone who has previously worked for them sounding like complete lunatics when they try being <strong>The Whistleblower</strong>.</li>
+					</ul>
+				</div>
+
+
+<h4 onclick="return toggleMe('character_49b')">Dr. Eric Cooper</h4>
+				<div id="character_49b" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>A civilian scientist affiliated with the Federation Science Council, first introduced in "A Gathering Darkness". Cooper works with the crew of the <em>Odyssey</em> on a number of missions <span class="spoiler">before being unmasked as an Undine infiltrator.</span></p>
+					<hr>
+					<ul>
+<li><strong>Break Them By Talking:</strong> Subverted and then inverted. During the Undine invasion of the Jenolan Dyson Sphere, <span class="spoiler">Undine!</span>Cooper unsuccessfully taunts Tuvok after manipulating him to allow it to happen. When he tries again <span class="spoiler">telepathically</span> later, Tuvok manages to turn the tables on him, and in the process discover that the Undine attacked Earth as a diversion for the invasion of the Klingon homeworld of Q'onos.</li>
+<li><span class="spoiler"><strong>Kill and Replace:</strong> In "Fluid Dynamics", the Starfleet ship that Cooper was on is destroyed after being caught in the crossfire between the Borg and the Undine. It is implied that the real Cooper was killed or assimilated by the Borg, and the Undine used this opportunity to insert an infiltrator in his likeness in one of the escape pods recovered by the <em>Odyssey</em>.</span></li>
+<li><strong>Large Ham:</strong> <span class="spoiler">Once revealed as an Undine infiltrator.</span></li>
+<li><strong>My Greatest Failure:</strong> Cooper's development of the counteragent to the Borg nanovirus on Epsilon Algirae came at great personal cost, as during one failed experiment, the virus breached lab containment and killed several of his colleagues, including one he was romantically involved with.</li>			
+<li><strong>Out Of Character Is Serious Business:</strong> Cooper is quite brave and understated, doing his best to help Starfleet personnel without getting in their way, as shown in "A Gathering Darkness" when he willingly fights the Borg alongside Zhang's Away Team with a hand phaser the Captain lent to him. However, when Zhang offers him the phaser again, in "A Step Between Stars", Cooper is far more reluctant and chooses to hang back while the Away Team takes point in exploring the Dyson Sphere. This, and his growing complaints regarding the Away Team <span class="spoiler"> are early hints that he has been replaced with an Undine infiltrator.</span></li>
+<li><strong>Protection Mission:</strong> Most of his appearances in the series involves him being escorted by an Away Team from the <em>Odyssey</em>.</li>
+<li><strong>Say My Name:</strong> As soon as Tuvok reversed his <strong>Mind Rape</strong> and uncovers the Undine's true plans:
+<span class="indent"><strong><span class="spoiler">Undine!</span>Cooper:</strong> <em>TUVOK!!!!!</em>.</span></li>
+<li><strong>You Have Outlived Your Usefulness:</strong> At the end of "Mindscape", Tuvok brokers a peace with the Undine, after the latter realize that the Iconians manipulated them to attack the Alpha Quadrant Powers. When <span class="spoiler">Undine!</span>Cooper attempts to dissuade them, <span class="spoiler">the other Undine promptly disintegrate him.</span></li>
+					</ul>
+				</div>
+
+			</div>
+			<h3 onclick="return toggleMe('klingons')">Klingon Empire</h3>
+			<div id="klingons" style="display:none;">
+				<h4 onclick="return toggleMe('character_50')">Chancellor J'Mpok</h4>
+				<div id="character_50" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The current leader of the Klingon Empire, who came to power <span class="spoiler">after slaying his <strong>Reasonable Authority Figure</strong> predecessor Martok in questionably honourable combat</span>. Prior to the series, he declared war on the Federation after they denounced the Empire's invasion of the Gorn Hegemony and refused to recognize and fight the Undine threat.</p>
+					<hr>
+					<ul>
+						<li><strong>Big Bad:</strong> From the Federation perspective, anyway.</li>
+						<li><strong>Pet The Dog:</strong> In the Season Five finale, J'Mpok finally shows begrudging respect for the Starfleet cast <span class="spoiler">as a result of their efforts to protect the Klingon Homeworld of Qo'noS from a major Undine offensive. This leads him to end the Empire's war with the Federation, with the possibility of a renewed alliance against the Iconian threat.</span></li>
+						<li><strong>Pragmatic Villainy:</strong> His justification for ostensibly helping the Romulan Republic is that the Empire will effectively have conquered one of their greatest enemies "without firing a single shot."</li>
+						<li><strong>Proud Warrior Race Guy:</strong> He believes that Klingons must no longer submit to the allure and weakness of peace - "death by a thousand cuts," as he describes it - and that the Empire must continue to expand by conquest in order to survive.</li>
+						<li><strong>Reasonable Authority Figure: </strong>To a certain extent - after <span class="spoiler">B'vat's</span> demise, incursions by Borg/Undine/Iconian/Tal Shiar forces as well as political pressure, he is somewhat willing to call for a d&eacute;tente in order for the Klingon Defense Force to fight said bigger threats alongside the Federation. Just don't get complacent.</li>
+						<li><strong>Rugged Scar:</strong> A nasty one running straight down the left side of his face, <span class="spoiler">reputedly left by Martok before J'mpok killed him.</span></li>
+						<li><strong>Shut Up, Hannibal!:</strong> When Torg attempts to reason that he was just following his example in allying with the Tal Shiar, J'mpok pretty much tells him to get bent, telling him off for his cowardly acts.</li>
+						<li><strong>What the Hell, Hero?:</strong> See all the above. Even Worf agrees that the Chancellor's <strong>General Ripper</strong> tendencies may be doing the Empire more harm than good.</li>
+						<li><strong>Wild Mass Guessing:</strong> J'Mpok was relatively unremarkable prior to taking Chancellorship. <span class="spoiler">What if his ambition is as a result of him actually being an Undine infiltrator?</span></li>
+						<li><strong>You Are a Credit to Your Race:</strong> After finding out that Zhang and Barber helped Margon, K'mtar and Worf foil the attempted coup on his Administration, he acknowledges this fact and allows the two Starfleet officers to go free.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_51')">Ambassador Worf</h4>
+				<div id="character_51" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Klingon male and former Security Chief of the USS <em>Enterprise</em>-D from <em>Star Trek: The Next Generation</em>, Worf has since cut ties with the Federation following their refusal to deal with the Undine Threat and returned to the Klingon Empire. He now serves as a representative of the Empire as well as <em>Gin'tak</em> to the House of Martok (one of the Great Houses making up Klingon nobility - specifically, the one belonging to the slain former Chancellor Martok himself).</p>
+					<hr>
+					<ul>
+						<li><strong>Ambadassador:</strong> Played very straight, especially in "Bringing Down The House", "Second Wave" and "Spheres of Influence".</li>
+						<li><strong>Big Good:</strong> For Margon and the crew of the Somraw.</li>
+						<li><strong>Enemy Mine:</strong> Despite having sworn loyalty to the Empire, Worf is willing to work alongside (and in some cases, even mentor) the main Starfleet cast, if there are bigger issues at stake.</li>
+						<li><strong>Genius Bruiser:</strong> Shows up in the Solanae Dyson Sphere arc premiere episode "Spheres of Influence," due to his familiarity with Iconian technology (from <em>The Next Generation</em> episode "Contagion").</li>
+						<li><strong>Nightmare Fuel:</strong> The official tie-in novel for the <em>Star Trek Online</em> MMO, <em>The Needs of the Many</em>, upon which much of <em>Odyssey</em> is based on, reveals that the normally unflappable Worf is terrified that he himself may actually be an Undine infiltrator in disguise as the real Worf. The fact he had a memory lapse during a fight with an Undine only serves to fuel the <strong>Wild Mass Guessing</strong>.</li>
+						<li><strong>Old Retainer:</strong> Essentially what his role as <em>Gin'tak</em> boils down to - a trusted advisor who works very closely with his House.</li>
+						<li><strong>Proud Warrior Race Guy</strong></li>
+						<li><strong>Role Reprisal:</strong> Dorn is a seasoned veteran of <em>The Next Generation</em> and <em>Deep Space Nine</em>.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_52')">Dahar Master (Admiral) B'vat</h4>
+				<div id="character_52" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>High-ranking Klingon Defence Force official heavily responsible for the Empire's ongoing war with the Federation.</p>
+					<hr>
+					<ul>
+						<li><strong>The Dragon / The Lancer:</strong> Ostensibly, he's J'Mpok's most trusted General in the Klingon Defence Force; in private, however, B'vat desires to wage the war in his own way.</li>
+						<li><strong>Future Me Scares Me:</strong> When the crew of the <em>Odyssey</em> goes back in time to rescue Miral Paris and stop Dahar Master B'vat, they receive unlikely help from <em>Captain</em> B'vat, who is disgusted by the dishonourable actions of his future self.
+							<ul>
+								<li><strong>What Happened To The Mouse?:</strong> After <span class="spoiler">Dahar Master B'vat dies in the past and</span> the <em>Odyssey</em> returns to its own time, we have no idea whether Captain B'vat had a change of heart and became the antagonistic Dahar Master in the first place, or whether he resolved to live his future more honourably (and thus potentially negating a major premise of the series).</li>
+								<li>The former seems more likely.</li>
+								<li>The bizarre nature of time travel and its implications to B'vat's destiny is succinctly summarized as follows:
+									<span class="indent"><strong>Richardson:</strong> I hate temporal mechanics.</span>
+								</li>
+							</ul>
+						</li>
+						<li><strong>Moral Event Horizon:</strong> His decision to refurbish and reactivate the Planet Killer doomsday machine, as well as unleashing it on the Federation to ensure they and the Empire are embroiled in a <strong>Forever War</strong>.</li>
+						<li><strong>Proud Warrior Race Guy</strong></li>
+						<li><strong>The Unfettered:</strong> Besides the Planet Killer doomsday machine, B'vat had also previously sponsored banned Augment research in order to create genetically-enhanced Klingon warriors, as well as the creation of a new class of starship projectile weapons to be freely distributed to pirate vessels targeting Federation interests.</li>
+						<li><strong>Well-Intentioned Extremist:</strong> His justification for prolonging the war is due his belief that Klingon society will self-destruct without an enemy available.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_53')">Captain Margon</h4>
+				<div id="character_53" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Klingon male and CO of the IKS <em>Somraw</em> (literally: Muscle), a Klingon Defence Force Bird-of-Prey.</p>
+					<p>He and his crew first appear in "Arena", where they had kidnapped and used as battle thralls in gladiatorial combat by a pre-warp alien species, along with Zhang's friends from the <em>Brunel</em>. Forced to cooperate with Zhang's Away Team and Bhatia's crew out of necessity, Margon eventually and reluctantly agrees to a brief ceasefire so that both Starfleet and the KDF can evacuate their respective personnel from the arena planet.</p>
+					<p>They next show up in "Bringing Down The House", where he has been ostracised and condemned by the KDF to captaining a rustbucket and obsolete Bird-of-Prey with a motley crew of undisciplined rejects, as punishment for letting the Starfleet cast go free rather than defeating them (as well as negligence resulting in the death of a crewman, who happened to be the favourite son of a highly-influential Klingon High Council member). In an effort to restore his honour, Margon seeks out the <em>Odyssey</em>, cripples it in an ambush and takes a couple of crew members as prisoners, though he is forced to release them again after they help him foil both an assassination attempt on a member of a Great House and uncovering an attempted coup on J'Mpok's chancellorship (thereby restoring his honour). </p>
+					<p>Later appearances of the <em>Somraw</em>'s crew become more frequent, with Margon representing the Empire's interests at major events in the same manner as Zhang does for the Federation.</p>
+					<hr>
+					<ul>
+						<li><strong>A Day in the Limelight:</strong> Much of "Bringing Down the House" revolves around Margon and his crew.</li>
+						<li><strong>The Captain</strong></li>
+						<li><strong>Catch Phrase:</strong> Whenever he and Zhang cross paths, he greets him with a furious "Zhang, you <em>petaQ</em>!"
+							<ul>
+								<li>Becomes an <strong>Insult of Endearment</strong> in later seasons, when Zhang has earned Margon's respect.</li>
+							</ul>
+						</li>
+						<li><strong>Cultured Badass:</strong> Partial to Klingon poetry.</li>
+						<li><strong>Deadpan Snarker</strong></li>
+						<li><strong>Embarrassing Rescue:</strong> His pride as a Klingon prevents him from admitting that Zhang helped him and his crew escape from the gladiatorial planet in "Arena".</li>
+						<li><strong>Enemy Mine:</strong> While flying back to the Klingon Homeworld of Q'onos to deliver Zhang and Barber as his prisoners, a series of events lead him to reluctantly work together with Zhang to foil a major conspiracy against the Klingon government; whilst they share the same goal, their motivations are quite different:
+							<ul>
+								<li>Margon believes doing so would win favour with the High Council and restore his personal honor.</li>
+								<li>Zhang's choice to help Margon stems from his understanding that, while the J'Mpok Administration is by no means friendly with the Federation, allowing the coup to succeed would result in an even worse <strong>General Ripper</strong>-style leader from the House of Torg taking power. Foiling the plot could also potentially convince the Klingons to let him and Barber go free as part of a potential prisoner exchange, rather freezing to death in a cell on Rura Penthe.</li>
+							</ul>
+						</li>
+						<li><strong>Go-Karting with Bowser:</strong> In "Of Bajor", Zhang and Barber share a (relatively friendly) meal of live Gagh worms with Margon and Bu'kaH aboard the <em>Somraw</em>, after the brawl at the Bajoran eatery - a <strong>Call Back</strong> to "Bringing Down The House", where the former two were prisoners in the Somraw's brig and reluctantly ate the Gagh left for them in their cell.</li>
+						<li><strong>Hero of Another Story</strong></li>
+						<li><strong>Honor Before Reason:</strong> Although they ultimately succeed, his subordinates called him out for foolhardily attempting to ambush the <em>Odyssey</em> in their obsolete Bird-of-Prey.</li>
+						<li><strong>Klingon Promotion:</strong> Margon's backstory reveals that he was originally Second Officer aboard the <em>Somraw</em>, who discovered that his superior Captain Jurlek had been colluding with Starfleet personnel for some time, and warned First Officer Doran; she, in turn as per Klingon tradition, sought to fulfil her duties of assassinating the treacherous Captain and taking over, but was quickly defeated. Margon avenged Doran by killing Jurlek, thereby becoming Captain himself.</li>
+						<li><strong>My Country, Right or Wrong:</strong> Remains loyal to the Empire despite his growing distaste for Chancellor J'Mpok's ambitions.</li>
+						<li><strong>Proud Warrior Race Guy</strong></li>
+						<li><strong>The Rival:</strong> Apart from different allegiances, personality and motivations, he is essentially the Klingon counterpart to Zhang.</li>
+						<li><strong>Self-Made Man:</strong> Margon was not born to any of the Klingon Great Houses, and so had to fight prejudice at every turn into order to rise through the ranks of the KDF.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_54')">Commander K'Gan</h4>
+				<div id="character_54" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>First Officer of the <em>Somraw</em> and Margon's right-hand man.</p>
+					<hr>
+					<ul>
+						<li><strong>Boisterous Bruiser:</strong> As the first to warm up to Zhang and Barber whilst the latter were prisoners aboard the <em>Somraw</em>, he often tries to invite them over for sparring and drinks in later episodes.</li>
+						<li><strong>Fantastic Racism:</strong> His hatred for Romulans, whose people were responsible for killing a number of his colonist ancestors as part of what is now known as the Khitomer Massacre. <span class="spoiler">This view begins to soften when Chavek is very seriously injured pushing K'Gan away from an imminent explosion.</span></li>
+						<li><strong>Guns Akimbo:</strong> K'Gan's weapons of choice are a pair of disruptor pistols.</li>
+						<li><strong>Klingon Promotion:</strong> Promoted to First Officer once Margon becames Captain of the <em>Somraw</em>, off-screen and prior to the series.
+							<ul>
+								<li><strong>Sure, Why Not?:</strong> Became First Officer because Jurlek had killed everyone else on the bridge before being confronted by Margon.</li>
+							</ul>
+						</li>
+						<li><strong>The Lancer</strong></li>
+						<li><strong>Number Two:</strong> To Margon.</li>
+						<li><strong>Proud Warrior Race Guy</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_55')">Lieutenant Bu'kaH</h4>
+				<div id="character_55" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Second Officer of the <em>Somraw</em> and Margon's lover.</p>
+					<hr>
+					<ul>
+						<li><strong>Battle Couple:</strong> With Margon, of course.</li>
+						<li><strong>Destructo-Nookie:</strong> Barber once accidentally walked in on Bu'kaH and Margon having one of these in the latter's quarters.
+							<ul>
+								<li>Par for the course for Klingon couples in general, whose idea of a "hot date" involves the female swearing and throwing things, while the male reads poetry to her (and ducks). Then they make out.</li>
+							</ul>
+						</li>
+						<li><strong>Fire-Forged Friends:</strong> Becomes this with Barber by the Solanae arc, although both adamantly deny it.</li>
+						<li><strong>Lady of War:</strong> Despite the <strong>Blood Knight</strong> tendencies inherent in her species, she wields her Mek'leth with relatively more grace than her male fellow warriors.</li>
+						<li><strong>Proud Warrior Race Girl</strong></li>
+						<li><strong>Rugged Scar:</strong> A nasty cut just under her left eye, which she received after rebuffing the advances of a boorish Klingon Warrior, whom she later killed.</li>
+						<li><strong>You Are a Credit to Your Race:</strong> After fighting side by side with Barber and defeating Klingons in the employ of the treacherous House of Torg:
+							<span class="indent"><strong>Bu'kaH:</strong> <em>[To Barber]</em> Your mother may have a smooth forehead, but the blood of Lady Lukara flows in you!</span>
+							<ul>
+								<li>"Your mother has a smooth forehead!" - A highly-offensive Klingon equivalent to the human "<strong>Your Mom</strong>" insult, given that Klingons are very proud of their ridged foreheads. <strong>Insult Backfire</strong> ensues as Barber misunderstands this as Bu'kaH merely stating the obvious.</li>
+								<li>Lady Lukara was a legendary female warrior in Klingon folklore.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<h4 onclick="return toggleMe('character_55a')">Lieutenant Ch'gren</h4>
+				<div id="character_55a" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The <em>Somraw</em>'s Chief Engineer and husband of Doran, the slain former First Officer.</p>
+					<hr>
+					<ul>
+						<li><strong>Big Eater:</strong> At any formal reception where the crew of the <em>Somraw</em> are officially representing the Empire's interests, Ch'gren's first order of priority is to acquaint himself with the nearest table of food.</li>
+						<li><strong>Crusading Widower:</strong> Justified. In Klingon culture being stabbed <strong>In the Back</strong> is a dishonorable way to die, so he's hoping to win a glorious battle in Doran's name to make sure his wife can get into Sto-vo-kor (Klingon <strong>Warrior Heaven</strong>).</li>
+						<li><strong>Knight in Sour Armor:</strong> As a consequence of being formerly relegated to a <strong>Punishment Detail / Reassigned to Antartica</strong> and his growing distaste for the futility of the ongoing war with the Federation, he is rather cynical compared to other Klingons, but remains a loyal warrior nonetheless.</li>
+						<li><strong>Mr. Fixit</strong>
+							<ul>
+								<li><strong>Percussive Maintenance:</strong> When all else fails, a swift kick or slam of the fist often gets things working again.</li>
+							</ul>
+						</li>
+						<li><strong>Old Master:</strong> To younger Klingon warriors such as B'Ellera</li>
+						<li><strong>Old Soldier:</strong> Revealed to have been a decorated veteran of the Dominion War.</li>
+						<li><strong>Older Sidekick:</strong> Is the oldest amongst the <em>Somraw</em>'s crew, but subordinate to Captain Margon.</li>
+						<li><strong>Proud Warrior Race Guy</strong></li>
+						<li><strong>Punishment Detail / Reassigned to Antartica:</strong> Prior to joining Margon and the crew of the <em>Somraw</em>, Ch'gren was once a proud and experienced warrior whose exploits in battle and happy marriage to Doran earned him the ire of his jealous then-superior officer, who eventually managed to get Ch'gren relegated to maintaining logistics equipment in a Klingon Defense Force warehouse on Qo'noS rather than fighting on the frontlines as he desired.</li>
+						<li><strong>Rugged Scar:</strong> He's got a nice gash on the left side of his mouth that, from his occupation, could've just as easily been a work-related injury as from a weapon.</li>
+						<li><strong>Stout Strength</strong></li>
+					</ul>
+				</div>
+				
+				<h4 onclick="return toggleMe('character_55b')">B'Ellera</h4>
+				<div id="character_55b" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The newest addition to the <em>Somraw</em>'s crew.</p>
+					<hr>
+					<ul>
+						<li><strong>The Apprentice:</strong> Introduced as Worf's protege, and later comes under the tutelage of Ch'gren after she joins the crew of the <em>Somraw</em></li>
+						<li><strong>The Intern</strong></li>
+						<li><strong>Mauve Shirt</strong></li>
+						<li><strong>Proud Warrior Race Girl</strong></li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_55c')">K'mtar <span class="spoiler">/ Alexander Rozhenko, son of Worf</span></h4>
+				<div id="character_55c" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>A Klingon diplomat wrongfully imprisoned on the Klingon penal colony of Rura Penthe to prevent him whistleblowing on the House of Torg's plot to overthrow the J'Mpok Administration</p>
+					<hr>
+					<ul>
+						<li><strong>Ambadassador:</strong> Remember, he's a KDF-Federation Liaison.</li>
+						<li><strong>Badass:</strong> <span class="spoiler">Took him half a century, but he finally is one.</span> Anyone who can survive Rura Penthe is this by default.</li>
+						<li><strong>Badass Bookworm:</strong> Before the Federation-Klingon War, he was a honorary lecturer at Cambridge University and an expert on then-Chancellor Gorkon's policies.</li>
+						<li><strong>Badass Pacifist:</strong> If he was allowed to have his way. <span class="spoiler">He's not, so it's subverted.</span></li>
+						<li><strong>Badass in Distress:</strong> When you find out everything that lead to his imprisonment in Rura Penthe, you get this.</li>
+						<li><strong>Heroic Sacrifice / Died in Your Arms Tonight:</strong> When Torg attempts to backstab Worf, <span class="spoiler">Alexander</span> jumps in the way and is mortally wounded, <span class="spoiler">bleeding out in his father's arms.</span></li>
+						<li><strong>The Reveal:</strong> <span class="spoiler">"My real name is Alexander."</span></li>
+						<li><strong>Took a Level in Badass:</strong> <span class="spoiler">When we knew him as Alexander Rozhenko, he was basically the IKS <em>Rotarran</em>'s village idiot, a <strong>Non-Action Guy</strong> who had signed up to serve his country anyway and kept screwing up. He's come a long way since the Dominion War.</span></li>						
+					</ul>
+				</div>
+			</div>
+			<h3 onclick="return toggleMe('rse')">Romulan Star Empire Remnants</h3>
+			<div id="rse" style="display:none;">
+				<h4 onclick="return toggleMe('character_56')">Empress Sela</h4>
+				<div id="character_56" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The Empress of the Romulan Star Empire and the daughter of an alternate version of Starfleet Officer Tasha Yar from <em>Star Trek: The Next Generation</em>. Makes sporadic appearances in Season Two as the supposed employer of the <strong>Big Bad</strong> Colonel Harkeev.</p>
+					<hr>
+					<ul>
+						<li><strong>Blondes are Evil:</strong> Inherited Tasha's hair colour, and is the only known blonde Romulan.</li>
+						<li><strong>Enemy Mine:</strong> Only working with the Tal Shiar because they were the most organized out of all the squabbling factions in the Romulan civil war. Background info reveals bad blood between them, as the Tal Shiar had detained Sela on numerous occasions for being implicated in the various coups and political intrigues typical of the Star Empire.</li>
+						<li><strong>Half-Human Hybrid:</strong> Daughter of a temporally-displaced <strong>Alternate Self</strong> Tasha Yar and an unnamed Romulan official.</li>
+						<li><strong>Identical Daughter</strong></li>
+						<li><strong>Reasonable Authority Figure:</strong> A villainous example. She places great emphasis on loyalty to the Star Empire and values of the Romulan people, and justifies her (questionable) association with the Tal Shiar by claiming it is the only way to reunite her people and restore the Star Empire to its glory. <span class="spoiler">Unfortunately, with Harkeev leading the Tal Shiar to work behind her back, as well as his association with the Iconians, it goes to show that her supposed allies couldn't care less about the values she herself holds dear.</span>
+							<ul>
+								<li><span class="spoiler">It is pointed out at one point that Harkeev has at his secret Tal Shiar base stuff that Sela would never have approved of.</span></li>
+								<li><span class="spoiler">Ironically, the Romulan Republic that she branded as her mortal enemy to the reunification of the Star Empire turned out to be a better and more benevolent realisation of her values and ideals.</span></li>
+							</ul>
+						</li>
+						<li><strong>Screw This, I'm Outta Here!:</strong> <span class="spoiler">With Harkeev's demise, Sela decides to cut her losses and slip away with a handful of loyal followers, leaving the Tal Shiar to fall apart.</span></li>
+						<li><strong>Smug Snake</strong></li>
+						<li><strong>Role Reprisal:</strong> Sela (and Yar) was previously a recurring character from <em>The Next Generation</em>.</li>
+						<li><strong>Unwitting Pawn:</strong> To, of all people, her own subordinate Colonel Harkeev <span class="spoiler">and the Iconians.</span></li>
+						<li><strong>What Happened To The Mouse?:</strong> Romulan Republic starship captain Commander Velan reveals in the New Romulus arc that Sela <span class="spoiler">apparently got spirited away by the Iconians not long after she abandoned the Tal Shiar,</span> but admits that details are rather sketchy.</li>
+						<li><strong>You Look Familiar:</strong> Denise Crosby previously played Tasha Yar in <em>The Next Generation</em>.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_57')">Colonel Harkeev</h4>
+				<div id="character_57" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Romulan male and the leader of the Tal Shiar, the Romulan Star Empire's equivalent to the real-life CIA. Season Two's <strong>Big Bad</strong>.</p>
+					<hr>
+					<ul>
+						<li><strong>Ace Custom / Cool Starship:</strong> His <em>D'Deridex</em>-class warbird, the IRW <em>Khnail</em>, which becomes increasingly supplanted with Borg, Iconian and Elachi technology between appearances.</li>
+						<li><strong>Arch-Enemy:</strong> To Velan and Obisek.</li>
+						<li><strong>Bald of Evil</strong></li>
+						<li><strong>Chronic Backstabbing Disorder:</strong> Working behind Sela's back turns out to be just the latest in a long-line of underhanded intrigues he constantly gets involved in. <span class="spoiler">It's even hinted that he may be partially responsible for actually causing the Hobus Supernova that destroyed the Romulan Homeworld in the first place.</span></li>
+						<li><strong>Cybernetics Eat Your Soul:</strong> His left eye has been replaced with a cybernetic Borg implant, courtesy of an injury inflicted on him by the Romulan Republic's Commander Velan off-screen in the past.</li>
+						<li><strong>The Heavy:</strong> Perhaps the most plot-relevant villain in the Tal Shiar/Reman Resistance arc.</li>
+						<li><strong>Sanity Slippage:</strong> Towards the end of the arc, he's clearly devolving into this.</li>
+						<li><strong>Smug Snake</strong></li>
+						<li><strong>The Quisling / Not Brainwashed:</strong> In return for the <span class="spoiler">Iconians</span> helping to restore the Star Empire to its former glory, Harkeev has willingly offered them <span class="spoiler">the Romulan people as a "servitor" race.</span></li>
+					</ul>
+				</div>
+			</div>			
+			<h3 onclick="return toggleMe('romrep_reman')">Romulan Republic / Reman Resistance</h3>
+			<div id="romrep_reman" style="display:none;">
+				<h4 onclick="return toggleMe('character_58')">D'Tan</h4>
+				<div id="character_58" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Romulan male and the leader of the Reunification movement, which seeks reconciliation between surviving Romulans and Vulcans.</p>
+					<p>As the name suggests, he is indeed the eager and idealistic young Romulan boy from <em>Star Trek: The Next Generation</em>, who idolized and worked closely with the Federation's Vulcan Ambassador Spock as part of the Romulan underground Reunificationist movement. </p>
+					<p>By the beginning of <em>Star Trek: Odyssey</em>, Spock presumably died to stop the Hobus Supernova (although they <strong>Never Found The Body</strong>), and D'Tan continually strives to honor his mentor's legacy by working to unite the scatter Romulan people and form a better counterpart to the Romulan Star Empire.</p>
+					<p>In Season Four, his labours bear fruit and with the establishment of a new Romulan Homeworld on Dewa III, he becomes the leader of the Romulan Republic.</p>
+					<hr>
+					<ul>
+						<li><strong>The Atoner:</strong> He takes up this role on behalf of his people, rejecting the culture of secrecy and deception that defined the Star Empire in favour of the open, benevolent and peaceful ideals of the Romulan Republic. Furthermore, he wants to make up for the bad blood between his people and the Federation / Klingons in the past, by establishing diplomatic relations with both parties and encouraging joint scientific research and exploration projects between all three factions.</li>
+						<li><strong>Benevolent Boss:</strong> Many citizen and public servants of the new Republic government describe him as this, particularly Chavek's parents and younger siblings, who recently settled on the new homeworld and constantly sing D'Tan's praises.
+						</li>
+						<li><strong>Big Good:</strong> To the Romulan people.
+						    <ul>
+						        <li>And the <span class="spoiler">Remans</span> as well, to a lesser extent</li>
+						    </ul>
+						</li>
+						<li><strong>Reasonable Authority Figure:</strong> Straight-up tells the Tal Shiar representative attempting to bribe him to piss off.</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_59')">Colonel Obisek</h4>
+				<div id="character_59" style="display:none;">
+				<p class="voicedby">Voiced by: Eric Newell</p>
+				<p>The leader of the Reman Resistance, fighting to free his people from oppressive Romulan Star Empire and their Tal Shiar agents. Initially presented as antagonistic towards the <em>Odyssey</em> due to their condemnation of his plans to use banned Thalaron weapons in his crusade, both sides eventually put aside their differences and work to successfully cripple the Tal Shiar beyond repair.</p>
+				<p>By Season Four, he and the entire Reman Resistance <span class="spoiler">have joined forces with the Romulan Republic, with many Remans actively serving aboard or commanding Republican warbirds, and D'Tan personally promoting Obisek as Chairperson of the Republic Military Council.</span></p>
+				<hr>
+				<ul>
+					<li><strong>Big Good:</strong> For the Remans.</li>
+					<li><strong>The Cynic</strong></li>
+					<li><strong>Dangerously Genre Savvy:</strong> When he first meets Zhang, Tash and Ong, he immediately deduced they were spies; after Tash manages to talk him down, he admits that they are a determined and potentially dangerous enemy, and unleashes his forces to hunt down the little <em>Delta</em>-class Starfleet long-range shuttle the trio were in, although the latter eventually escape. The next time he crosses paths with the main cast, he ends up asking for their help because he knows they were his best chance at turning the tide against the Tal Shiar.</li>
+					<li><strong>Enemy Mine:</strong> He and Zhang are forced to work together to fend off the Tal Shiar whilst evacuating the Resistance base.</li>
+					<li><strong>La R&eacute;sistance:</strong> The leader.</li>
+					<li><strong>Pre-Mortem One-Liner:</strong> To Harkeev
+						<span class="indent"><em>[Zhang's Away Team, Obisek and members of the Reman Resistance have Harkeev cornered at last at the latter's base of operations.]</em>
+						<br><strong>Harkeev:</strong> This isn't over! The Iconians know everything! THIS ISN'T OVER!
+						<br><strong>Obisek:</strong> It is, for you. <em>[Headshots Harkeev with a disruptor]</em></span>
+					</li>
+					<li><strong>Rebel Leader:</strong> Interestingly, he hates the fact he has become this, and would have preferred to work for peace as an elder statesman.
+						<ul>
+							<li>Later subverted when <span class="spoiler">D'Tan selects him as the new leader of the Romulan Republic's military forces.</span></li>
+						</ul>
+					</li>
+					<li><strong>Well-Intentioned Extremist:</strong> Entertained the possibility of using horrific Thalaron weapons in his fight against the Tal Shiar, as more and more of his safehouses are compromised and the Reman civilians inside them killed.
+						<ul>
+							<li>In case you're wondering how those work, imagine being showered by green glowing sparkles that moments later slowly and agonisingly petrifies you alive from the inside out, your flesh and bone crumbling like plaster.</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+				<h4 onclick="return toggleMe('character_60')">Commander Velan</h4>
+				<div id="character_60" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>Romulan male and CO of the RRW <em>Shalyar</em>, a Romulan Republic warbird.</p>
+					<p>His first appearance was in "Installation 18", when he and his crew form an alliance of convenience with the <em>Odyssey</em>'s Zhang and Shran, after encountering latter while investigating a possible Tal Shiar outpost hidden in the desert canyons of Nimbus III.</p>
+					<p>Velan becomes a more prominent recurring character in the New Romulus arc, where he serves as the Republic's liaison to the Federation effort Captain Zhang is leading to assist the Romulans in settling on their new homeworld, as well as the Solanae Dyson Sphere arc, where they reprise this advisory role to the joint Federation-Klingon-Romulan Task Force in exploring and securing the alien world from the Voth and the Iconians.</p>
+					<hr>
+					<ul>
+						<li><strong>The Captain</strong></li>
+						<li><strong>Doomed Hometown / Neutral No Longer:</strong> His backstory reveals he was a native of an unremarkable agricultural colony of Virinat in the backwaters of the former Romulan Star Empire, content in his simple life as a vineyard labourer and uninterested in the civil war between Empire remnants and the ascendant Romulan Republic. That is, until Colonel Harkeev of the Tal Shiar orders the colony bombed to hell for suspected collusion with the Republic, forcing Velan and his best friend Tovan Khev to lead a handful of survivors to safety in an old Romulan Bird-of-Prey that was otherwise sitting disused in a field and rusting away. This act of infamy firmly pushed him into the Republican camp, and he has since sworn loyalty to D'Tan.</li>
+						<li><strong>The Calvary Arrives Late:</strong> While Zhang and Obisek were leading their respective forces to storm Harkeev's main base, it was implied in dialogue that the <em>Shalyar</em> was on its way to reinforce them. Velan and Tovan beam down with Republican assault teams just as Obisek headshots Harkeev.</li>
+						<li><strong>Hero of Another Story</strong></li>
+						<li><strong>Farm Boy:</strong> His background prior to becoming a Republican starship captain.</li>
+						<li><strong>Vengeance Feels Empty:</strong> It is suggested that Velan's decision to join the Republic was heavily motivated by his desire to avenge those who died on Virinat; After Harkeev's demise, Velan confesses he doesn't know where to go from here; Obisek too admits the same. Cue <strong>Crowning Moment of Heartwarming</strong> from the idealistic Chavek:
+							<span class="indent"><strong>Chavek:</strong> There are many worlds out there that suffered just as much as Crateris and Virinat did. Be their champions.</span>
+						</li>
+					</ul>
+				</div>
+				<h4 onclick="return toggleMe('character_61')">Subcommander Tovan Khev</h4>
+				<div id="character_61" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The <em>Shalyar</em>'s First Officer and Velan's best friend from the Virinat colony.</p>
+					<hr>
+					<ul>
+						<li><strong>Blue Blood:</strong> Came from a noble family, with his father a prominent military official in the Romulan Star Empire prior to the Hobus Supernova. Khev was eight and off-world with his mother and little sister when the Supernova happened, destroying his homeworld and killing his father. After years of an impoverished, nomadic existence, they settled on the agricultural colony Virinat, where Khev became a civilian security guard and met Velan.</li>
+						<li><strong>Deadpan Snarker</strong></li>
+						<li><strong>Nice Guy</strong></li>
+						<li><strong>The Lancer</strong></li>
+						<li><strong>Trigger Happy:</strong> Conversed. Whilst accompanying Zhang, Remara and Urashima into the ancient Dewan caves on New Romulus along with his captain, the latter overhears Remara describing the geological instabilities throughout the chamber and decides to rib Khev for being a Tactical Officer:
+							<span class="indent"><strong>Velan:</strong> Watch what you shoot in here, Tovan.
+							<br><strong>Khev:</strong> <em>[Sarcastic]</em> Ha ha, very funny.</span>
+						</li>
+						<li><strong>True Companion:</strong> To Velan.</li>
+					</ul>
+				</div>
+			</div>
+			
+			<h3 onclick="return toggleMe('deferi')">The Deferi</h3>
+			<div id="deferi" style="display:none;">
+			<p>A humanoid race who believe in the balance between the forces of nature and advancement.</p>
+			<p>As <strong>Marital Pacifists</strong>, they nominally fight for survival and their only enemies are the Breen (who kidnap them as slaves) and the Borg (who, needless to say, assimilate everyone). Surprisingly, the Klingon Empire has no desire to conquer them, due to a past incident where the Deferi came to the aid of a stricken Klingon Fleet.</p>
+				<h4 onclick="return toggleMe('character_61a')">Ambassador Surah</h4>
+				<div id="character_61a" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>The lead ambassador for the Deferi to offworld cultures.</p>
+					<hr>
+					<ul>
+						<li><strong>Ambadassador:</strong> Subverted as he doesn't want to fight anyone. At the Borg conference from the beginning of "The 2800" arc, he states that the Deferi will remain neutral if a consensus can't be reached between the Federation and Klingon representatives.</li>
+						<li><strong>Early-Bird Cameo:</strong> First introduced as an anonymous alien diplomat visiting Starbase 39 at the beginning of the Tal Shiar/Reman Resistance arc.</li>
+						<li><strong>Not-So-Omniscient Council of Bickering:</strong> During conferences, Surah is often on the verge of packing his bags and going home if he feels things aren't "in balance".</li>
+					</ul>
+				</div>
+			</div>
+			
+			<h3 onclick="return toggleMe('voth')">The Voth</h3>
+			<div id="voth" style="display:none;">
+			<p>A race of lizard-like humanoid creatures originally introduced in the <em>Voyager</em> episode "Distant Origin", who were said to have evolved from dinosaurs that live in the Delta Quadrant.</p>
+			<p>Their strong belief in their Doctrine and their supposed birthright as the original inhabitants of the regions lead them to view "mammals" such as Humans, Klingons and Romulans with disdain, and is a driving force in their plans to control the Solanae Dyson Sphere and the Omega Particles it contains.</p>
+				<h4 onclick="return toggleMe('character_62')">Nelen Exil</h4>
+				<div id="character_62" style="display:none;">
+					<p class="voicedby">Voiced by: TBD</p>
+					<p>A Voth scientist and dissident who contacts Captain Zhang and provides him with vital intel while trying to get his fellow Voth to accept that their Doctrine is dangerously flawed.</p>
+					<hr>
+					<ul>
+						<li><strong>Commonality Connection:</strong> With <em>Odyssey</em> Chief Science Officer Remara, as both are intellectuals ostracized by their peers, who subsequently found acceptance with Zhang and his crew.</li>
+						<li><strong>Only Sane Man:</strong> Whilst most of his colleagues continue to toe the party line that the Voth were native to the Delta Quadrant and superior to all non-Voth and/or non-indigenous lifeforms, Exil has his reservations with regardings to the Doctrine. He also believes the Ministry of Elders is acting recklessly in exploiting the potential applications of Omega Particles, and that they are compromising scientific integrity in favour of maintaining the status quo.</li>
+						<li><strong>What the Hell, Hero?:</strong> Gives this to the Voth Ministry of Elders on a regular basis, but not only do they refuse to believe him, they suppress his research and force Exil's colleagues to either denouce his work or be made to disappear - eventually, they have him <strong>Reassigned to Antartica</strong> by demoting him from research group leader and moving him over to a dead-end job as a lab assistant in a metallurgy laboratory.</li>
+						<li><strong>Screw This, I'm Outta Here!:</strong> Towards the end of the Solanae Dyson Sphere arc, he could no longer tolerate the arrogance of his superiors <span class="spoiler">and defects to the <em>Odyssey</em>, taking with him most of his precious research data and destroying the rest.</span></li>
+						<li><strong>Put on a Bus:</strong> Shortly after <span class="spoiler">his defection, he was sent to Starfleet Command back on Earth to be debriefed,</span> and does not appear in the remaining episodes of the Solanae Dyson Sphere arc.
+							<ul>
+								<li><strong>The Bus Came Back:</strong> <span class="spoiler">Officially rejoins the crew of the <em>Odyssey</em> as a civilian science consultant for the Delta Rising arc of Season Six.</span></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+<br>
+<br>
+<br>
+<br>
+<br>	
+	</body>
+</html>		
