@@ -1,0 +1,877 @@
+<html>
+	<head>
+		<title>Episode Guide:  Star Trek: Odyssey</title>
+		<script type="text/javascript">
+		
+			function toggleMe(a){
+				var e=document.getElementById(a);
+				
+				if(!e)return true;
+				
+				if(e.style.display=="none"){
+					e.style.display="block"
+				} else {
+					e.style.display="none"
+				}
+				
+				return false;
+			}
+			
+			function openAll(){
+				var f=document.getElementsByTagName("DIV");
+				
+				for (i=0;i<f.length;i++) {
+					f[i].style.display="block"
+				}
+			
+				return false;
+			}
+			
+			function closeAll(){
+				var f=document.getElementsByTagName("DIV");
+				
+				for (i=0;i<f.length;i++) {
+					f[i].style.display="none"
+				}
+			
+				return false;
+			}
+			
+			function teaPartySpecial(){
+				document.getElementById("other_cast").style.display="block"
+				document.getElementById("uss_brunel").style.display="block"
+				
+				var g=document.getElementById("uss_brunel").getElementsByTagName("DIV");
+				
+				for (i=0;i<g.length;i++) {
+					g[i].style.display="block"
+				}
+			
+				return false;
+			}
+
+   
+
+		</script>
+		<style>
+			body {
+				font-family: Arial;
+			}
+			
+			h1 { 
+				padding: 0; 
+				margin: 20px 0 0; 
+			}
+			
+			h2, h3 {
+				position:relative;
+				clear:left;
+				background-color:#eeeeff;
+				margin-top:6px;
+				margin-left:0px;
+				margin-bottom:6px;
+				padding:4px;
+				border-radius:8px;
+				-moz-border-radius:8px;
+				-webkit-border-radius:8px;
+				font-size:large;
+				cursor: pointer;
+			}
+			
+			h3 {
+				width: 50%;
+				font-size: 15px;
+			}
+			
+			h4 {
+				background-color: #EEF;
+				padding: 3px;
+				margin-bottom: 8px;
+				border: 1px solid #BBBBC3;
+				border-radius: 8px;
+				font-variant: small-caps;
+				font-weight:normal;
+				width: 33%;
+				text-align: center;
+				cursor: pointer;
+			}
+			
+			.toggleall{
+				width: auto;
+				display: inline;
+			}
+			
+			.note {
+				font-size: 12px;
+			}
+			
+			li {
+				list-style-position: outside;
+				padding-bottom: 2px;
+				margin-top: 6px;
+				border-bottom: 1px dotted #C0C0C0;
+				border-right: 1px dotted #C0C0C0;
+			}
+
+			ul ul li {
+				border: medium none;
+			}
+
+			.indent {
+				display: block;
+				margin-left: 24px;
+				margin-top: 4px;
+				margin-bottom: 4px;
+				font-size: small;
+			}
+			
+			.spoiler{
+				background-color: #000;
+			}
+			
+			.demo{
+				position: static; 
+				clear: none; 
+				cursor: default; 
+				display: inline-block;
+				width: auto;
+			}
+		</style>
+	</head>
+	<body onLoad="return toggleSpoilers()">
+		<h1>Episode Guide:  Star Trek: Odyssey</h1>
+		<p style="padding: 0; margin: 0; margin-bottom: 40px;">The unofficial TV Tropes wiki edition</p>
+		
+		<p style="color: red;"><strong>NOTE: This is currently a Work-In-Progress (WIP). Episode titles, summaries and ordering are subject to change.</strong></p>
+		<p>This document contains a list of episode summaries from the unofficial <em>Star Trek: Odyssey</em> series, based on the <em>Star Trek Online</em> MMO and prior canon prime-universe <em>Star Trek</em> shows from <em>The Next Generation</em> onwards.</p>
+		<p>Most of the episodes are adaptations of official STO single-player missions, while the have varying degrees of originality (with at least one derived from a user-created Foundry mission). Where possible, all references and sources of inspiration have been given proper attribution rightful authors.</p><hr>
+		<br>
+		<strong>How To Use This Page</strong>
+		
+		<ul>
+			<li><h2 class="demo">This</h2> is a <strong>button that show/hide long blocks of text</strong> - click once to open, and click again to collapse.</li>
+			<li><strong>Spoilers</strong> can be revealed by <strong>highlighting</strong> lines of text with black backgrounds - <span class="spoiler">Like so, see?</span></li>
+		</ul>
+		<br>
+		<hr>
+		<br>
+		<h4 class="toggleall" onclick="return openAll()">Open All</h4>
+		<h4 class="toggleall" onclick="return closeAll()">Close All</h4>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 onclick="return toggleMe('premise')">Premise</h2>
+		<div id="premise" style="display:none;">
+		<p>In the early 25th Century, the Romulan Star Empire has collapsed into anarchy following the destruction of their homeworld by the Hobus Supernova, whilst war has erupted between the Federation and their former allies in the Klingon Empire over territorial disputes, causing Starfleet's focus to shift from exploration to defense.</p>
+		
+		<p>The series follows the USS <em>Odyssey</em>, the last <em>Intrepid</em>-class starship ever built, commissioned by Starfleet as a testbed for next-generation technologies that could potentially turn the war to the Federation's favor, as well as allowing its crew to explore strange new worlds, seek out new life and civilizations, and boldly go where no-one has gone before.</p>
+		</div>
+		
+		<h2 onclick="return toggleMe('s1')">Season 1</h2>
+		<div id="s1" style="display:none;">	
+		
+			<div>
+				<p><strong>1x01 - Azura</strong><br>
+				In 2409, the USS <em>Odyssey</em> departs on its maiden voyage to test a new faster-than-warp Quantum Slipstream Drive, when it suffers a breakdown and is stranded far from friendly territory. While the crew attempt repairs and await the arrival of a support vessel, they receive a distress signal from the civilian freighter SS <em>Azura</em>, which is under attack by Orion pirates. The <em>Odyssey</em> intervenes despite its currently impaired state, and Captain Zhang leads an Away Team to rescue the freighter's crew, whereupon they discover evidence suggesting that the Klingon Empire may be providing weapons for the pirates.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x02 - Standoff</strong><br>
+				The <em>Odyssey</em> stops off at Deep Space Nine to pick up the remainder of its crew, including Operations Officer Ong, Science Officer Remara and Counselor McGill, as well as an ancient Bajoran Orb that the Cardassians voluntarily requested to be returned to Bajor. This delivery is interrupted when <em>Odyssey</em> has to intervene in a confrontation between two Cardassian Defence Force captains, one of whom has been charged with treason for aiding and abetting the True Way terrorist movement. <span class="spoiler">It is eventually revealed that the defendant was framed as part of a True Way plot to compromise the CDF.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x03 - The Gamemasters of Nagusa</strong><br>
+				Starfleet orders the <em>Odyssey</em> to investigate the fate of the USS <em>Brunel</em>, a Starfleet Corps of Engineers (SCE) support vessel that has gone missing for over a week. The assignment is particularly personal as many of the <em>Odyssey</em>'s senior staff had friends aboard the <em>Brunel</em>. After finding the seemingly-abandoned ship in orbit of an uncharted planet, an Away Team beams down and discovers that the natives capture and brainwash Starfleet, Klingon and other starship crews to participate in deadly battle reenactments. <span class="spoiler">The native woman helping the Away Team turns out to be planet's next ruler, who wishes to end this unethical tradition.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x04 - Rites and Freedoms</strong><br>
+				The inhabitants of a joint Cardassian-Bajoran agrarian colony come under attack from the Malincor, aliens claiming to be the rightful natives of the planet, and the <em>Odyssey</em> is dispatched in a attempt to mediate between both parties. Counselor McGill and Security Chief Shran's efforts at a ceasefire are undermined by a retaliatory raid by the colonists, resulting in a cave-in that traps several colonists and Malincorians. Eventually, Science Officer Remara <span class="spoiler">discovers that the Malincor were descendants of a spacefaring United States Marine Corps contingent from an alternate Earth, and with this information,</span> convinces both groups to work together to save their families.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x05 - Rapier</strong><br>
+				Investigating strange energy readings inside the Bajoran Wormhole, the <em>Odyssey</em> stumbles across the USS <em>Rapier</em>, a Starfleet vessel that disappeared six years ago while on a routine survey of star systems in the Gamma Quadrant. The <em>Rapier</em> has been captured by Dominion forces under the command of a Vorta named Eraun 7, who wants to impress the ruling Founders by offering the highly-advanced <em>Rapier</em> as a prize. Thanks to Counselor McGill's prior experience in dealing with the Dominion, Captain Zhang tricks Eraun into overestimating his own leadership abilities, allowing the <em>Odyssey</em> rescue the <em>Rapier</em>, and in a twist of irony, incarcerate Eraun.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x06 - Diplomatic Orders</strong><br>
+				Amid fears of Klingon aggression, Counselor McGill is asked to lead an escort for Vulcan Ambassador Sokketh to the monastery at P'Jem. The stress from the unexpected recall of the <em>Odyssey</em> from Cardassian space is compounded by the Ambassador's surprising impatience and displays of emotion, but McGill manages to meet the Sokketh's exacting requests. Upon arriving at the monastery, they are intercepted by a Klingon deep cover strike team aiming to assassinate the Ambassador. McGill and Security Officer Chavek repel the invaders, <span class="spoiler">only to discover that Sokketh is an Undine infiltrator who killed the original Ambassador and is planning to replace the abbot at P'Jem.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x07 - The Kuvah'Magh</strong><br>
+				In the aftermath of the incident at P'Jem, Federation and Klingon representatives meet at Regulus IV for emergency peace talks, with the <em>Odyssey</em> responsible for security arrangements. Starfleet Officer Miral Paris, considered by many Klingons to be the Kuvah'Magh and their religious savior, manages to establish some rapport with Klingon Dahar Master B'vat, only for Klingon dissidents and Orion mercenaries to arrive and take hostages at the embassy. Away Teams from the <em>Odyssey</em> regain control of the situation, but the Klingon delegation has lost faith in further negotiations. <span class="spoiler">Unknown to anyone else, B'vat is revealed to have masterminded the sabotage of the peace talks.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x08 - Death in Paradise</strong><br>
+				While the <em>Odyssey</em>'s crew takes shore leave vacation planet Risa, Captain Zhang has a less-than-cordial reunion with Lieutenant Celeste Daniels, who he once had a crush on in the past. When Daniels' current boyfriend, the valedictorian from their Starfleet Academy year group, is found dead, Zhang is charged with his murder based on circumstantial evidence. At the subsequent court-martial, the <em>Odyssey</em> captain's integrity comes into question. Richardson pursues his own line of investigation, <span class="spoiler">finding that the victim was involved in a smuggling ring and was killed by his associates to tie up loose ends. Zhang, who was framed as a distraction, is cleared of all charges.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x09 - Ziggurat</strong><br>
+				A group of aliens evacuating a failed colony experience engine troubles in their medical transport, and flag down the <em>Odyssey</em> for help. Unfortunately, the Federation has never encountered this species before, and the <em>Odyssey</em> crew's universal translators are unable to decipher their speech. With the help of a Tamarian Starfleet xenolinguist, Counselor McGill learns the alien's native language from scratch, allowing the universal translators to be re-calibrated. Starfleet eventually sends some ships to assist the colony, and the <em>Odyssey</em> is able to conduct formal First Contact proceedings with grateful alien representatives.
+				<br>
+				<span class="note">Note: The aliens are depicted as English-speaking, while the Starfleet main cast speak in gibberish until they gradually learn the language.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x10 - First Do No Harm</strong><br>
+				Starfleet dispatches medical ships to provide aid to a backwater Federation member world affected by an outbreak of Kamaraazite flu, but the medical specialists, including <em>Odyssey</em>'s Doctor Tigan, are kidnapped by a militants who reject modern Federation medicine in favor of traditional folk remedies. The leader of the militants attempts to sway the peaceable Tigan to their way of thinking, <span class="spoiler">eventually resorting to physical and psychological torture</span>. The crew of the <em>Odyssey</em> devise a rescue operation, and manage to free the Starfleet hostages, <span class="spoiler">but not before Tigan is forced to kill the militant leader in self-defense.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x11 - Mind Games</strong><br>
+				The <em>Odyssey</em> arrives at a non-aligned alien world to pick up Federation diplomats, but the entire crew, with the exception of Security Chief Shran, are rendered unconscious by alien boarders with telepathic powers. Hiding from the pursuing aliens and unable to contact Starfleet Command for assistance, Shran gradually discovers <span class="spoiler"> she is mildly sensitive to telepathy due to a distant ancestor being Aenar, as well as</span> the alien telepaths' plans for galatic conquest. With the help of Akorem Rolan, a Bajoran junior science officer who was revived with great difficulty, Shran regains control of the <em>Odyssey</em> and prevents the telepaths from using it to attack the Federation science ship USS <em>Hinata</em>.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x12 - Web of Death</strong> <span class="note">Based on undeveloped TOS Episode "The Web of Death"</span><br>
+				Whilst surveying an uncharted nebula, the <em>Odyssey</em> discovers the USS <em>Heisenberg</em>, which had gone missing years before, trapped in an asteroid field by strange web-like filaments. An Away Team beams aboard, finding the ship to be fully operational but completely devoid of life or any organic substance. Science Officer Remara soon theorizes that a swarm of space-dwelling alien insects have consumed the <em>Heisenberg</em>'s crew, but his warning comes too late when the swarmers ensnare the <em>Odyssey</em> itself in similar filaments. Eventually, Remara tricks the swarmers into re-converging on the booby-trapped <em>Heisenberg</em>, allowing the <em>Odyssey</em> to escape.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x13 - Treasure Trading Station</strong> <span class="note">An amalgamation of STO MMO missions "Treasure Trading Station" and "Spin The Wheel"</span><br>
+				Orion slave girl Marta seeks Federation asylum in exchange for vital intelligence regarding her former master, Klingon Dahar Master B'vat. Starfleet Intelligence operative Franklin Drake accompanies the <em>Odyssey</em> to the neutral Drozana Station in order to extract her, but are impeded by the uncooperative bar proprietor. While Shran creates a distraction, Chavek and F'ris manage to infiltrate the station's seedier lower levels, rescuing Marta from B'vat's henchmen, but are unexpectedly attacked by Devidians. <span class="spoiler">Drake is revealed to be from the covert Section 31 division, and used Marta's extraction as an excuse to get a Federation starship to investigate the Devidian presence on Drozana.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x14 - Quarantine</strong><br>
+				While docked at Deep Space K-7 to hand Marta over to Starfleet Intelligence and to resupply, the crew of the <em>Odyssey</em> has a chance reunion with their counterparts on the <em>Hinata</em>, which is delivering a bacteria sample to the station's resident researcher, Dr. Yoc'm. An accident in the station's cargo bay causes the samples to infect several people, and a quarantine is declared to prevent the spread of the pathogen elsewhere. Zhang and Captain Urashima of the <em>Hinata</em> help K-7's Commander Naomi Wildman enforce the lockdown; meanwhile, Remara and Tigan struggle to devise an antigen to treat the infected, as the disease begins to claim its first victims.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x15 - Reset</strong><br>
+				Returning from an archaeological expedition, Zhang, K'vov and Remara begin to experience a sense of d&eacute;j&agrave; vu, and they soon realize that they are constantly reliving the past afternoon repeatedly. After several failed attempts at attempting to break out of the time loop, the three indulge in increasingly outrageous activities to keep their sanity, but later realize they could use this opportunity to improve themselves - Zhang crafts the perfect anniversary dinner for his love interest Tactical Officer Barber, K'vov averts a series of accidents plaguing the Engineering department and Remara decodes the glyphs on the artifact they acquired <span class="spoiler">that was responsible for their predicament.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x16 - Secret Orders</strong><br>
+				Based on information provided by Marta and an unlikely friend Captain Zhang made while on Risa, the <em>Odyssey</em> traces a number of suspicious shipments to a contested system near the Federation-Klingon border, where a secret Klingon research station is located. An Away Team led by Barber finds the place empty, but clues lead the crew to a planet inside the Briar Patch deep within Federation space, where B'vat's subordinate T'chev is overseeing the development of experimental torpedoes and distributing them to mercenaries targeting Federation civilian freighters. This second lab is eventually destroyed, along with the prototype weapons.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x17 - What Lies Beneath</strong><br>
+				Drake has the <em>Odyssey</em> resume their investigation of the Devidian incursion on Drozana Station, and to aid them in their mission, provides them with some experimental Synchronic Proton Distortion Assault Rifles requisitioned from Deep Space K-7. Down in the maintenance levels of the station, the crew discovers and destroys a nest of Devidian portals that the shapeshifting ghost-like aliens emerge from to prey on their victims, while also uncovering a series of murders <span class="spoiler">committed by a malfunctioning sentient holographic technician.</span> Remara later reports to Zhang that the portals lead back to the 23rd Century, putting the integrity of the timeline into question.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x18 - Everything Old Is New</strong><br>
+				To stop the Devidian incursion at the source, Zhang decides to lead an Away Team through one of the portals back to the 23rd Century, when Drozana Station was still a Starfleet outpost. Upon their arrival, Remara's attempts at assembling a subspace field emitter to detect Devidians is hampered by the primitive duotronic technology of the time, while Tigan inadvertently finds herself <span class="spoiler">assisting Doctor McCoy of the USS <em>Enterprise</em> in</span> treating victims of Devidian feeding. Ultimately, Remara concludes that the Devidians are exploiting the triolic energy of the passing Driffen's Comet to phase the entire region of space to their dimension.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x19 - Night of the Comet</strong><br>
+				Rendezvousing with Drake back in the 25th Century, the crew of the <em>Odyssey</em> devise a plan to take their ship back in time to destroy Driffen's Comet and thwart the Devidians' plans. After executing a risky Slingshot maneuver around the Bepi 113 star, they arrive back in the past disguised as a 23rd Century Klingon Bird-of-Prey. Shran and Barber <span class="spoiler">help Chief Engineer Scott of the USS <em>Enterprise</em></span> defend the station against the Devidians; meanwhile, Zhang and Richardson try to destroy the comet with the <em>Odyssey</em>'s weapons, a task complicated by the arrival of <em>Captain</em> B'vat, who mistakes their disguised ship for one from another Klingon Great House he had a blood feud with.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x20 - Duel of Honor</strong><br>
+				While visiting relatives on Andoria, Shran is accosted by the family of an Andorian Imperial Guard officer whom she was betrothed to from a young age. When K'vov intervenes, he himself is mistaken as Shran's lover, and is forced into an <em>Ushaan</em> duel of honor with the Guard officer the following day. Due to K'vov's reserved and gentle nature, Shran has to give him a crash course in the art of fighting with the <em>Ushaan-tor</em> ice miner's knife, and complicated feelings develop between the two. <span class="spoiler">On the day of the duel, the Guard officer reveals that because Shran was from an influential Imperial Guard family, the marriage was political in nature, and willingly takes a dive to save K'vov.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x21 - The Ultimate Klingon</strong><br>
+				Pursuing an Orion privateer vessel attacking civilian ships carrying medical supplies, the <em>Odyssey</em> stops the pirates from raiding the Federation medical research center on Korvat. With the help of lead researcher Ghee P'Trell, the crew determines that Klingons under B'vat are using the stolen goods for illegal research into genetic augmentation. Data from the crippled Orion ship reveals the presence of a Klingon base on H'atoria, where <span class="spoiler">Augment leader Khan Noonien Singh's descendant</span> Amar Singh is splicing Human, Klingon and Gorn DNA to create an Augment master race. After defeating Singh's creations and razing his lab, Zhang takes the rogue scientist into custody.
+				</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x22 - The Marked</strong> <span class="note">Inspired by ENT Episode "Congenitor"</span><br>
+				The <em>Odyssey</em> arrives at Ekkavon V on behalf of the Federation Diplomatic Corps, to follow up on official First Contact proceedings six years ago. While sightseeing on the planet's surface, Ong befriends a woman from the subset of Ekkavonian society who, due to a rare mutation, develop painful cysts on their skins that are harvested by other non-mutated Ekkavonians to make recreational drugs. Angered at the livestock-like treatment towards these "Marked" individuals, Ong invites the Ekkavonian to visit the <em>Odyssey</em>, sharing with her Federation ideals that inadvertently cause a Civil Rights movement-like situation, potentially threatening future Federation-Ekkavonian relations.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x23 - Helna of Troy</strong> <span class="note">Based on the STO Foundry mission of the same name by Kirkfat and the character created by Havraha</span><br>
+				While the <em>Odyssey</em> delivers long-overdue supplies to a Federation archaeological team on Minos Prime, the crew end up assisting the brilliant but arrogant Professor P'taki in investigating the ruins attributed to aliens that once posed as Ancient Greek deities thousands of years before. With the help of the ship's resident Stellar Cartographer Ensign Helna Udowuhi, they uncover clues leading to an abandoned temple on an uninhabited planet inside Klingon space. Shortly after the Away Team beams down, Helna is suddenly possessed by the spiritual manifestation of Helen of Troy, and the rest are trapped as pawns in an eons-old feud between beings calling themselves Zeus and Hera.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x24 - The Doomsday Device</strong><br>
+				Starfleet Intelligence receives word from an insider within B'vat's ranks that the Dahar Master is in the Imaga system making final preparations to deploy a doomsday weapon on populated Federation worlds. With the help of the Klingon defector K'Valk, who was disgusted by his former commander's dishonorable actions, the <em>Odyssey</em>'s crew commandeers the IKS <em>Targ</em> to infiltrate and disable the planetary defenses, allowing a Starfleet task force <span class="spoiler">led by Admiral Quinn himself</span> to engage the weapon head-on <span class="spoiler"> - the once-dormant Planet Killer.</span> The weapon is finally destroyed <span class="spoiler">through K'Valk's valiant self-sacrifice and </span> using the <em>Targ</em>'s complement of experimental <em>Hargh'peng</em> torpedoes.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x25 - City on the Edge of Never</strong><br>
+				Whilst reviewing Amar Singh's research notes, Remara notices references to past events and suspects B'vat may be experimenting with time travel. Meanwhile, Zhang orders the <em>Odyssey</em> to rendezvous with and assist the USS <em>Kirk</em>, which is currently seizing B'vat's assets to prevent them from falling into the wrong hands. The <em>Odyssey</em> arrives just as B'vat's forces ambush the <em>Kirk</em> and kidnap their Security Chief Lt. Miral Paris, leading to a pursuit all the way to the Gateway system. The crew eventually realize that B'vat is planning on altering the timeline, but they beam down too late to stop B'vat entering the Guardian of Forever with Lt. Paris as his prisoner.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>1x26 - Past Imperfect</strong><br>
+				To repair the past, the Guardian of Forever sends the <em>Odyssey</em> back to 2270, where in this altered timeline, the USS <em>Enterprise</em> captained by James T. Kirk was prematurely destroyed in a Klingon ambush, leading to the near-collapse of the Federation by the 25th Century. Saving the <em>Enterprise</em> from 25th Century Klingon ships, Zhang leads a strike team aboard B'vat's flagship IKS <em>Worvig</em>, rescuing Lt. Paris and killing Dahar Master B'vat <span class="spoiler">with the help of a younger and repentant Captain B'vat</span>. Returning to their own time with history restored, the crew learns that <span class="spoiler">a blood sample from Paris was used to cure the 23rd Century Klingons of their Augment Virus-inflicted smooth foreheads.</span></p>
+			</div>
+			<hr>
+
+		</div>
+		
+		<h2 onclick="return toggleMe('s2')">Season 2</h2>
+		<div id="s2" style="display:none;">
+		
+			 <div>
+				<p><strong>2x01 - Venture Into Deep Space</strong> <span class="note">Based on the undeveloped pilot episode for the cancelled <em>Star Trek: Final Frontier</em> animated web series</span><br>
+				While celebrating the wedding of First Officer Richardson to Counselor McGill, the <em>Odyssey</em>'s crew is informed that they have been reassigned to Admiral T'nae of Starbase 39 near the Federation-Romulan Border, and the ship departs from Earth Spacedock. En route, they encounter a heavily-damaged alien vessel whose dying pilot is found holding onto an old Starfleet communicator badge from the 2370s. This leads the <em>Odyssey</em> to an uncharted region near the border, where discover the fate of the <em>Galaxy</em>-class starship USS <em>Venture</em> declared lost over 30 years ago, as well as the nomadic Ordrin that now call the ship their home and refuge from the predatory Chuliak.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x02 - Under the Cover of Night</strong><br>
+				Arriving at Starbase 39, the <em>Odyssey</em> is almost immediately ordered to track down T'Par, a Starfleet Intelligence analyst planning on defecting to the Romulan Star Empire remnants with vital information regarding the perimeter defenses of Federation core worlds. The pursuit leads the crew to the pirate-infested Agrama System, where after a series of confrontations <span class="spoiler">T'Par reveals that her apparent defection was part of a Section 31 operation to spread disinformation to the Federation's enemies</span>. Back at Starbase 39, Richardson and McGill await a shuttlecraft to take them on their honeymoon, but almost miss the flight to intervene in a trade dispute between alien diplomats.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x03 - The Lost City of Paradise</strong> <span class="note">Truncated and adapted version of STO MMO mission "The Lost City of Paradise"</span><br>
+				As a consequence of interfering with Section 31 operations, Drake coerces Admiral T'nae into diverting the <em>Odyssey</em> to the lawless desert planet Nimbus III, to investigate the theft of deadly Thalaron weapons and their connection to the Tal Shiar, the Romulan Star Empire's elite intelligence agency. At the sole settlement of Paradise City, a bogus tip from an informant leads Barber's Away Team into a nest of giant sand scorpions. Shran devises an alternative approach, and by posing as a bar prostitute, gains legit intel on an actual weapons deal later that evening. Unfortunately, their stakeout is accidentally compromised by the intervention of a retired local lawman named Law.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x04 - Blind Men Tell All Tales</strong> <span class="note">An amalgamation of STO MMO missions "The Lost City of Paradise" and "Blind Men Tell All Tales"</span><br>
+				Law tells Zhang and Shran his past as a member of Nimbus III's failed Peacekeeper contingent, and directs them to an abandoned Nausicaan mercenary den that may contain clues regarding future weapons deals. There, the Away Team instead finds out about a "Blind Man" acting as an informant for the local Orion Syndicate outfit run by crime lord Hassan the Undying. After winning the support of locals with a show of force by security teams from the <em>Odyssey</em>, a Nimbosian comes forward with information <span class="spoiler">revealing that Law is the "Blind Man".</span> To atone for his <span class="spoiler">deception and</span> past betrayal of his people, the latter tips the duo off about civilians held in an Orion Syndicate prison.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x05 - The Undying</strong><br>
+				The Thalaron weapons deal is traced to Hassan the Undying's club and base of operations Shangdu, hidden in the wreckage of a crashed starship in the outskirts of Paradise City. Zhang and Shran infiltrate the hideout, posing as weapons dealers, but their cover is blown and they are forced to fight in gladiatorial combat for the kingpin's amusement. Barber's Away Team intervenes, inadvertently causing a bar fight; Hassan flees to his Warbarge Dreadnought starship, ordering the destruction of Paradise City. The <em>Odyssey</em> eventually cripples Hassan's ship and brings him to justice, but belatedly discover the Thalaron weapons were sold to a Reman who had already fled the scene.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x06 - Installation 18</strong> <span class="note">Includes truncated elements from STO MMO missions "A Fistful of Gorn"</span><br>
+				Hassan reveals during interrogation that the Orion Syndicate often sold selected civilian prisoners to a Colonel Hakeev of the Tal Shiar, for unknown purposes. With Law's assistance, Zhang and Shran locate a heavily-guarded communications array in the distant canyons, where they find themselves teaming up with Commander Velan of the nascent Romulan Republic splinter faction, as the latter seeks to bring his nemesis Hakeev to justice for the destruction of Velan's home colony of Virinat. Hakeev manages to escape, while Zhang and Velan discover gruesome medical experiments conducted by the Tal Shiar in conjunction with aliens called the Elachi.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x07 - Bringing Down The House</strong> <span class="note">Commander Richardson and Counselor McGill return from their Honeymoon partway through this episode</span><br>
+				During another Quantum Slipstream Drive test, the <em>Odyssey</em> is ambushed and crippled by the disgraced Captain Margon of the IKS <em>Somraw</em> (Season One episode "Arena"), who takes Zhang and Barber prisoner to restore his personal honor. The duo's transfer to the Klingon penal colony of Rura Penthe is interrupted by a riot and murder attempt on another prisoner, a Klingon diplomat named K'mtar, who later ropes Margon, Zhang, Barber and Ambassador Worf into helping him uncover a conspiracy against one of the Klingon Great Houses. After failing to prevent the murder of M'ven, last heir to the House of Martok, Barber finds herself competing in a Bat'leth tournament in his place.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x08 - The House Always Wins</strong><br>
+				While holding M'ven's funeral on the Klingon homeworld of Q'onos, the House of Martok is attacked the rival House of Torg. Heeding Lady Sirella's call for vengeance, the party storms Torg's home estate on Gorath, discovering Torg's collusion with Romulan Tal Shiar agents to destroy the Klingon Empire from within. Rushing back to the homeworld, Margon presents the evidence to an astonished Chancellor J'mpok, who immediately dissolves the House of Torg, restores Margon's honor and is persuaded to let the Starfleet officers to go free. As Torg flees, he tries to kill Worf, but K'mtar <span class="spoiler">, revealed to be his son Alexander Rozhenko,</span> saves him at the cost of his own life.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x09 - Divide et Impera</strong><br>
+				Zhang, eager to make up to Admiral T'nae after all the prior diversions that delayed the <em>Odyssey</em>, accepts a mission to assist one of Starfleet's top experts on Romulan affairs in a covert operation deep within Romulan space, despite Dr. Tigan's protests that he has not fully recuperated from his ordeal with the Klingons. An Away Team accompanies the expert, Admiral Zelle, in storming a Romulan starbase in the Vendor system, where Star Empire remnants are suspected of developing banned subspace weapons. However, Zhang discovers too late that Vendor Station was actually a civilian medical research center devising methods of detecting Undine infiltrators <span class="spoiler">- like Zelle herself</span>.
+				</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x10 - Currahee</strong> <span class="note">Working title, subject to change</span><br>
+				In the aftermath of preceding events, Starfleet Internal Affairs conducts an investigation to determine Captain Zhang's eligibility to retain command of the <em>Odyssey</em>. During individual interviews with the captain's current subordinates and former colleagues, Richardson and Barber, as well as the <em>Brunel</em>'s Security Chief Lt. Cmdr. Jason Sexton, end up recounting events from one year prior to the start of the series - the disastrous First Contact between the previously-unknown nomadic insectoid Endari and the USS <em>Currahee</em>, back when Zhang was the Chief Tactical Officer who assumed command of the ship after the original Captain was incapacitated and the First Officer killed.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x11 - Saturday's Child</strong><br>
+				With the <em>Odyssey</em> still impounded at Starbase 39 and Captain Zhang under further investigation, Admiral T'nae orders Shran, K'vov and McGill to take the ship's <em>Delta</em>-class long-range shuttle <em>Daedelus</em> to Aelas IV, where Starfleet's Commander-in-Chief Fleet Admiral Leonard James Akaar is negotiating with the primitive Aelasans for exclusive mining rights to the planet's deposits of the rare mineral topaline. Complications arise with the arrival of Captain Margon in the IKS <em>Somraw</em>, also seeking similar rights on behalf of the Klingon Empire. The Aelasan tribal chief eventually has both groups compete for the mining rights by racing to destroy the "Sky Demon" - an incoming comet.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x12 - Piercing the Veil</strong><br>
+				The neutral Daxuban civilization requests Federation intervention in their decades-long civil war, and an Away Team consisting of First Officer Richardson, Tactical Officer Barber, Science Officer Remara and Operations Officer Ong meet with Daxuban representatives. They learn that the rebels possess bombers armed with biogenic munitions, and observe Daxuban drone fighters preemptively striking at rebel staging areas. <span class="spoiler">Ong and Remara soon discover that in fact, the genetically-impure "rebels" were the true legitimate government possessing no such weapons, and disgusted by the eugenicist faction's deception, remotely order all the drone fighters to self-destruct, forcing a truce.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x13 - Blackout</strong> <span class="note">Working title, subject to change</span><br>
+				Contact is lost with a new Federation colony near the Romulan Neutral Zone, and when the <em>Odyssey</em> arrives, an Away Team discovers that the outpost has been mostly destroyed by a freak electrical storm, save for a handful of survivors in the command bunker. With the storm preventing evacuation by transporters or shuttlecraft, the Away Team decide to wait it out; mistrust between the survivors due to a feud turns to paranoia, as one by one the colonists begin to disappear without a trace. <span class="spoiler">Zhang, Shran and Chavek soon discover the cause - the storm had reactivated a dormant Borg ship that had crash-landed some time ago, and its drones have begun to assimilate the planet.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x14 - A Gathering Darkness</strong><br>
+				As the reawakened Borg sweep through and assimilate star system after star system, Starfleet sends the <em>Odyssey</em> to extract Federation researchers from the now-forsaken Epsilon Algirae colony, where they were developing a counteragent to the new airborne Borg nanovirus. While the other scientists are evacuated, expedition leader Dr. Eric Cooper stays behind with the Away Team to rescue several missing colleagues from a Borg Planetary Assimilation Probe ship, and prevent the counteragent formula from falling into Borg hands. They manage to escape with the inadvertent help of Undine forces attacking Borg drones, and later witness Undine bioships obliterating the planet.
+				<br>
+				<span class="note">Note: The original MMO mission was located on Kessik IV in the Gamma Orionis Sector Block, and was changed for this episode to keep the <em>Odyssey</em> in the in the Romulan theater for later stories</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x15 - Where Angels Fear to Tread</strong> <span class="note">Working title, subject to change</span><br>
+				En-route back to Starbase 39 with Dr. Cooper's team, the <em>Odyssey</em> stumbles across the IRW <em>Areinnye</em>, a Tal Shiar warbird crippled by Borg attacks, and reluctantly render assistance to its beleaguered crew. Richardson and Ong soon discover that in fact, the crew of the <em>Areinnye</em> were actively salvaging Borg ships for weapons technology, and that the Borg attack was staged to provide the Tal Shiar with the opportunity to perform a live-fire test on an unsuspecting Federation ship - like the <em>Odyssey</em> herself. After a terse engagement between both ships, the <em>Areinnye</em> manages to escape, leaving the battered <em>Odyssey</em> in a confrontation with a real Borg sphere.</p>
+			</div>
+			<hr>
+
+			<div>
+				<p><strong>2x16 - Gone Native</strong> <span class="note">Based on the short story by John Conffren from the <em>Star Trek: Strange New Worlds 9</em> anthology</span><br>
+				While the <em>Odyssey</em> delivers an unspecified package to an independent agrarian colony world, Richardson and McGill intervenes in an argument between community leader Rojan and off-worlder Tamar. The duo soon realise that the colonists were Kelvans from the Andromeda Galaxy, first encountered and assisted by Captain Kirk in 2267, and that Tamar was here to investigate why Rojan abandoned their mission of conquest. Unable to persuade Tamar that the Federation was willing to welcome Kelvan colonists who come in peace, Rojan has Tamar turned into a salt cube, and the package - a signed peace treaty from the Federation president - is launched to the Kelvan homeworld.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x17 - Ground Zero</strong><br>
+				Since the destruction of the Romulan homeworld in 2387 by the Hobus supernova, the Federation Science Council has sent ships on annual expeditions in the Hobus system to determine the cause by the catastrophe, given the unusual characteristics and aftereffects of the supernova at the time. The <em>Odyssey</em>, while escorting the <em>Hinata</em> as the latter conducts its surveys, accidentally stumbles across a hidden Romulan base. Beaming down with their respective crews to investigate, Zhang and Urashima discover <span class="spoiler">evidence suggesting that the supernova may have in fact have been deliberately triggered, instead of being a natural phenomenon as previously believed.</span></p>
+			</div>
+			<hr>
+
+			<div>
+				<p><strong>2x18 - Friend of My Enemy</strong><br>
+				On the independent Romulan colony world of Rashana, an outbreak of an virulent plague forces its inhabitants to seek Federation assistance, and the <em>Odyssey</em> is dispatched. Dr. Tigan takes her assistant, Nurse Jil Kellat, down to the planet on the latter's first Away Team mission, where they soon realize the plague is in fact a carefully-engineered bioweapon. Meanwhile, evidence of a Reman trading party offering supplies months before the outbreak and the imminent arrival of armed Reman ships leads Zhang to suspect that the Remans, once subjugated by Romulans, are now rising up against their former masters by softening up colonies with these bioweapons before they attack.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x19 - Turning Point</strong><br>
+				The <em>Odyssey</em> escorts Federation delegates to a conference on Khitomer, where major interstellar powers discuss the legitimacy of the Romulan Republic faction. Empress Sela of the Romulan Star Empire soon declares the meeting a farce, while Klingon High Councilor Woldan continues to blame the Romulans for their massacre of Klingon colonists on the planet in 2346. Zhang and Shran run into Commander Velan again, and together they uncover and foil a Tal Shiar plot to bomb the conference. <span class="spoiler">In the end, a Romulan Republic admiral sacrifices himself to save Woldan from the last bomb, leading the Federation and Klingons to officially recognize the Republic as a legitimate state.</span></p>
+			</div>
+			<hr>	
+
+			<div>
+				<p><strong>2x20 - Taris</strong><br>
+				Tracing communications from the Hobus outpost in "Ground Zero" to a location within the Romulan Neutral Zone, the <em>Odyssey</em> ends up at the supposedly-uninhabited planet of Iconia, where they discover Taris, the deposed former Praetor of the Romulan Star Empire, in hiding <span class="spoiler">- along with damning evidence that she secretly ordered the launch of a device that triggered the Hobus supernova and destroyed the Romulan homeworld.</span> Taris defends her actions as a misguided attempt to restore the Star Empire to it former glory <span class="spoiler">with the help of her "dread masters"</span>, but she is ultimately arrested and handed over to Romulan Republic forces to answer for her crimes against the Romulan people.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x21 - S'harien's Swords</strong><br>
+				To stop the Romulan Star Empire from continuing to exploit Borg technology, Starfleet Command orders the <em>Odyssey</em> to destroy S'harien Station, a Tal Shiar orbital research facility in the Dimorus system. While Ong leads boarding parties to plant spatial charges throughout the station, the <em>Odyssey</em> has a rematch with the now heavily-Borgified IRW <em>Areinnye</em>, whose captain declares that her ship will be the first of a grand fleet that will crush the Federation. With Remara's help, Ong reprograms the station's defenses and the <em>Areinnye</em>'s weapons to turn on each other, destroying both, along with irreplaceable research data and prototype Romulan-Borg hybrid weapons.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x22 - The Vault</strong><br>
+				Starbase 39 detects unusual comms traffic originating from the Haakona system, where a once-classified but now-abandoned Romulan Star Empire research station is located, and the <em>Odyssey</em> is sent to investigate. Zhang, McGill and Ong infiltrate the cavernous station complex in the <em>Daedalus</em> long-range shuttle, and find sparse remnants of the Star Empire's secret endeavors, including a salvaged Borg sphere and a large cache of Thalaron weapons with enough destructive power to devastate several sectors. Their investigation is, however, interrupted by the arrival of Obisek, the Reman captain from "The Undying", who leads his men to steal the weapons for their own plans.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x23 - Mine Enemy</strong><br>
+				Intelligence gathered from the Vault reveals a list of Romulan worlds targeted by the Remans. The <em>Odyssey</em> visits one of them, the mining colony moon of Khoal in the Hfihar system, to find out why the Remans are planning to attack a location of no strategic value. Chavek accompanies Zhang and Barber down to the planet after revealing that his family still lives there, and they witness the mistreatment of Romulan refugee laborers by Madran, the Ferengi owner. <span class="spoiler">With the help of some locals, the Starfleet officers discover a secret Tal Shiar listening post deep within the mines, and recover a large amount of Tal Shiar intelligence before Hakeev has the base destroyed by self-destruct.</span></p>
+			</div>
+			<hr>
+
+			<div>
+				<p><strong>2x24 - Frozen</strong><br>
+				Decoding the numerous files recovered from <span class="spoiler">the listening post on</span> Khoal, Ong determines that the Tal Shiar are massing their forces to wipe out the last Reman stronghold on Dera IV, and the <em>Odyssey</em> rushes to the planet in an attempt to recover the Thalaron weapons before the Tal Shiar does so. There, they finally confront Obisek, who claims to be the leader of a Reman Resistance against oppression by the Tal Shiar <span class="spoiler">and their masters, "demons of air and darkness"</span>. When Tal Shiar forces arrive to massacre the Reman civilians that sought refuge in the stronghold, Captain Zhang is forced to make a fateful decision that will dramatically alter the course of the Romulan-Reman civil war.
+				<br>
+				<span class="note">Note: The log files also reveals that the bioweapon from "Friend of My Enemy" was <span class="spoiler">actually released by the Tal Shiar as part of a false flag operation to implicate the Remans.</span></span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>2x25 - Coliseum</strong><br>
+				Obisek asks the <em>Odyssey</em> to track down a missing Reman Resistance ship carrying Thalaron weapons, despite orders from Starfleet not to intervene. Following the last known coordinates to the Nopada system, the <em>Odyssey</em> is trapped by a power-draining satellite, requiring Shran, K'vov and Remara to beam over and disable it. On their way back, however, they instead re-materialize inside a makeshift Coliseum complex run by the Tal Shiar. After being pitted against savage Nopadan wildlife, the trio eventually escape with the help of a Reman prisoner named Slamek <span class="spoiler">- along with message logs identifying the "demons" Obisek spoke of as the supposedly-extinct Iconians.</span></p>
+			</div>
+			<hr>
+
+			<div>
+				<p><strong>2x26 - Darkness Before the Dawn</strong> <span class="note">Renaming of STO MMO mission "Cutting the Cord"</span><br>
+				<span class="spoiler">With solid proof that the Iconians are using the Tal Shiar to manipulate the Romulan Star Empire</span>, Admiral T'nae finally authorizes official support for the Reman Resistance. With Starfleet and Romulan Republic reinforcements still days away, the <em>Odyssey</em>'s crew storms Hakeev's command center on Brea III alongside Obisek's Remans. Despite complications such as strange energy emissions scattering the Away Teams during transport and an Iconian computer virus crippling the <em>Odyssey</em>'s systems, Hakeev is finally defeated and the Remans free to forge their own destiny. <span class="spoiler">V'ruk, a Reman resistance fighter that Chavek befriended in "Frozen", decides to join the <em>Odyssey</em>'s crew.</span></p>
+			</div>
+			<hr>		
+		</div>
+		
+		<h2 onclick="return toggleMe('s3')">Season 3</h2>
+		<div id="s3" style="display:none;">
+			<em>The 2800 occupation of Deep Space Nine and the Deferi/Breen/Preserver arc</em>
+			
+			<div>
+				<p><strong>3x01 - Second Wave</strong><br>
+				In light of a resurgence in Borg activity, delegates from major interstellar powers convene at Deep Space Nine to discuss potential cooperation against this common threat. Due to the <em>Odyssey</em>'s experience in combating the Borg, Captain Zhang is asked to represent the Federation, alongside Captain Va'Kel Shon of the USS <em>Belfast</em>. The conference is hampered by conflicting and self-serving interests of the various governments represented, requiring Richardson and McGill to broker a compromise. Just as the delegates approach common ground, a fleet of Dominion warships suddenly emerge from the nearby Bajoran wormhole, forcing the attendees to evacuate.
+				</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x02 - Hathon</strong> <span class="note">Partial story elements from STO MMO mission "Of Bajor"</span><br>
+				With <span class="spoiler">Captain Ro Laren dead and</span> Deep Space Nine under Dominion occupation, the surviving Starfleet contingent has fled to Bajor, using the agarian town of Hathon as a staging area for an allied counteroffensive alongside Klingon and Romulan forces. Although the Bajorans are now members of the Federation, their collective memory of the Cardassian occupation over forty years ago causes them to resent the military presence. While Ong helps local Starfleet Commander Mesi Achebe coordinate preparation efforts, junior officers led by Chavek and Akorem attempt to quell a riot caused by Bajoran protesters harassing Cardassian Defense Force volunteers assisting Starfleet.
+				</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x03 - Hollow Memories</strong><br>
+				A female Bajoran stowaway named Krim Nala, caught hiding in the <em>Odyssey</em>'s lower decks, claims to be Ensign Akorem Rolan's ex-girlfriend who sneaked aboard to reconcile with him. Akorem is at first elated to be reunited with Krim, but gradually becomes concerned and ultimately frightened of her increasingly erratic and possessive behavior. <span class="spoiler">Eventually, he realizes and confesses that "Krim" was actually a holographic re-creation he made while studying at Starfleet Academy to help him deal with the original breakup, and was deactivated after he had moved on.</span> When the vengeful Krim <span class="spoiler">holo-program</span> threatens the ship's safety, a difficult decision has to be made.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x04 - Hearts and Minds</strong> <span class="note">Partial story elements from STO MMO mission "Of Bajor"</span><br>
+				To gain support from the Bajorans, a science team led by Remara tries to assess and improve soil fertility on Hathon's farms. Despite the townspeoples' distrust of the Cardassian Chief Science Officer, the latter eventually wins them over by stopping a source of pollution from affecting crops. Meanwhile, a reluctant and staunchly-atheist Captain Zhang is persuaded by Counselor McGill to participate in Bajoran religious rituals as an act of goodwill; during the proceedings, the Orb of Prophecy and Change, a Bajoran religious artifact, causes Zhang to have an spiritual experience of the Bajoran Prophets, who cryptically reveal why they allowed the Dominion invasion to happen.
+				<br>
+				<span class="note">Spoiler: <span class="spoiler">"A hand that remains closed...ceases to be a hand."</span></span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x05 - Messenger</strong><br>
+				Whilst participating in fleet exercises againsts simulated Dominion targets, the <em>Odyssey</em> is diverted to respond to a distress call emanating from a planet with a primitive pre-warp culture. There, the Away Team finds the lone survivor of a Starfleet ship lost fifty years ago, revered by the natives as the son of their god, and whose continued presence is needed to maintain peace between the otherwise-feuding tribes. Meanwhile, Ong and Starfleet forces stationed on Bajor re-establishes communications with with Deep Space Nine, and they attempt to negotiate with Loriss, the Vorta commander of the Dominion contingent, and Kar'ukan, her Jem'hadar First.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x06 - Operation Gamma</strong><br>
+				Unable to convince Loriss and Kar'ukan that the Dominion War ended decades ago, options become increasingly limited. Counselor McGill suggests contacting the Dominion directly via an old contact, a Ferengi trader named Farek; while Starfleet causes a diversion near Deep Space Nine, McGill takes the <em>Daedelus</em> into the Bajoran wormhole accompanied by Richardson, F'ris, Chavek and V'ruk. After a brief misadventure with the double-dealing Farek, they finally meet with the Dominion representative <span class="spoiler">- Eraun 8, the clone of Eraun 7, who holds a grudge against the crew of the <em>Odyssey</em> for his incarceration and accidental death under Starfleet's custody after the events of "Rapier".</span></p>
+			</div>
+    			<hr>
+		
+			<div>
+				<p><strong>3x07 - Exitus Acta Probat</strong> <span class="note">Latin: "The end justifies the means"</span><br>
+				Left in command of the <em>Odyssey</em> while Captain Zhang and Commander Richardson are away, Tactical Officer Barber diverts from fleet exercises to relentlessly pursue a Klingon pirate responsible for raiding civilian ships in the area. The pirate is caught after a treacherous pursuit, but after he is revealed to be an old war hero, Starfleet orders Barber to release him to prevent the Klngon Empire from withdrawing their support for the retaking of Deep Space Nine. Meanwhile, after days of negotiations with Eraun 8, Starfleet agrees to repatriate a Founder currently in Federation custody back to the Dominion - the Female Changeling responsible for war crimes during the Dominion War.
+				<br>
+				<span class="note">Note: <span class="spoiler">Barber's (partial) motivation for the pursuit: When she was a child, that same pirate attacked her parents' freighter, and seriously injured her family.</span></span>
+				</p>
+			</div>
+			<hr>	
+			
+			<div>
+				<p><strong>3x08 - Facility 4028</strong><br>
+				The <em>Odyssey</em> is sent to Facility 4028, a secret Federation supermax holding facility, to secure the release of the Founder. Zhang and Barber beam down with Eraun to meet the Founder, but find that Kar'ukan has also arrived. The rogue Jem'Hadar leader asks for the Founder's blessing, but is instead harshly rebuked for his failure during the Dominion War. In retaliation, Kar'ukan renounces the authority of the Founder and orders her death, forcing the four to defend themselves from both rogue Jem'Hadar and a prison riot. The USS <em>Belfast</em> arrives to assist, and is destroyed while fighting a Jem'Hadar fleet in order to cover the <em>Odyssey</em>'s retreat with the Founder aboard.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x9 - Boldly They Rode</strong><br>
+				With the Founder's assistance, the allied forces convinces Loriss to surrender, but Kar'ukan's Jem'Hadar refuse to do so as well. McGill and Ong, both of whom previously served on Deep Space Nine, accompany Zhang's Away Team as they take a dangerous spacewalk to infiltrate and recapture the station from within. Refusing to admit defeat, Kar'ukan escapes to his flagship, and the allied fleet fights a gallant but doomed battle against the Jem'Hadar armada; just as the <em>Odyssey</em> is about to be destroyed, Captain Shon comes to the rescue <span class="spoiler">in the USS <em>Enterprise</em>-F, the new flagship and pride of Starfleet</span>, and with his help, the <em>Odyssey</em> finally defeats Kar'ukan and the rogue Jem'Hadar.
+				</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x10 - The Ties That Bind</strong><br>
+				While the crew takes some time off after the liberation of Deep Space Nine, Remara visits his hometown of Lakarian City on Cardassia Prime, where his entire extended family were killed in a True Way terrorist bombing almost a decade ago. To his astonishment, he discovers that his older brother, officially regarded as missing after the attack, is alive and well. Their reunion is, however, interrupted by a group of thugs, and Remara gives up a large of part of his inheritance to clear his brother's debts. <span class="spoiler">It is later revealed that Remara's brother was, in fact, really dead, and that the impostor was in league with the thugs to financially con relatives of the Lakarian City bombing victims.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x11 - Contraband</strong><br>
+				Zhang and Barber go undercover in Cardassian space, to extract a Starfleet Intelligence operative who had gone dark while investigating the trafficking of illegally-salvaged Starfleet weapons lost during the battle to re-take Deep Space Nine. While posing as new crewmen aboard a freighter, they run into Celeste Daniels, who was dishonorably discharged from Starfleet after "Death in Paradise" and now works as a lowly deckhand on the same ship. <span class="spoiler">Daniels is revealed to not only be the ringleader of the smugglers, but also the missing operative, who orchestrated the entire scheme to pre-emptively take down the other criminals as part of an entrapment operation instigated by Section 31.</span></p>
+			</div>
+                        <hr>
+
+                        <div>
+				<p><strong>3x12 - The Knaran Strain</strong><br>
+				The <em>Odyssey</em> revisits the Knara III colony from "Rites and Freedoms", where colonist and Malincor children have fallen ill after discovering several alien cocoons in a valley near crop fields. When Ensign Helna's science team becomes infected as well, the colony's leaders consider destroying the cocoons. Barber stalls them long enough for Remara to discover that the virus is a critical part of the previously-unknown species' natural lifecycle, and that the illness is little more than a hard-hitting case of the flu which Knara III's inhabitants will soon safely develop an immunity to. In the end, the crew and the locals share a feast while watching the cocoons hatch into benign alien fireflies.</p>
+			</div>
+                        <hr>
+
+                        <div>
+				<p><strong>3x13 - War Games</strong><br>
+        			As the True Way steps up attacks against both Cardassian and Federation vessels, Starfleet holds a tactical exercise where the <em>Odyssey</em> faces off against a simulated "aggressor" squadron led by the renowned Captain T'Vala of the <em>Athens</em>, who was Barber's Advanced Tactical Training instructor. When the <em>Athens</em> unexpectedly turns on the other ships in its own squadron with live weapons, destroying the <em>Carlisle</em> and crippling the <em>Icarus</em>, Barber leads a boarding party to investigate, <span class="spoiler">discovering that Captain T'Vala and her entire crew have been replaced with Undine infiltrators seeking to sow chaos within Starfleet.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x14 - Whispers in the Dark</strong><br>
+                                The <em>Odyssey</em> investigates the fate of a Starfleet Corps of Engineers team that went missing while decommissioning the Kaladira Observatory, a condemned Federation science outpost rumored to be haunted by victims of other disappearances. Shortly after Shran and K'vov's away team beam aboard, they claim to see and hear ghostly apparitions, before also vanishing without a trace. Remara soon determines that <span class="spoiler"> the unusual radiation emitted from the nearby star, interacting with the station's reactor, periodically pushes people out of phase with the rest of the station, and by consulting the <em>Enterprise</em>-D's log files from 2368, is able to bring back Shran, K'vov, and the missing SCE team.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x15 - The City of the Polmar-Ree</strong> <span class="note">Based on the STO Foundry mission of the same name </span><br>
+                                Once every two hundred years, the Polmar-Ree, a reclusive race from another dimension, welcomes outsiders seeking knowledge and wisdom to their colossal space citadel. The <em>Odyssey</em> escorts a Federation delegation to the pilgrimage, led by a joined Trill whose symbiont was present in the last cultural exchange. Counselor McGill is more than pleased to work with him, as he mentored her back in her Academy years. Meanwhile, Ong and Tigan uncover a plot by the Klingon delegation collaborating with a Federation mole to commit mass genocide upon the Polmar-Ree, in a desperate attempt to level the playing field by denying the Federation access to advanced technology.<br>
+				<span class="note">Spoiler: <span class="spoiler">Guess who the mole turns out to be?</span></span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x16 - Spoils of War</strong><br>
+				<em>TODO: Episode synopsis (True Way arc, Part 1 of 4)</em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x17 - Jabberwocky</strong><br>
+				<em>TODO: Episode synopsis (True Way arc, Part 2 of 4)</em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x18 - The Factory</strong><br>
+				<em>TODO: Episode synopsis (True Way arc, Part 3 of 4)</em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x19 - The New Link</strong><br>
+				<em>TODO: Episode synopsis (True Way arc, Part 4 of 4)</em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x20 - Three Summers on Roanoke</strong><br>
+                                Once every year on the same day, the usually good-humored Richardson becomes uncharacteristically depressed, as he observes the anniversary of the death of Zwett Marro, an estranged childhood friend and posthumous recipient of the prestigious Betar Prize for his best-selling novel. Accompanied by a supportive McGill, the first officer visits the colony where he and Marro grew up on, where he is surprised to discover that his deceased friend bequeathed him many more unpublished manuscripts. <span class="spoiler">Feeling extremely guilty over how he treated Marro in the past, Richardson destroys the manuscripts to prevent opportunistic former classmates from unfairly profiting off them.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x21 - ???</strong><br>
+				???</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x22 - Cold Call</strong><br>
+				At a cultural exchange hosted aboard the <em>Odyssey</em>, Richardson and McGill bump into Ambassador Surah, one of the alien delegates they helped negotiate trade agreements with back in "Under the Cover of Night". To express his gratitude, he invites the <em>Odyssey</em> to his homeworld of Defera Prime, to establish formal relations between the Federation and Deferi. As their way, the <em>Odyssey</em> is stalked by an elusive vessel, cumulating in an attack on the ship whilst a landing party is visiting the Deferi capital. Eventually, Surah confesses the real reason for the invitation - the Breen Confederacy have recently begun to harass his people, and he begs the Federation for assistance.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x23 - Out in the Cold</strong><br>
+				With Starfleet's authorization and support, the <em>Odyssey</em> begins patrolling Deferi space to keep Breen agression in check. After rescuing two Deferi freighters from Breen attacks, the <em>Odyssey</em> is asked to investigate the Zaria V, a barren planet where many ships had mysteriously vanished for the past few year. There, the crew discovers a secret Breen operation where Deferi slaves toil underground mining for ultra-pure dilithium crystals. Shran and Ong beam down with a fully-armed away team, rescuing the captives and defeating their Breen slavemasters. As thanks for their assistance, Surah offers the Federation a lion's share in mining rights to the dilithium.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x24 - Cold Comfort</strong><br>
+				The <em>Odyssey</em> renders medical aid to the crew of a Deferi ship that had managed to repel a Breen attack, and even capture some prisoners. Tigan and her medical staff are almost overwhelmed by the sheer number of patients, but to everyone's surprise, the Arganian medical transport encountered back in "Ziggurat" arrives to help. Meanwhile, after interrogating a Breen prisoner, Shran and McGill determine that the Breen have been forcefully inserting cortical implants in the brains of helpless Deferi, in search of childhood rhymes and songs that could provide clues to the location of the legendary Preserver Archive - an ancient repository of knowledge and technology.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x25 - Cold Case</strong><br>
+                                At a newly-discovered Preserver ruin on the outskirts of Defera's capital, members of Science Officer Remara's research team accidentally activate ancient technology that reveals a complex hologram. With Ensign Helna's help, Remara determines that the hologram is a fragment of a star chart, and following the clues described within, the <em>Odyssey</em>'s crew races to complete it before the Breen do. Once assembled, the chart reveals a path stretching from Defera Prime all the way to Lae'nas III, a planet once used by the Jem'hadar during the Dominion War. Just as Remara reports his findings, his team is ambushed by Breen soldiers who had been tailing them from the very beginning.</p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>3x26 - Cold Storage</strong><br>
+				Arriving at Lae'nas III, Zhang and Remara's away team find a Preserver complex deep underground, and by deciphering the various puzzles and locks, reach the heart of the fabled Archive, which contained not only records and knowledge beyond comprehension, but also <span class="spoiler">living Preservers in stasis</span>. The discovery is interrupted, however, by the arrival of Breen commander Thot Trel, who believed the Archive contained ancient weapons that could help fuel the Breen conquest of the Beta Quadrant. <span class="spoiler">When a revived Preserver reveals that no weapons technology exists in the Archive</span>, the away team has to stop from an enraged Trel from ordering the destruction of the complex.</p>
+			</div>
+			<hr>			
+			
+			
+		</div>
+		
+		<h2 onclick="return toggleMe('s4')">Season 4</h2>
+		<div id="s4" style="display:none;">
+			<em>New Romulus and Tholian arcs</em>
+			
+			<div>
+				<p><strong>4x01 - ???</strong><br>
+				???</p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>4x?? - ???</strong><br>
+				The <em>Odyssey</em> is called to Sirona VI, an idyllic associate member world of the Federation near the former Romulan Neutral Zone, which has been inundated for decades by Toraxian refugees fleeing the civil war that devastated their homeworld. When a Toraxian man publicly immolates himself in protest of their treatment at the hands of Sironan authorities, Richardson and McGill go undercover as Toraxian refugees to investigate alleged abuses at the refugee detention centers. Based on their testimony, the camps are shut down, Sirona VI is expelled from the Federation, and the refugees warmly welcomed by their new hosts - Nimbus III.<br>
+<span class="note">Note: This story was inspired by the refugee crisis in Europe and the Nauru Detention Center controversy.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>4x?? - The Road Not Taken</strong> <span class="note">Working title, subject to change</span><br>
+				While pursuing an Endari vessel possessing stolen Starfleet technology, the <em>Odyssey</em> follows their quarry through a subspace distortion to a planet resembling Earth of the mid-2010's. A transporter malfunction strands Captain Zhang on the planet, but he receives unlikely aid from his alternative-reality counterpart, a lonely civilian factory technician. Despite issues regarding the Prime Directive and Barber's personal misgivings, the <em>Odyssey</em>'s crew works with Alt-Robin to stop the Endari from building an unstable Omega molecule generator on Alt-Earth as a prelude to an invasion. The generator is destroyed<span class="spoiler">, but Alt-Robin later dies after being shot by an Endari particle rifle.</span></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>4x?? - Titan's Folly</strong><br>
+				Disgraced former Captain Paul Matthews steals the decommissioned USS <em>Titan</em> from a Federation scrapyard, and uses it to attack several Klingon colony worlds, threatening the recent d&eacute;tente between the Empire and Federation. The <em>Odyssey</em>'s pursuit of the rogue ship is particularly personal to Zhang, as Matthews's gross negligence was responsible for the friendly fire incident that decimated the Starfleet garrison at the Battle of Korvat Colony eight years ago. Complicating matters is Matthew's abduction of <em>Odyssey</em> Chief Engineer K'vov, who is being forced to help repair the <em>Titan</em> before its reaches its next target - the Klingon Defense Force headquarters at Ty'Gokor.</p>
+			</div>
+			<hr>
+		</div>
+		
+		<h2 onclick="return toggleMe('s5')">Season 5</h2>
+		<div id="s5" style="display:none;">
+			<em>Solanae Dyson Sphere and Undine arcs, plus season finale Surface Tension</em>
+		</div>
+		
+		<h2 onclick="return toggleMe('s6')">Season 6</h2>
+		<div id="s6" style="display:none;">
+			<em>Delta Quadrant and Iconian War story arcs</em>
+			
+			<div>
+				<p><strong>6x01 - Delta Rising</strong> <span class="note">Working title, subject to change</span><br>
+				Starfleet, the Klingon Defense Force and the Romulan Republic organize a joint expedition to re-explore the Delta Quadrant. The <em>Odyssey</em>'s crew reunites at Earth Spacedock for their second five-year tour of duty, along with those from the <em>Brunel</em>, <em>Hinata</em>, RRW <em>Shalyar</em> and IKS <em>Somraw</em>, forming Allied Task Force 5. While Remara works with his counterparts to upgrade other ships in the Task Force with the now-perfected Quantum Slipstream Drive, Richardson and Ong welcome the newest additions to the <em>Odyssey</em>'s crew - the Voth defector Nelen Exil, now a civilian Federation science consultant, as well as an Engineer transferring from the Bajoran militia <span class="spoiler">- the real Krim Nala</span>.</p>
+			</div>
+			<hr>
+
+			<div>
+				<p><strong>6x02 - Mindscape</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x03 - Reunion</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x04 - Revelations</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x05 - ???</strong> <br>
+				<em>TODO: Episode synopsis (The Kobali Front, Part 1 of 4)</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x06 - ???</strong> <br>
+				<em>TODO: Episode synopsis (The Kobali Front, Part 2 of 4)</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x07 - ???</strong> <br>
+				<em>TODO: Episode synopsis (The Kobali Front, Part 3 of 4)</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x08 - ???</strong> <br>
+				<em>TODO: Episode synopsis (The Kobali Front, Part 4 of 4)</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x9 - All That Glitters...</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>6x10 - Capture The Flag</strong> <br>
+                                <em>TODO: Episode synopsis</em> (Shran, Chavek and V'ruk temporarily attached to RRW Shalyar for this story).</p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x11 - ???</strong> <br>
+				<em>TODO: Episode synopsis (expanded version of a patrol mission involving the Borg Cooperative)</em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x12 - Animations with Helna</strong> <span class="note">Based on the STO Foundry mission of the same name by Havraha</span><br>
+				During routine maintenance of the the <em>Odyssey</em>'s holodecks, Ensigns Krim, Akorem and Helna accidentally lock themselves inside a test program where holographic duplicates of Helna run amok. When Remara and K'vov's attempts to extract them are impeded by the increasingly aggressive holocharacters, the <em>Odyssey</em> requests assistance from the nearby USS <em>Alacrity</em>, captained by Helna's ex-boyfriend Jirgou Neyuque. It is eventually discovered that a comet being examined by the <em>Odyssey</em> at the time of the holodeck accident is the home of an unknown species of photonic lifeforms, who hijacked the holoprogram to seek help in saving their home from being destroyed by a nearby star.</p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x13 - The Dragon's Deceit</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x14 - Alliances</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+
+            <div>
+				<p><strong>6x15 - Revolution</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+			
+			<div>
+				<p><strong>6x15 - Takedown</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x17 - What's Left Behind</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x18 - Dust to Dust</strong> <br>
+				<em>TODO: Episode synopsis </em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x19 - Uneasy Allies</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x20 - Blood of Ancients</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x21 - Delta Flight</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x22 - House Pegh</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x23 - Time in a Bottle</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x24 - Broken Circle</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x25 - Butterfly</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+
+                        <div>
+				<p><strong>6x26 - Midnight</strong> <br>
+				<em>TODO: Episode synopsis</em></p>
+			</div>
+			<hr>
+			
+		</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	</body>
+
+
+</html>		
